@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STTS22HTR
+D Board Mount Temperature Sensors Low-voltage, ultra-low-power, 0.5 degree C accuracy I2C/SMBus 3.0 temperature sensor
+K
+F https://www.st.com/resource/en/datasheet/stts22h.pdf
+$ENDCMP
+#
+#End Doc Library

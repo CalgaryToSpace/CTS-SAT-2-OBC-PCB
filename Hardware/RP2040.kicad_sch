@@ -1120,6 +1120,90 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 127 76.2) (xy 124.46 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a2fad5-73b7-4eee-9ec9-e957a2b7add6")
+	)
+	(wire
+		(pts
+			(xy 127 78.74) (xy 124.46 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d7c84f-5f5d-4bd6-ad5c-ae018ff16f5b")
+	)
+	(wire
+		(pts
+			(xy 127 81.28) (xy 124.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd5ec2e5-4378-4177-86a4-cbafead071df")
+	)
+	(wire
+		(pts
+			(xy 127 73.66) (xy 124.46 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25e53f1-a151-4b86-87c6-53944d69f731")
+	)
+	(hierarchical_label "SPI0_CS0"
+		(shape bidirectional)
+		(at 127 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11a4d3d8-8bec-4dcd-b065-2ba86af79e50")
+	)
+	(hierarchical_label "SPI0_SCK"
+		(shape bidirectional)
+		(at 127 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d03c17e-89e6-4d87-b32e-4d3088b24e71")
+	)
+	(hierarchical_label "SPI0_TX"
+		(shape bidirectional)
+		(at 127 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97d6360e-32ad-40e2-b092-eff6ed165d21")
+	)
+	(hierarchical_label "SPI0_RX"
+		(shape bidirectional)
+		(at 127 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f0b6c4a-bd59-4042-961c-80b37e2d1ca4")
+	)
 	(symbol
 		(lib_id "MCU_RaspberryPi:RP2040")
 		(at 99.06 109.22 0)

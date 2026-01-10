@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "OBC_library")(type "KiCad")(uri "${KIPRJMOD}/Libraries/OBC_library.kicad_sym")(options "")(descr ""))
+  (lib (name "STTS22HTR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/STTS22HTR/KiCad/STTS22HTR.kicad_sym")(options "")(descr ""))
+)

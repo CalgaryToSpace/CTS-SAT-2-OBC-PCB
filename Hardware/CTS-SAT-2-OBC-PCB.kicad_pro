@@ -621,6 +621,14 @@
     [
       "c7b2a9f5-c39c-4892-aa33-31b3626fafef",
       "STM32"
+    ],
+    [
+      "affb10ea-0cf3-46d1-942c-2ca1828b17dc",
+      "PC104 Header"
+    ],
+    [
+      "63c6a28f-a5f3-40ea-8388-ed5b275d8d3e",
+      "Temperature Sensor"
     ]
   ],
   "text_variables": {}
