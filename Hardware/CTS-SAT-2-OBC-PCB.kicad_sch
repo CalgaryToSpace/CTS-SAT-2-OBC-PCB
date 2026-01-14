@@ -128,8 +128,8 @@
 		)
 	)
 	(sheet
-		(at 193.04 96.52)
-		(size 45.72 29.21)
+		(at 193.04 97.79)
+		(size 30.48 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -143,8 +143,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "affb10ea-0cf3-46d1-942c-2ca1828b17dc")
-		(property "Sheetname" "PC104 Header"
-			(at 193.04 95.8084 0)
+		(property "Sheetname" "PC104 Headers"
+			(at 193.04 97.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -159,6 +159,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3V3_CAM" input
+			(at 193.04 100.33 180)
+			(uuid "19c9673a-037e-4dc3-90e6-a1a5693ee0c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SDA" input
+			(at 223.52 109.22 0)
+			(uuid "bdcf6144-e567-4c7d-9a42-07c75af5edb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V0_MPI" input
+			(at 193.04 111.76 180)
+			(uuid "32b59e08-84a9-4bed-ab87-ac9d13f38514")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SCL" input
+			(at 223.52 113.03 0)
+			(uuid "bd01365e-e1c4-4ca8-99b5-60a086e53589")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3_ANT_DEPLOY" input
+			(at 193.04 104.14 180)
+			(uuid "800393a4-2774-4e18-828e-53f2bd2cf9d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_BAT" input
+			(at 193.04 119.38 180)
+			(uuid "bbc3b0ff-998e-4157-b5f8-dcf8c284a6d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT_MONITOR" input
+			(at 193.04 123.19 180)
+			(uuid "5c47f393-f9d6-4c37-8028-651a45492813")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

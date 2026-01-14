@@ -3826,6 +3826,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 160.02) (xy 69.85 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1877052-8191-4eba-832a-838145133ac5")
+	)
+	(wire
+		(pts
 			(xy 154.94 205.74) (xy 148.59 205.74)
 		)
 		(stroke
@@ -3919,6 +3929,17 @@
 			(justify left)
 		)
 		(uuid "9ce7b870-719d-43d9-a39b-9b2a027e3cb6")
+	)
+	(hierarchical_label "DEBUG_LED"
+		(shape input)
+		(at 66.04 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce172ea3-ed84-4525-89a3-a5fd0359f6c6")
 	)
 	(symbol
 		(lib_id "Device:R_US")
