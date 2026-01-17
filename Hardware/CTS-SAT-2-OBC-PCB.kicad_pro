@@ -629,6 +629,10 @@
     [
       "63c6a28f-a5f3-40ea-8388-ed5b275d8d3e",
       "Temperature Sensor"
+    ],
+    [
+      "3c2f3b64-29ee-458e-ad56-d2b0620aead5",
+      "Clock"
     ]
   ],
   "text_variables": {}
