@@ -4487,9 +4487,9 @@
 		)
 		(uuid "8c80ea9a-5c6b-414d-97f7-8eec883d75a0")
 	)
-	(hierarchical_label "ADCS_UART2_RX"
+	(hierarchical_label "ADCS_UART2_TX"
 		(shape input)
-		(at 151.13 81.28 180)
+		(at 151.13 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4498,9 +4498,9 @@
 		)
 		(uuid "ae79c922-8cb8-4077-ab69-ad6effcd4412")
 	)
-	(hierarchical_label "ADCS_UART2_TX"
+	(hierarchical_label "ADCS_UART2_RX"
 		(shape input)
-		(at 151.13 78.74 180)
+		(at 151.13 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
