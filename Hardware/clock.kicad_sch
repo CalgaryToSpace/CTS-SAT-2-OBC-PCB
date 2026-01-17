@@ -25,7 +25,7 @@
 			)
 			(justify left)
 		)
-		(uuid "e3cd1da1-607c-462b-a0a7-ec0eb87a5ab5")
+		(uuid "e3cd1da1-607c-462b-a0a7-ec0eb87a5ab6")
 	)
 	(hierarchical_label "OSC32_IN"
 		(shape output)
@@ -36,7 +36,7 @@
 			)
 			(justify left)
 		)
-		(uuid "e3cd1da1-607c-462b-a0a7-ec0eb87a5ab5")
+		(uuid "e3cd1da1-607c-462b-a0a7-ec0eb87a5ab7")
 	)
 	(hierarchical_label "BOOT0"
 		(shape output)
@@ -47,6 +47,6 @@
 			)
 			(justify left)
 		)
-		(uuid "e3cd1da1-607c-462b-a0a7-ec0eb87a5ab5")
+		(uuid "e3cd1da1-607c-462b-a0a7-ec0eb87a5ab8")
 	)
 )

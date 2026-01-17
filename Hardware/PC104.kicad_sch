@@ -4507,7 +4507,7 @@
 			)
 			(justify right)
 		)
-		(uuid "ae79c922-8cb8-4077-ab69-ad6effcd4412")
+		(uuid "ae79c922-8cb8-4077-ab69-ad6effcd4413")
 	)
 	(hierarchical_label "V_BAT"
 		(shape input)
