@@ -1347,12 +1347,6 @@
 		)
 	)
 	(junction
-		(at 99.06 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f08d6c9-3e9b-44a6-94a0-6528310f4a2f")
-	)
-	(junction
 		(at 101.6 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1365,16 +1359,16 @@
 		(uuid "29183120-5038-4d7f-b72c-a4855182504b")
 	)
 	(junction
+		(at 93.98 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3271dd97-8547-4fbb-b0e2-378dc677cf91")
+	)
+	(junction
 		(at 104.14 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47162e42-ddb6-4325-b696-bba0eeb15356")
-	)
-	(junction
-		(at 96.52 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b877bf37-56d6-459f-8158-bf4cfa77870b")
 	)
 	(wire
 		(pts
@@ -1408,13 +1402,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 59.69) (xy 96.52 59.69)
+			(xy 87.63 59.69) (xy 93.98 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2fd594ac-1a55-49f5-bf8d-28c09542b263")
+		(uuid "1ade47e4-630f-4a1b-8d43-9e830bbd7a81")
 	)
 	(wire
 		(pts
@@ -1425,16 +1419,6 @@
 			(type default)
 		)
 		(uuid "4adfc525-2dd6-4d5b-aa5a-997d54c18b19")
-	)
-	(wire
-		(pts
-			(xy 96.52 59.69) (xy 96.52 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c96d6bc-24b0-4bf1-989d-9f31bb5670e1")
 	)
 	(wire
 		(pts
@@ -1458,16 +1442,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 59.69) (xy 99.06 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61676c18-6603-44b2-a60c-efcaf84567fa")
-	)
-	(wire
-		(pts
 			(xy 127 101.6) (xy 124.46 101.6)
 		)
 		(stroke
@@ -1475,6 +1449,26 @@
 			(type default)
 		)
 		(uuid "8010f3a0-730a-4cce-9e07-9cc150e801fa")
+	)
+	(wire
+		(pts
+			(xy 96.52 63.5) (xy 96.52 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a11bb23b-6cdd-483d-8b3d-76468a61558e")
+	)
+	(wire
+		(pts
+			(xy 93.98 59.69) (xy 93.98 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2531a77-17cd-40df-986d-772155896d77")
 	)
 	(wire
 		(pts
@@ -1498,6 +1492,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 59.69) (xy 93.98 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "affaeee3-b8e3-4068-8847-bf1c155e049c")
+	)
+	(wire
+		(pts
 			(xy 127 96.52) (xy 124.46 96.52)
 		)
 		(stroke
@@ -1505,16 +1509,6 @@
 			(type default)
 		)
 		(uuid "d0c75ed5-d47e-4e38-9d02-c59e4d128611")
-	)
-	(wire
-		(pts
-			(xy 93.98 63.5) (xy 93.98 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d90370dd-8408-4307-8af6-f3e058e5f704")
 	)
 	(wire
 		(pts
@@ -1535,6 +1529,16 @@
 			(type default)
 		)
 		(uuid "e1f7f3c7-f95f-4fa3-9749-7df2ae8553a1")
+	)
+	(label "(from internal RP2040 regulator)"
+		(at 74.93 62.23 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "3727e63e-58ac-437b-a520-075a16be0a29")
 	)
 	(hierarchical_label "SPI1_TX"
 		(shape bidirectional)
@@ -1707,6 +1711,73 @@
 			(project ""
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/bec95c26-e44f-4f6a-97be-aee51e3bba5a"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 87.63 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a495c94d-7ff9-4454-833d-6dbcb9e04ce9")
+		(property "Reference" "#PWR030"
+			(at 91.44 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V1"
+			(at 83.82 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 87.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4377948-a3d8-466a-8e72-0dd797dd3762")
+		)
+		(instances
+			(project "CTS-SAT-2-OBC-PCB"
+				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/bec95c26-e44f-4f6a-97be-aee51e3bba5a"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
