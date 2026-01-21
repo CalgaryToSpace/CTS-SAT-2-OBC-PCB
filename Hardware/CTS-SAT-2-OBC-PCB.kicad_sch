@@ -117,16 +117,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 101.6) (xy 214.63 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c4965a1-7b01-4df0-b11f-40c6a4bbece2")
-	)
-	(wire
-		(pts
 			(xy 138.43 157.48) (xy 138.43 168.91)
 		)
 		(stroke
@@ -144,16 +134,6 @@
 			(type default)
 		)
 		(uuid "69eceea0-fde2-41d2-91e1-3642eaf2ce56")
-	)
-	(wire
-		(pts
-			(xy 203.2 99.06) (xy 214.63 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7644270c-651c-4f2c-8540-a2f253dbc596")
 	)
 	(wire
 		(pts
@@ -313,68 +293,6 @@
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 214.63 91.44)
-		(size 20.32 19.05)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "63c6a28f-a5f3-40ea-8388-ed5b275d8d3e")
-		(property "Sheetname" "Temperature Sensor"
-			(at 214.63 90.7284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "temperature_sensor.kicad_sch"
-			(at 214.63 111.0746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "TEMP_SENS_SDA" bidirectional
-			(at 214.63 99.06 180)
-			(uuid "1640c46f-8780-432a-ab74-c1208d4e6766")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TEMP_SENS_SCL" bidirectional
-			(at 214.63 101.6 180)
-			(uuid "fdd91708-037a-4786-85f0-c180d5c923a3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a"
-					(page "5")
 				)
 			)
 		)
@@ -625,26 +543,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "I2C4_SCL" bidirectional
-			(at 203.2 101.6 0)
-			(uuid "f7996345-a27d-4a3e-b844-9c3091199cb2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2C4_SDA" bidirectional
-			(at 203.2 99.06 0)
-			(uuid "efbab943-87ae-4dd1-8eca-f92ff37910b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "SPI2_MOSI" bidirectional
@@ -950,16 +848,6 @@
 		(pin "CAM_EN" input
 			(at 144.78 134.62 180)
 			(uuid "f407ab62-b6f9-4e7c-a22d-cfdbcc8e1da5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DEBUG_LED" output
-			(at 144.78 132.08 180)
-			(uuid "72d1ab3f-18d9-46dc-9e40-81917b89e19f")
 			(effects
 				(font
 					(size 1.27 1.27)
