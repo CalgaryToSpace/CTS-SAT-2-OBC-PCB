@@ -77,16 +77,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 64.77) (xy 144.78 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3de46bac-c7cb-43ff-9934-0cc7648ae819")
-	)
-	(wire
-		(pts
 			(xy 144.78 157.48) (xy 138.43 157.48)
 		)
 		(stroke
@@ -204,98 +194,6 @@
 			(type default)
 		)
 		(uuid "b8e5448a-25fc-442e-973a-3905bc9b261b")
-	)
-	(wire
-		(pts
-			(xy 139.7 62.23) (xy 144.78 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e135d011-0e82-4004-aad7-6b07e3195937")
-	)
-	(sheet
-		(at 115.57 55.88)
-		(size 24.13 16.51)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3c2f3b64-29ee-458e-ad56-d2b0620aead5")
-		(property "Sheetname" "Clock"
-			(at 115.57 55.1684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "clock.kicad_sch"
-			(at 115.57 72.9746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "BOOT0" output
-			(at 139.7 62.23 0)
-			(uuid "7febfbde-2e77-4635-851d-c140686b2fad")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OSC_IN" output
-			(at 139.7 64.77 0)
-			(uuid "0a226146-8fb5-4ba9-9983-5207aa682899")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OSC32_IN" output
-			(at 139.7 67.31 0)
-			(uuid "48464840-5e99-45f3-a42e-e23c51e019c8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "NRST" output
-			(at 139.7 59.69 0)
-			(uuid "8998d358-50b7-4b3b-a287-a48e953255ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a"
-					(page "6")
-				)
-			)
-		)
 	)
 	(sheet
 		(at 248.92 67.31)
@@ -965,16 +863,6 @@
 				(justify left)
 			)
 		)
-		(pin "BOOT0" input
-			(at 144.78 62.23 180)
-			(uuid "de3720fc-55c3-483b-9f24-ffbba3456443")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "NRST" input
 			(at 144.78 59.69 180)
 			(uuid "d11cc0cb-e49e-4d84-8c54-8476970b2c62")
@@ -988,16 +876,6 @@
 		(pin "OSC32_IN" input
 			(at 144.78 67.31 180)
 			(uuid "6e8db0cf-479b-479e-8d37-b03162dc232c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OSC_IN" input
-			(at 144.78 64.77 180)
-			(uuid "2663b6f4-b0bd-4f8a-afb5-5cc3a7ed38af")
 			(effects
 				(font
 					(size 1.27 1.27)
