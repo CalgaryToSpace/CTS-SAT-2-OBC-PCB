@@ -3,4 +3,5 @@
   (lib (name "OBC_library")(type "KiCad")(uri "${KIPRJMOD}/Libraries/OBC_library.kicad_sym")(options "")(descr ""))
   (lib (name "STTS22HTR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/STTS22HTR/KiCad/STTS22HTR.kicad_sym")(options "")(descr ""))
   (lib (name "ESQ-126-14-G-D")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ESQ-126-14-G-D/ESQ-126-14-G-D.kicad_sym")(options "")(descr ""))
+  (lib (name "RP2040")(type "KiCad")(uri "${KIPRJMOD}/Libraries/RP2040/MCU_RaspberryPi_RP2040.kicad_sym")(options "")(descr ""))
 )

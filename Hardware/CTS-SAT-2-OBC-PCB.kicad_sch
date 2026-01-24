@@ -381,16 +381,6 @@
 				(justify right)
 			)
 		)
-		(pin "V_BAT" input
-			(at 279.4 90.17 0)
-			(uuid "bbc3b0ff-998e-4157-b5f8-dcf8c284a6d3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "VBAT_MONITOR" input
 			(at 279.4 92.71 0)
 			(uuid "5c47f393-f9d6-4c37-8028-651a45492813")
@@ -413,7 +403,7 @@
 		)
 		(pin "ADCS_UART2_TX" output
 			(at 248.92 87.63 180)
-			(uuid "3195ec97-ad12-40f1-8701-04ca3fc9db66")
+			(uuid "023e3d0b-dabe-47c0-8819-e8071deaff75")
 			(effects
 				(font
 					(size 1.27 1.27)
