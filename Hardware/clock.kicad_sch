@@ -5,28 +5,6 @@
 	(uuid "ce97fc11-0b99-49a8-8762-4ba98c92c018")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "NRST"
-		(shape output)
-		(at 143.51 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e3cd1da1-607c-462b-a0a7-ec0eb87a5ab5")
-	)
-	(hierarchical_label "OSC_IN"
-		(shape output)
-		(at 143.51 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e3cd1da1-607c-462b-a0a7-ec0eb87a5ab6")
-	)
 	(hierarchical_label "OSC32_IN"
 		(shape output)
 		(at 143.51 97.79 0)
@@ -37,16 +15,5 @@
 			(justify left)
 		)
 		(uuid "e3cd1da1-607c-462b-a0a7-ec0eb87a5ab7")
-	)
-	(hierarchical_label "BOOT0"
-		(shape output)
-		(at 142.24 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e3cd1da1-607c-462b-a0a7-ec0eb87a5ab8")
 	)
 )

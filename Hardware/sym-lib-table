@@ -4,4 +4,5 @@
   (lib (name "STTS22HTR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/STTS22HTR/KiCad/STTS22HTR.kicad_sym")(options "")(descr ""))
   (lib (name "ESQ-126-14-G-D")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ESQ-126-14-G-D/ESQ-126-14-G-D.kicad_sym")(options "")(descr ""))
   (lib (name "RP2040")(type "KiCad")(uri "${KIPRJMOD}/Libraries/RP2040/MCU_RaspberryPi_RP2040.kicad_sym")(options "")(descr ""))
+  (lib (name "ECS-TXO-2520-33-250-AN-TR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ECS-TXO-2520-33-250-AN-TR/ECS-TXO-2520-33-250-AN-TR.kicad_sym")(options "")(descr ""))
 )

@@ -2393,17 +2393,6 @@
 		)
 		(uuid "6e456e9b-3e7f-454c-b827-00c9ae75f684")
 	)
-	(text "Some other chips \nmay need R1 = 10k"
-		(exclude_from_sim no)
-		(at 128.016 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76d4ba05-739b-4f07-bbf2-0765b385c6db")
-	)
 	(text "(from internal RP2040 regulator)"
 		(exclude_from_sim no)
 		(at 172.72 54.61 0)
@@ -6161,8 +6150,8 @@
 				)
 			)
 		)
-		(property "Value" "NP"
-			(at 134.62 95.25 90)
+		(property "Value" "10k (NP)"
+			(at 131.826 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)

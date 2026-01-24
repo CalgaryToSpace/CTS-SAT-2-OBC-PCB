@@ -493,6 +493,16 @@
 				(justify right)
 			)
 		)
+		(pin "~{BOOTSEL}" input
+			(at 100.33 101.6 180)
+			(uuid "9148644f-180c-44ae-84d9-d7d4d491daab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a"
