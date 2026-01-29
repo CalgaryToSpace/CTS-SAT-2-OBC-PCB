@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MT29F1G01ABAFDSF-AAT_F_TR
+D 1Gb 3.3V x1, x2, x4: SPI NAND Flash Memory
+K
+F 
+$ENDCMP
+#
+#End Doc Library

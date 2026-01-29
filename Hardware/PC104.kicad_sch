@@ -5143,7 +5143,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f2b70f51-f197-4928-b5c4-46baaee123d2")
+			(uuid "f2b70f51-f197-4928-b5c4-46baaee123d3")
 		)
 		(instances
 			(project ""
@@ -5611,7 +5611,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f2b70f51-f197-4928-b5c4-46baaee123d2")
+			(uuid "f2b70f51-f197-4928-b5c4-46baaee123d4")
 		)
 		(instances
 			(project ""

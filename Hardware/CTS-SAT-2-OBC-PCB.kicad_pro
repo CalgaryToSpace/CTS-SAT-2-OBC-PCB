@@ -625,6 +625,10 @@
     [
       "affb10ea-0cf3-46d1-942c-2ca1828b17dc",
       "PC104 Headers"
+    ],
+    [
+      "72339dfa-88cc-4dcf-bb7d-c8743de2cc3b",
+      "Flash Memory"
     ]
   ],
   "text_variables": {}

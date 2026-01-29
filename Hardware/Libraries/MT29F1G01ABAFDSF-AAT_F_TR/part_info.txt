@@ -1,0 +1,9 @@
+Manufacturer=Micron
+PartNumber=MT29F1G01ABAFDSF-AAT:F TR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=16
+Version=1.1
+Released=2018-02-19 17:48:17
+Downloaded=2026-01-29 21:21:49
+3D=Y

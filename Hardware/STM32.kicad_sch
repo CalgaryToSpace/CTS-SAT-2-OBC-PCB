@@ -15025,4 +15025,116 @@
 			)
 		)
 	)
+	(sheet
+		(at 54.61 139.7)
+		(size 40.64 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "72339dfa-88cc-4dcf-bb7d-c8743de2cc3b")
+		(property "Sheetname" "Flash Memory"
+			(at 54.61 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32_flash.kicad_sch"
+			(at 54.61 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPI_NCS_FLASH_3" input
+			(at 95.25 149.86 0)
+			(uuid "c8c468e0-9624-4944-92f6-315df2dbc286")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_FLASH_MISO" output
+			(at 54.61 144.78 180)
+			(uuid "e16d8fae-a973-44ca-a0ff-172b36f92de3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_NCS_FLASH_1" input
+			(at 95.25 144.78 0)
+			(uuid "9a52c829-ab46-4022-95f0-eb9bbe0ba8ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_FLASH_SCLK" output
+			(at 54.61 142.24 180)
+			(uuid "a0eab950-f1fc-4016-9310-499e821d2ba7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_NCS_FLASH_2" input
+			(at 95.25 147.32 0)
+			(uuid "90b06a33-f1df-4645-9319-68251c282aaa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_FLASH_MOSI" output
+			(at 54.61 147.32 180)
+			(uuid "4511be82-d4de-48b6-9537-3bf75aa6037a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_NCS_FLASH_0" input
+			(at 95.25 142.24 0)
+			(uuid "fac1b61d-8ade-406a-a555-edb0565014fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "CTS-SAT-2-OBC-PCB"
+				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
+					(page "5")
+				)
+			)
+		)
+	)
 )
