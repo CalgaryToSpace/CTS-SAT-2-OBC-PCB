@@ -948,6 +948,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Flash"
+		(exclude_from_sim no)
+		(at 128.016 74.422 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "dac290c9-eeb2-4959-b270-37063e6f0afc")
+	)
 	(junction
 		(at 99.06 172.72)
 		(diameter 0)
