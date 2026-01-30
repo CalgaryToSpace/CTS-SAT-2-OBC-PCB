@@ -1,0 +1,9 @@
+Manufacturer=Epson Timing
+PartNumber=TG-3541CE 32.7680KXB3
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=10
+Version=3.5
+Released=2023-10-06 03:56:35
+Downloaded=2026-01-30 04:31:51
+3D=Y

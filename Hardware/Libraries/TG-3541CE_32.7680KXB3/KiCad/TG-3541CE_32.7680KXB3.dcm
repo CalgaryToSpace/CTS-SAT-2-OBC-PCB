@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TG-3541CE_32.7680KXB3
+D 32.768 kHz TCXO CMOS Oscillator 1.5V ~ 5.5V Enable/Disable 10-SMD, No Lead
+K
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_TG-3541CE&lang=en
+$ENDCMP
+#
+#End Doc Library
