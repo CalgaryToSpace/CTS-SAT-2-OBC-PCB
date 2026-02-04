@@ -624,15 +624,11 @@
     ],
     [
       "affb10ea-0cf3-46d1-942c-2ca1828b17dc",
-      "PC104 Headers"
+      "Connectors"
     ],
     [
       "1b38ac1a-71db-4ef7-b830-b2f3080e4569",
       "Memory"
-    ],
-    [
-      "f7731ab2-6c03-4405-a892-1b3b724aa3b9",
-      "Connectors"
     ]
   ],
   "text_variables": {}

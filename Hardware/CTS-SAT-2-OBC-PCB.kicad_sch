@@ -384,7 +384,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "affb10ea-0cf3-46d1-942c-2ca1828b17dc")
-		(property "Sheetname" "PC104 Headers"
+		(property "Sheetname" "Connectors"
 			(at 248.92 66.5984 0)
 			(effects
 				(font
@@ -1041,48 +1041,6 @@
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 210.82 41.91)
-		(size 36.83 19.05)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f7731ab2-6c03-4405-a892-1b3b724aa3b9")
-		(property "Sheetname" "Connectors"
-			(at 210.82 41.1984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "connectors.kicad_sch"
-			(at 210.82 61.5446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a"
-					(page "6")
 				)
 			)
 		)

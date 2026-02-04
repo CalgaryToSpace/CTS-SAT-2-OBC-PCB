@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "OBC Development Board")(type "Altium")(uri "C:/Users/Nadee/GitHub/CTS-SAT-1-OBC-PCB/CTS-SAT-1 Onboard Computer/OBC Development Board.SchLib")(options "")(descr ""))
+  (lib (name "OBC Development Board-altium-import")(type "KiCad")(uri "${KIPRJMOD}/OBC Development Board-altium-import.kicad_sym")(options "")(descr ""))
+)
