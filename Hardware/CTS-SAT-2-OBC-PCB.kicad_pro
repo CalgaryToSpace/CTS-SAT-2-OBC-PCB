@@ -629,6 +629,14 @@
     [
       "1b38ac1a-71db-4ef7-b830-b2f3080e4569",
       "Memory"
+    ],
+    [
+      "368d950c-de6a-4343-a769-3e1bb8923fc4",
+      "Antenna"
+    ],
+    [
+      "23edb98a-3828-4a1a-92be-4cf85c59be5b",
+      "MPI"
     ]
   ],
   "text_variables": {}
