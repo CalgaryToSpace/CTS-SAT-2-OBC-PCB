@@ -67,6 +67,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 55.88) (xy 265.43 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c87d288-3717-492a-8470-6993c82efdfc")
+	)
+	(wire
+		(pts
 			(xy 203.2 125.73) (xy 265.43 125.73)
 		)
 		(stroke
@@ -94,16 +104,6 @@
 			(type default)
 		)
 		(uuid "33b17e72-2fe5-4aac-80f4-b519929fa1ee")
-	)
-	(wire
-		(pts
-			(xy 140.97 100.33) (xy 140.97 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "346eeeda-95e9-4144-9e22-bb5ca31f2617")
 	)
 	(wire
 		(pts
@@ -157,16 +157,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 119.38) (xy 154.94 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5232ab57-9dbb-4d75-80fb-9b92cd4ef017")
-	)
-	(wire
-		(pts
 			(xy 142.24 142.24) (xy 154.94 142.24)
 		)
 		(stroke
@@ -197,13 +187,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 116.84) (xy 154.94 116.84)
+			(xy 115.57 60.96) (xy 265.43 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a4fc897-087a-4d19-8934-76335dd9d053")
+		(uuid "7a4778c6-ad4d-40e9-997f-6f2108c949b7")
 	)
 	(wire
 		(pts
@@ -227,16 +217,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 111.76) (xy 154.94 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "904ba2a6-a07c-4b5a-8b98-0622eefbfd14")
-	)
-	(wire
-		(pts
 			(xy 203.2 85.09) (xy 265.43 85.09)
 		)
 		(stroke
@@ -244,6 +224,16 @@
 			(type default)
 		)
 		(uuid "92b7a387-b933-4771-90a7-470f35d29df8")
+	)
+	(wire
+		(pts
+			(xy 115.57 114.3) (xy 154.94 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92cf2061-38ea-40eb-a53f-29235df587cb")
 	)
 	(wire
 		(pts
@@ -277,13 +267,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 114.3) (xy 154.94 114.3)
+			(xy 115.57 119.38) (xy 154.94 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9fdef005-7c4d-41dc-a46c-b61288a52fc6")
+		(uuid "a3d54b49-dd1f-46b3-9900-c4904d3a7238")
 	)
 	(wire
 		(pts
@@ -294,6 +284,16 @@
 			(type default)
 		)
 		(uuid "a70c4f07-01cb-4abb-8b70-add0292a5fe1")
+	)
+	(wire
+		(pts
+			(xy 104.14 201.93) (xy 104.14 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a77bf14e-25a4-4c85-a3ba-9af479a60984")
 	)
 	(wire
 		(pts
@@ -347,13 +347,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 55.88) (xy 265.43 55.88)
+			(xy 115.57 111.76) (xy 154.94 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7ed87b2-1ea9-4e5d-b7e8-52724d9fdf77")
+		(uuid "c7ee84ed-0417-48f0-bfd0-719d1751f56f")
 	)
 	(wire
 		(pts
@@ -377,6 +377,26 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 116.84) (xy 154.94 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad1fce6-1256-46ad-a08e-58c7d9df000c")
+	)
+	(wire
+		(pts
+			(xy 115.57 53.34) (xy 265.43 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb04193-b38a-47ad-ae5d-8e19d94fe697")
+	)
+	(wire
+		(pts
 			(xy 142.24 128.27) (xy 154.94 128.27)
 		)
 		(stroke
@@ -384,6 +404,26 @@
 			(type default)
 		)
 		(uuid "ce51bdca-7dca-41aa-ae0c-27484078db6e")
+	)
+	(wire
+		(pts
+			(xy 265.43 201.93) (xy 104.14 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2835307-6e74-4fe5-b7d4-b05999d79105")
+	)
+	(wire
+		(pts
+			(xy 115.57 58.42) (xy 265.43 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df033a80-5a6f-48f5-bc1b-000e070eb690")
 	)
 	(wire
 		(pts
@@ -417,7 +457,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 100.33) (xy 140.97 100.33)
+			(xy 69.85 142.24) (xy 104.14 142.24)
 		)
 		(stroke
 			(width 0)
@@ -662,8 +702,8 @@
 		)
 	)
 	(sheet
-		(at 49.53 96.52)
-		(size 20.32 40.64)
+		(at 45.72 111.76)
+		(size 24.13 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -678,7 +718,7 @@
 		)
 		(uuid "368e4a7b-bdab-4813-9da8-67dfcdf79ec2")
 		(property "Sheetname" "Antenna"
-			(at 49.53 95.8084 0)
+			(at 45.72 111.0484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -687,7 +727,7 @@
 			)
 		)
 		(property "Sheetfile" "antenna.kicad_sch"
-			(at 49.53 137.7446 0)
+			(at 45.72 146.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -707,7 +747,7 @@
 			)
 		)
 		(pin "3V3_ANT_DEPLOY" input
-			(at 69.85 100.33 0)
+			(at 69.85 142.24 0)
 			(uuid "579cabb7-c3a0-4ea9-8c67-19f52fd96047")
 			(effects
 				(font
@@ -766,7 +806,7 @@
 	)
 	(sheet
 		(at 265.43 50.8)
-		(size 27.94 144.78)
+		(size 27.94 153.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -790,7 +830,7 @@
 			)
 		)
 		(property "Sheetfile" "PC104.kicad_sch"
-			(at 265.43 196.1646 0)
+			(at 265.43 205.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -822,16 +862,6 @@
 		(pin "I2C1_SCL" input
 			(at 265.43 87.63 180)
 			(uuid "bd01365e-e1c4-4ca8-99b5-60a086e53589")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "3V3_ANT_DEPLOY" input
-			(at 265.43 55.88 180)
-			(uuid "800393a4-2774-4e18-828e-53f2bd2cf9d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -892,46 +922,6 @@
 		(pin "MOSI_UART4_TX" input
 			(at 265.43 143.51 180)
 			(uuid "e782a79f-95ca-427a-af8d-041da4a7b361")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "NRST" input
-			(at 265.43 69.85 180)
-			(uuid "b10e8699-25e6-49a2-8998-86b2768aaa9b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SWO" input
-			(at 265.43 77.47 180)
-			(uuid "5dca9932-fba1-4457-9d02-588767c6e5c1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SWDIO" input
-			(at 265.43 74.93 180)
-			(uuid "74796882-24ed-47ff-9726-11b35d9c0b99")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SWCLK" input
-			(at 265.43 72.39 180)
-			(uuid "d125c9fa-cd55-40f1-a4fc-a2f7449dc520")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1049,6 +1039,96 @@
 				(justify left)
 			)
 		)
+		(pin "STM32_SWO" input
+			(at 265.43 77.47 180)
+			(uuid "194719fc-6e53-413a-b7e8-38db75a231e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STM32_SWCLK" input
+			(at 265.43 72.39 180)
+			(uuid "77c6edab-da04-4c15-ac06-c99f85c1321c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RP2040_SWCLK" input
+			(at 265.43 55.88 180)
+			(uuid "21fef0fe-cca0-4a29-b082-82797353891f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_ANT_DEPLOY" input
+			(at 265.43 201.93 180)
+			(uuid "1f5b4abb-9296-4153-a487-986942191f03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STM32_NRST" output
+			(at 265.43 69.85 180)
+			(uuid "35eaa2a5-f44b-4cb3-833c-1ae8f0861da4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RP2040_NRST" output
+			(at 265.43 53.34 180)
+			(uuid "f34eeba2-60b9-41b6-b0b7-6d12c85273d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RP2040_SWDIO" bidirectional
+			(at 265.43 58.42 180)
+			(uuid "a0ddb5f2-ef5e-4f1c-bccc-939894d6a427")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STM32_SWDIO" bidirectional
+			(at 265.43 74.93 180)
+			(uuid "f4fd2ea6-78a9-4035-92e2-16cd22a7c35b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RP2040_~{BOOTSEL}" output
+			(at 265.43 60.96 180)
+			(uuid "6e5d6b52-25fc-473e-ab60-a6f0d9ed2c09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a"
@@ -1058,8 +1138,8 @@
 		)
 	)
 	(sheet
-		(at 78.74 107.95)
-		(size 29.21 29.21)
+		(at 78.74 49.53)
+		(size 36.83 87.63)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1074,7 +1154,7 @@
 		)
 		(uuid "bec95c26-e44f-4f6a-97be-aee51e3bba5a")
 		(property "Sheetname" "RP2040"
-			(at 78.74 107.2384 0)
+			(at 78.74 48.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1093,7 +1173,7 @@
 			)
 		)
 		(pin "SPI1_RX" bidirectional
-			(at 107.95 116.84 0)
+			(at 115.57 116.84 0)
 			(uuid "57a315db-131d-429a-9cb6-70b6f12a52b9")
 			(effects
 				(font
@@ -1103,7 +1183,7 @@
 			)
 		)
 		(pin "SPI1_CS0" bidirectional
-			(at 107.95 119.38 0)
+			(at 115.57 119.38 0)
 			(uuid "a56b933a-1890-4168-9059-4b83ad6a165e")
 			(effects
 				(font
@@ -1113,7 +1193,7 @@
 			)
 		)
 		(pin "SPI1_TX" bidirectional
-			(at 107.95 114.3 0)
+			(at 115.57 114.3 0)
 			(uuid "c162d9fb-a727-4378-93e0-b7bdfaaddd43")
 			(effects
 				(font
@@ -1123,7 +1203,7 @@
 			)
 		)
 		(pin "SPI1_SCK" bidirectional
-			(at 107.95 111.76 0)
+			(at 115.57 111.76 0)
 			(uuid "219246c4-fb46-4d21-a387-88b453b314fe")
 			(effects
 				(font
@@ -1133,7 +1213,7 @@
 			)
 		)
 		(pin "~{BOOTSEL}" input
-			(at 107.95 132.08 0)
+			(at 115.57 60.96 0)
 			(uuid "9148644f-180c-44ae-84d9-d7d4d491daab")
 			(effects
 				(font
@@ -1192,6 +1272,36 @@
 				(justify left)
 			)
 		)
+		(pin "RP2040_SWDIO" bidirectional
+			(at 115.57 58.42 0)
+			(uuid "7d0df219-69c9-4997-8cf5-9660671128b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RP2040_NRST" input
+			(at 115.57 53.34 0)
+			(uuid "522ae886-b1cf-43bb-a40c-b6bd341d60ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RP2040_SWCLK" bidirectional
+			(at 115.57 55.88 0)
+			(uuid "ba193d34-cbd0-49d7-b86c-a02f9f0eac0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a"
@@ -1201,8 +1311,8 @@
 		)
 	)
 	(sheet
-		(at 154.94 63.5)
-		(size 48.26 133.35)
+		(at 154.94 67.31)
+		(size 48.26 129.54)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1217,7 +1327,7 @@
 		)
 		(uuid "c7b2a9f5-c39c-4892-aa33-31b3626fafef")
 		(property "Sheetname" "STM32"
-			(at 154.94 62.7884 0)
+			(at 154.94 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1485,16 +1595,6 @@
 				(justify right)
 			)
 		)
-		(pin "SWCLK" bidirectional
-			(at 203.2 72.39 0)
-			(uuid "340b1330-fef1-48f1-9d14-53825035e070")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "GPS_PPS" output
 			(at 203.2 180.34 0)
 			(uuid "53ea57b7-c722-4898-805d-4140e1928a31")
@@ -1518,26 +1618,6 @@
 		(pin "MISO_MPI_RX_NEN" input
 			(at 203.2 110.49 0)
 			(uuid "074adcd1-2899-4854-8269-c8da8d0a95f1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SWDIO" bidirectional
-			(at 203.2 74.93 0)
-			(uuid "15916658-f9ba-4962-a0f5-3ebfc81343cb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SWO" bidirectional
-			(at 203.2 77.47 0)
-			(uuid "7500f7c0-0596-4c8c-b870-0bd53ef83f43")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1585,16 +1665,6 @@
 				(justify right)
 			)
 		)
-		(pin "NRST" input
-			(at 203.2 69.85 0)
-			(uuid "d11cc0cb-e49e-4d84-8c54-8476970b2c62")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SPI1_NSS" bidirectional
 			(at 154.94 119.38 180)
 			(uuid "c4775a05-24b6-48cb-9126-83480da4e60c")
@@ -1608,6 +1678,46 @@
 		(pin "DEBUG_LED" output
 			(at 203.2 158.75 0)
 			(uuid "6ef63aec-a234-475b-9590-9a910b6161f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM32_SWDIO" bidirectional
+			(at 203.2 74.93 0)
+			(uuid "968a246e-f1db-4f5d-ae30-ab114014a103")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM32_SWO" bidirectional
+			(at 203.2 77.47 0)
+			(uuid "8dad2732-ebf5-4c2e-b07b-07fc444b63c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM32_SWCLK" bidirectional
+			(at 203.2 72.39 0)
+			(uuid "07561015-71dd-4567-88b4-d672ee099284")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM32_NRST" input
+			(at 203.2 69.85 0)
+			(uuid "04beb175-33e5-4fd1-ac1d-eb275105313f")
 			(effects
 				(font
 					(size 1.27 1.27)

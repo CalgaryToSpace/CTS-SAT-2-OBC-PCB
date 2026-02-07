@@ -8457,7 +8457,7 @@
 		)
 		(uuid "1980f7d8-3bb3-47fb-bc01-c265f9020762")
 	)
-	(hierarchical_label "SWDIO"
+	(hierarchical_label "STM32_SWDIO"
 		(shape bidirectional)
 		(at 168.91 106.68 180)
 		(effects
@@ -8688,7 +8688,7 @@
 		)
 		(uuid "78bcc709-84a2-40a9-9284-16961be51ba9")
 	)
-	(hierarchical_label "SWO"
+	(hierarchical_label "STM32_SWO"
 		(shape bidirectional)
 		(at 179.07 124.46 180)
 		(effects
@@ -8743,7 +8743,7 @@
 		)
 		(uuid "9ce7b870-719d-43d9-a39b-9b2a027e3cb6")
 	)
-	(hierarchical_label "SWCLK"
+	(hierarchical_label "STM32_SWCLK"
 		(shape bidirectional)
 		(at 168.91 109.22 180)
 		(effects
@@ -8787,7 +8787,7 @@
 		)
 		(uuid "be8db430-ec01-44c4-a0c8-7b17ed393267")
 	)
-	(hierarchical_label "NRST"
+	(hierarchical_label "STM32_NRST"
 		(shape input)
 		(at 262.89 64.77 0)
 		(effects
@@ -8830,7 +8830,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "001723f6-8786-4cf2-b9e7-abd1b19bbcfc")
-		(property "Reference" "R31"
+		(property "Reference" "R29"
 			(at 172.466 215.138 90)
 			(effects
 				(font
@@ -8882,7 +8882,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R31")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -8897,7 +8897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00d8a74b-a1eb-4275-aa90-a743e4b509d8")
-		(property "Reference" "R38"
+		(property "Reference" "R36"
 			(at 252.476 115.824 90)
 			(effects
 				(font
@@ -8949,7 +8949,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R38")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -8965,7 +8965,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07fc969c-a9d9-493b-84a6-ca729c4a0faf")
-		(property "Reference" "R20"
+		(property "Reference" "R19"
 			(at 170.942 95.25 90)
 			(effects
 				(font
@@ -9017,7 +9017,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R20")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -9100,7 +9100,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f583e27-601d-4ef2-938c-87841fa3e701")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR038"
 			(at 320.04 58.42 0)
 			(effects
 				(font
@@ -9150,7 +9150,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR041")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9234,7 +9234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b1b94f4-a9f9-4234-bc3b-9bebb3b5d261")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR031"
 			(at 256.54 81.28 0)
 			(effects
 				(font
@@ -9285,7 +9285,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR033")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9370,7 +9370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "285cf759-6ee2-46b7-8a8c-786ffc17b764")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 143.51 226.0599 0)
 			(effects
 				(font
@@ -9424,7 +9424,7 @@
 		(instances
 			(project ""
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9440,7 +9440,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2932b746-576e-4a62-aaf9-2aede20b2cfa")
-		(property "Reference" "R51"
+		(property "Reference" "R47"
 			(at 272.034 115.57 90)
 			(effects
 				(font
@@ -9494,7 +9494,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R51")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -9509,7 +9509,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cd865e0-d5a7-4662-b624-96e3c246f9e0")
-		(property "Reference" "R45"
+		(property "Reference" "R42"
 			(at 252.476 219.964 90)
 			(effects
 				(font
@@ -9561,7 +9561,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R45")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -9645,7 +9645,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3034175a-010a-45d4-841e-8d52ca718d77")
-		(property "Reference" "R32"
+		(property "Reference" "R30"
 			(at 172.466 217.678 90)
 			(effects
 				(font
@@ -9697,7 +9697,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R32")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -9713,7 +9713,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39f7fa56-ce5a-4106-b466-835d7a156f4b")
-		(property "Reference" "R23"
+		(property "Reference" "R22"
 			(at 170.434 171.704 90)
 			(effects
 				(font
@@ -9765,7 +9765,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R23")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -9780,7 +9780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3dff72eb-595f-460a-91e6-ae4f2a8b7f16")
-		(property "Reference" "R41"
+		(property "Reference" "R38"
 			(at 252.476 176.784 90)
 			(effects
 				(font
@@ -9832,7 +9832,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R41")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -9987,7 +9987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ae1bd89-4947-4732-955a-e43e88498178")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 170.942 72.39 90)
 			(effects
 				(font
@@ -10039,7 +10039,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10122,7 +10122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50279ffe-22ef-4469-82cb-60775a4eb64f")
-		(property "Reference" "R49"
+		(property "Reference" "R45"
 			(at 270.256 189.484 90)
 			(effects
 				(font
@@ -10174,7 +10174,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R49")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -10190,7 +10190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53da70b1-7ddf-4cfe-b43b-819f4915e624")
-		(property "Reference" "R24"
+		(property "Reference" "R23"
 			(at 170.434 189.23 90)
 			(effects
 				(font
@@ -10242,7 +10242,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R24")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -10328,7 +10328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5684192a-f171-4575-b3d5-01ab4acb8f05")
-		(property "Reference" "R17"
+		(property "Reference" "R16"
 			(at 170.942 80.01 90)
 			(effects
 				(font
@@ -10380,7 +10380,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R17")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -10396,7 +10396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56b25bd2-406a-450a-beee-358f382813af")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 143.51 208.28 0)
 			(effects
 				(font
@@ -10446,7 +10446,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10461,7 +10461,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ae5490d-56b8-4917-a8b4-c1bfb67bcb76")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 82.55 241.3 0)
 			(effects
 				(font
@@ -10512,7 +10512,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10599,7 +10599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62822871-c562-45fb-95ef-10e0148a7b6f")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR040"
 			(at 367.03 83.82 0)
 			(effects
 				(font
@@ -10649,7 +10649,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR043")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -10733,7 +10733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6891ac4f-1513-4444-b32c-a3397042e30d")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR021"
 			(at 139.7 250.19 0)
 			(effects
 				(font
@@ -10783,7 +10783,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR022")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -10799,7 +10799,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70f97580-0a7b-49b3-81e1-8d0eb543a686")
-		(property "Reference" "R39"
+		(property "Reference" "R37"
 			(at 260.35 125.7301 0)
 			(effects
 				(font
@@ -10853,7 +10853,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R39")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -10869,7 +10869,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75c0e9ff-9439-47d1-8bcc-c1f717976bd2")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 170.942 74.93 90)
 			(effects
 				(font
@@ -10921,7 +10921,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R15")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -10936,7 +10936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76209dee-665f-440e-a3c5-987d4c3c4b1d")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 171.196 87.884 90)
 			(effects
 				(font
@@ -10988,7 +10988,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R19")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -11003,7 +11003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "775cd5b0-57a8-4354-ab29-656f07c24af9")
-		(property "Reference" "R34"
+		(property "Reference" "R32"
 			(at 252.476 98.044 90)
 			(effects
 				(font
@@ -11055,7 +11055,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R34")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -11070,7 +11070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7962e7e0-02a9-4b08-bbf9-9e4be2fc47df")
-		(property "Reference" "R35"
+		(property "Reference" "R33"
 			(at 252.476 105.664 90)
 			(effects
 				(font
@@ -11122,7 +11122,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R35")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -11138,7 +11138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bbe7a37-133f-45b1-ae60-9dbcbc487a57")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR032"
 			(at 273.05 85.09 0)
 			(effects
 				(font
@@ -11188,7 +11188,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR036")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11205,7 +11205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e07ad6f-56ce-4dfe-952b-7ddecedde68d")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR039"
 			(at 326.39 106.68 0)
 			(effects
 				(font
@@ -11255,7 +11255,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR042")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -11270,7 +11270,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80fa7ef2-d33c-44d9-a3e0-13dec6c9eec5")
-		(property "Reference" "R25"
+		(property "Reference" "R24"
 			(at 172.466 110.744 90)
 			(effects
 				(font
@@ -11322,7 +11322,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R25")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -11338,7 +11338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81976435-68bb-4c44-8050-50d981f524d8")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR035"
 			(at 299.72 106.68 0)
 			(effects
 				(font
@@ -11388,7 +11388,7 @@
 		(instances
 			(project ""
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR039")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11404,7 +11404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8780af69-2990-400e-9393-3c52796d7c06")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR037"
 			(at 317.5 85.09 0)
 			(effects
 				(font
@@ -11454,7 +11454,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR014")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -11538,7 +11538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d0e4bb7-6a44-4af4-95fe-009b9373f732")
-		(property "Reference" "R21"
+		(property "Reference" "R20"
 			(at 170.942 97.79 90)
 			(effects
 				(font
@@ -11590,7 +11590,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R21")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -11606,7 +11606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9203ab06-6ba9-4a29-8fde-2ea6a3c8ef23")
-		(property "Reference" "R28"
+		(property "Reference" "R26"
 			(at 172.212 207.01 90)
 			(effects
 				(font
@@ -11658,7 +11658,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R28")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -11674,7 +11674,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97278fd6-91d3-4718-9b1f-70e3e9689124")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 138.43 226.06 0)
 			(effects
 				(font
@@ -11724,7 +11724,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11740,7 +11740,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "973a8fdf-6d9e-4027-9095-133a46342d0e")
-		(property "Reference" "R18"
+		(property "Reference" "R17"
 			(at 170.942 82.55 90)
 			(effects
 				(font
@@ -11792,7 +11792,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R18")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -11884,7 +11884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c2c8e0c-6ce3-4b86-b09a-c28d60ea7466")
-		(property "Reference" "R36"
+		(property "Reference" "R34"
 			(at 252.476 108.204 90)
 			(effects
 				(font
@@ -11936,7 +11936,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R36")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -11951,7 +11951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e85408d-3ff6-44f9-8a34-9de46d69a32a")
-		(property "Reference" "R44"
+		(property "Reference" "R41"
 			(at 252.476 217.424 90)
 			(effects
 				(font
@@ -12003,7 +12003,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R44")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -12018,7 +12018,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f156079-2ca8-49ef-85c5-fe43b97d31c9")
-		(property "Reference" "R100"
+		(property "Reference" "R48"
 			(at 281.686 70.104 90)
 			(effects
 				(font
@@ -12070,7 +12070,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R100")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -12163,7 +12163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0b8b538-3646-490d-8328-446d102d4ec5")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 106.68 208.28 0)
 			(effects
 				(font
@@ -12213,7 +12213,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -12228,7 +12228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1f5d5d4-a110-4706-abda-91e2c0f657e1")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR030"
 			(at 250.19 82.55 0)
 			(effects
 				(font
@@ -12278,7 +12278,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR032")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -12295,7 +12295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3af4467-33fa-45e2-8832-2a5389f1a272")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 146.05 226.06 0)
 			(effects
 				(font
@@ -12345,7 +12345,7 @@
 		(instances
 			(project ""
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12362,7 +12362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a77055ab-134e-460d-ba49-6b481889e167")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 135.89 226.0599 0)
 			(effects
 				(font
@@ -12416,7 +12416,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -12432,7 +12432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a899a1f0-89c2-4b17-8e64-5019d4f395a5")
-		(property "Reference" "R52"
+		(property "Reference" "R49"
 			(at 307.34 93.9799 0)
 			(effects
 				(font
@@ -12486,7 +12486,7 @@
 		(instances
 			(project ""
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R52")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -12501,7 +12501,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a909993e-4f18-420b-8b15-d00e5a252ece")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR029"
 			(at 245.11 69.85 0)
 			(effects
 				(font
@@ -12551,7 +12551,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR031")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12710,7 +12710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b07979e4-f89f-4451-a581-da706ec44dc2")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR028"
 			(at 236.22 41.91 0)
 			(effects
 				(font
@@ -12759,7 +12759,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR030")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -12774,7 +12774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b59cbf6f-3f42-42ff-a4bb-a1a6acf0e0b2")
-		(property "Reference" "R48"
+		(property "Reference" "R44"
 			(at 270.256 183.134 90)
 			(effects
 				(font
@@ -12826,7 +12826,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R48")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -12841,7 +12841,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcf208fd-103d-4a53-bb49-5a441d1b745a")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR023"
 			(at 144.78 182.88 0)
 			(effects
 				(font
@@ -12891,7 +12891,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR024")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -12906,7 +12906,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd1f4323-1106-4140-93f0-ea00a011a82c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 157.48 189.23 0)
 			(effects
 				(font
@@ -12956,7 +12956,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -13041,7 +13041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdb9ce82-df5a-4d5a-b657-4d3e63a8f4bd")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR034"
 			(at 280.67 120.65 0)
 			(effects
 				(font
@@ -13092,7 +13092,7 @@
 		(instances
 			(project ""
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR038")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -13176,7 +13176,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1432d97-5495-4a5f-88ea-321582b50bd3")
-		(property "Reference" "R22"
+		(property "Reference" "R21"
 			(at 170.434 169.164 90)
 			(effects
 				(font
@@ -13228,7 +13228,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R22")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -13742,7 +13742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2cd6673-491f-465e-9825-b68575d8515c")
-		(property "Reference" "R16"
+		(property "Reference" "R15"
 			(at 170.942 77.47 90)
 			(effects
 				(font
@@ -13794,7 +13794,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R16")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -13809,7 +13809,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3c9e226-06f9-4ffb-8330-b81a3a1ad59c")
-		(property "Reference" "R33"
+		(property "Reference" "R31"
 			(at 252.476 95.504 90)
 			(effects
 				(font
@@ -13861,7 +13861,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R33")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -13876,7 +13876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca0cc952-d62e-4dd1-aa9a-3475a388b09a")
-		(property "Reference" "R43"
+		(property "Reference" "R40"
 			(at 252.476 214.884 90)
 			(effects
 				(font
@@ -13928,7 +13928,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R43")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -13943,7 +13943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cba00b46-465e-4b15-ac9d-d0258dbc8ced")
-		(property "Reference" "R42"
+		(property "Reference" "R39"
 			(at 252.476 199.644 90)
 			(effects
 				(font
@@ -13995,7 +13995,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R42")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -14078,7 +14078,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbf6ca9f-01b7-4035-a7d7-616517c19f61")
-		(property "Reference" "R27"
+		(property "Reference" "R25"
 			(at 172.466 204.724 90)
 			(effects
 				(font
@@ -14130,7 +14130,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R27")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -14147,7 +14147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0368495-b247-48ad-81d7-84cdf8970f25")
-		(property "Reference" "R46"
+		(property "Reference" "R43"
 			(at 270.51 125.7301 0)
 			(effects
 				(font
@@ -14201,7 +14201,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R46")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -14427,7 +14427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc0ef485-05e1-4acd-96a1-97f3f8c9a8d5")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR027"
 			(at 214.63 259.08 0)
 			(effects
 				(font
@@ -14477,7 +14477,7 @@
 		(instances
 			(project ""
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR029")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -14492,7 +14492,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df4d406a-50d4-4b2a-b1ce-fc7aa13fea83")
-		(property "Reference" "R29"
+		(property "Reference" "R27"
 			(at 172.466 209.804 90)
 			(effects
 				(font
@@ -14544,7 +14544,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R29")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -14636,7 +14636,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e442a9f2-ceca-4f4f-a0bb-c5d27bdbced9")
-		(property "Reference" "R37"
+		(property "Reference" "R35"
 			(at 252.476 113.284 90)
 			(effects
 				(font
@@ -14688,7 +14688,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R37")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -14771,7 +14771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e78a351a-4422-4911-83fb-22ad7f655717")
-		(property "Reference" "R30"
+		(property "Reference" "R28"
 			(at 172.466 212.344 90)
 			(effects
 				(font
@@ -14823,7 +14823,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R30")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -14906,7 +14906,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea118f91-2ab0-4669-a5e2-702cf58933f5")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR026"
 			(at 204.47 57.15 0)
 			(effects
 				(font
@@ -14956,7 +14956,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR028")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -15039,7 +15039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4429918-691a-4fbc-99e9-b5f934e8e2fd")
-		(property "Reference" "R50"
+		(property "Reference" "R46"
 			(at 270.256 195.834 90)
 			(effects
 				(font
@@ -15091,7 +15091,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "R50")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -15108,7 +15108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7b1784a-39f5-4546-bd4d-4d399d62ae1f")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR033"
 			(at 280.67 116.84 0)
 			(effects
 				(font
@@ -15159,7 +15159,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR037")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -15243,7 +15243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa19ad0d-bfb4-4955-9a5b-89a080b3ac84")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR036"
 			(at 299.72 205.74 0)
 			(effects
 				(font
@@ -15293,7 +15293,7 @@
 		(instances
 			(project ""
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR040")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
