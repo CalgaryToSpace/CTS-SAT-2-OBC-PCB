@@ -3248,16 +3248,27 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Alternate: MAX3379EEUD+"
+	(text "Voltage: 3V3, Max current: 130 uA\nif TRST used, can reduce to 1uA\n\nAlternate: MAX3379EEUD+"
 		(exclude_from_sim no)
-		(at 44.45 72.39 0)
+		(at 55.372 74.422 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "24cf312e-f03c-4fc3-9be2-d543729f06a6")
+		(uuid "0d622f71-cdca-4e36-b047-3431a76ff9a5")
+	)
+	(text "Voltage: 5V, Max current: 375uA\nVoltage: 5V, Typical Standby current: 1 nA"
+		(exclude_from_sim no)
+		(at 210.82 61.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cc56dd4-9715-447a-bd7f-b3ec272a7528")
 	)
 	(text "Mates with EPS J10 VD3_OBC[0]"
 		(exclude_from_sim no)
@@ -3270,17 +3281,6 @@
 		)
 		(uuid "543d79bf-d9a4-4839-8969-0e622abe6eb9")
 	)
-	(text "Voltage: 5V, Max current: 375uA"
-		(exclude_from_sim no)
-		(at 201.93 50.8 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "62c81771-c4c3-42bc-992f-5dd6d8c1d5d8")
-	)
 	(text "MPI Connector"
 		(exclude_from_sim no)
 		(at 125.73 149.86 0)
@@ -3291,39 +3291,6 @@
 			(justify right bottom)
 		)
 		(uuid "840d7b56-9545-4cc9-b069-8a0c438b560a")
-	)
-	(text "if TRST used, can reduce to 1uA"
-		(exclude_from_sim no)
-		(at 44.45 62.23 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "bbf819e1-3e63-437b-9a1d-e2c86ff0b0de")
-	)
-	(text "Voltage: 5V, \n	Typical Standby current: 1 nA"
-		(exclude_from_sim no)
-		(at 201.93 56.896 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "df06e744-2494-4701-a732-6565bd6c542a")
-	)
-	(text "Voltage: 3V3, Max current: 130 uA"
-		(exclude_from_sim no)
-		(at 43.18 57.15 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "e076600b-3c95-4c27-9c81-65532ceda7c3")
 	)
 	(text "MPI Power"
 		(exclude_from_sim no)

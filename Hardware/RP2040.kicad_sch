@@ -3266,6 +3266,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 123.19) (xy 238.76 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5441487a-dd9d-45c9-97e4-8de99febb0b9")
+	)
+	(wire
+		(pts
 			(xy 133.35 125.73) (xy 175.26 125.73)
 		)
 		(stroke
@@ -3856,6 +3866,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 123.19) (xy 251.46 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ce5d8b-3ca9-421a-a9ad-877defd29b4d")
+	)
+	(wire
+		(pts
 			(xy 255.27 63.5) (xy 255.27 62.23)
 		)
 		(stroke
@@ -4289,6 +4309,17 @@
 			(justify right)
 		)
 		(uuid "a6a95879-45a8-42a6-987b-de055ae31f5f")
+	)
+	(hierarchical_label "UHF_CTL"
+		(shape output)
+		(at 259.08 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5bb1e41-d0ac-4712-8c70-bb9788a36a2a")
 	)
 	(hierarchical_label "I2C1_SCL"
 		(shape bidirectional)
@@ -6791,6 +6822,74 @@
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/bec95c26-e44f-4f6a-97be-aee51e3bba5a"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 247.65 123.19 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8029729-b1c3-460b-93b4-74597cd2c543")
+		(property "Reference" "R26"
+			(at 252.984 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 241.808 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.396 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc93acc9-d207-40f6-aa1f-bd2940d2c5bc")
+		)
+		(pin "1"
+			(uuid "2691be11-a110-465b-832e-face76dfcfb3")
+		)
+		(instances
+			(project "CTS-SAT-2-OBC-PCB"
+				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/bec95c26-e44f-4f6a-97be-aee51e3bba5a"
+					(reference "R26")
 					(unit 1)
 				)
 			)
