@@ -5,216 +5,6 @@
 	(uuid "bde14d11-f4ea-4f37-b2d9-3f9ecee891f8")
 	(paper "A3")
 	(lib_symbols
-		(symbol "OBC Development Board-altium-import:12V_MPI_BAR"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "12V_MPI"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name '12V_MPI'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "12V_MPI_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "12V_MPI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board-altium-import:5V0_MPI_BAR"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "5V0_MPI"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name '5V0_MPI'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "5V0_MPI_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "5V0_MPI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "OBC Development Board:root_0_J-0530471010_OBC Development Board.SchLib"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2981,6 +2771,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -3432,6 +3347,12 @@
 		(uuid "f1dcad2e-d01c-49e9-8c1e-bd22126878a0")
 	)
 	(junction
+		(at 120.65 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03b2b805-4153-41a6-933e-00c522b0bea6")
+	)
+	(junction
 		(at 138.43 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3465,13 +3386,19 @@
 		(at 96.52 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "957f9609-eacb-40e7-9eff-65135a745fb6")
+		(uuid "abbb7efc-ee97-4edf-af7c-bfbb744dcfef")
 	)
 	(junction
 		(at 82.55 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac345c96-b555-4ba9-b031-ee9285ff63ac")
+	)
+	(junction
+		(at 198.12 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afac9fce-10a3-4238-bf0c-d62748f08201")
 	)
 	(junction
 		(at 138.43 171.45)
@@ -3498,12 +3425,6 @@
 		(uuid "d6ffa9c4-e0f1-4770-bb1b-b9158f557e2b")
 	)
 	(junction
-		(at 198.12 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2ddc3e9-fe06-49c6-91a2-d20598a571cd")
-	)
-	(junction
 		(at 238.76 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3520,12 +3441,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fab2bce0-70c3-49fa-8e14-cf43fb55a194")
-	)
-	(junction
-		(at 120.65 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe27c793-e544-4835-a380-ce0f99ae5999")
 	)
 	(wire
 		(pts
@@ -3566,16 +3481,6 @@
 			(type default)
 		)
 		(uuid "07c33e81-d4af-45f2-86c3-581ab53ac6e7")
-	)
-	(wire
-		(pts
-			(xy 105.41 156.21) (xy 106.68 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "096dbc6c-ea6a-4e70-ba2a-463c2a75bbcd")
 	)
 	(wire
 		(pts
@@ -3636,16 +3541,6 @@
 			(type default)
 		)
 		(uuid "1aedff46-63d8-486d-91aa-f3371a492b5c")
-	)
-	(wire
-		(pts
-			(xy 95.25 179.07) (xy 95.25 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b339eb9-a170-4e1b-998f-be01a5883e64")
 	)
 	(wire
 		(pts
@@ -3849,6 +3744,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 154.94) (xy 106.68 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55bdf1a7-2d17-4643-aa9e-6e9632ae956b")
+	)
+	(wire
+		(pts
 			(xy 107.95 106.68) (xy 107.95 109.22)
 		)
 		(stroke
@@ -4049,23 +3954,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 158.75) (xy 140.97 158.75)
+			(xy 140.97 157.48) (xy 140.97 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aaa5f965-85f7-4fb9-a495-01f7c193974e")
-	)
-	(wire
-		(pts
-			(xy 109.22 179.07) (xy 104.14 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae2002d6-8192-4b57-8083-38422369187c")
 	)
 	(wire
 		(pts
@@ -4196,16 +4091,6 @@
 			(type default)
 		)
 		(uuid "cf16a33d-568c-4ac3-99c3-a1113703b1cf")
-	)
-	(wire
-		(pts
-			(xy 99.06 179.07) (xy 95.25 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf91930f-0ba1-4c83-85d8-83228f999144")
 	)
 	(wire
 		(pts
@@ -4479,6 +4364,17 @@
 		)
 		(uuid "1e68f486-e462-472d-b17e-297538db3a78")
 	)
+	(hierarchical_label "5V0_MPI"
+		(shape input)
+		(at 105.41 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "627c8a92-1de4-4523-9769-a9a1866156b4")
+	)
 	(hierarchical_label "MISO_USART1_RX"
 		(shape input)
 		(at 67.31 83.82 180)
@@ -4510,7 +4406,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01e1141b-a713-45d0-82bc-05a4bd5f23ed")
-		(property "Reference" "R101"
+		(property "Reference" "R97"
 			(at 239.522 78.232 0)
 			(effects
 				(font
@@ -4664,7 +4560,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "R101")
+					(reference "R97")
 					(unit 1)
 				)
 			)
@@ -4679,7 +4575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02f491ad-7f33-403c-aade-5675384d8910")
-		(property "Reference" "R96"
+		(property "Reference" "R91"
 			(at 91.44 106.68 0)
 			(effects
 				(font
@@ -4814,7 +4710,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "R96")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -4829,7 +4725,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03601274-fbb6-4ed9-8452-8157fe627f60")
-		(property "Reference" "U9"
+		(property "Reference" "U6"
 			(at 116.84 73.66 0)
 			(effects
 				(font
@@ -4969,72 +4865,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 95.25 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0553ae78-1823-4e1d-a12c-1cf6befdd5e9")
-		(property "Reference" "#PWR83"
-			(at 95.25 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 95.25 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2740c45e-970d-47e7-9387-92f0e825bf43")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "#PWR83")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5049,7 +4880,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f140c9f-c86d-4ba4-be96-e4d84b3be731")
-		(property "Reference" "J8"
+		(property "Reference" "J16"
 			(at 145.796 155.956 0)
 			(effects
 				(font
@@ -5155,7 +4986,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "J8")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -5163,15 +4994,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 96.52 52.07 180)
+		(at 120.65 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1948cb65-1fbc-48bc-b29f-858eea4a04e0")
-		(property "Reference" "#PWR129"
-			(at 96.52 48.26 0)
+		(property "Reference" "#PWR0118"
+			(at 120.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5180,7 +5011,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 96.52 55.626 0)
+			(at 120.65 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5188,7 +5019,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 52.07 0)
+			(at 120.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,7 +5028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 52.07 0)
+			(at 120.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5206,7 +5037,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 52.07 0)
+			(at 120.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,7 +5051,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "#PWR129")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -5235,7 +5066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b395f0a-0764-49bb-b9ad-2a53fd5db1c6")
-		(property "Reference" "C49"
+		(property "Reference" "C51"
 			(at 133.096 56.896 0)
 			(effects
 				(font
@@ -5429,7 +5260,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "C49")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -5444,7 +5275,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c1e17d1-8a8f-41a8-8ed8-7a8e08ef01f1")
-		(property "Reference" "#PWR131"
+		(property "Reference" "#PWR0117"
 			(at 115.57 118.11 0)
 			(effects
 				(font
@@ -5494,7 +5325,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "#PWR131")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -5509,7 +5340,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "281a3d34-7095-4961-8870-185361d04420")
-		(property "Reference" "#PWR130"
+		(property "Reference" "#PWR0115"
 			(at 96.52 66.04 0)
 			(effects
 				(font
@@ -5559,7 +5390,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "#PWR130")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -5574,7 +5405,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f8c15a6-9f07-47cc-9436-6d7b613cc907")
-		(property "Reference" "#PWR139"
+		(property "Reference" "#PWR0127"
 			(at 238.76 96.52 0)
 			(effects
 				(font
@@ -5624,7 +5455,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "#PWR139")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -5639,7 +5470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3013cfb2-b1f7-45b7-ab2f-16289b822e41")
-		(property "Reference" "#PWR128"
+		(property "Reference" "#PWR0113"
 			(at 86.36 118.11 0)
 			(effects
 				(font
@@ -5689,7 +5520,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "#PWR128")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -5704,7 +5535,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4070807c-09b0-4a70-8515-5318bb89fd5b")
-		(property "Reference" "C50"
+		(property "Reference" "C52"
 			(at 200.406 59.436 0)
 			(effects
 				(font
@@ -5898,7 +5729,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "C50")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -5913,7 +5744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4447ed38-b0c0-4e9b-86fe-8b678b85e5b9")
-		(property "Reference" "R95"
+		(property "Reference" "R90"
 			(at 73.66 91.44 0)
 			(effects
 				(font
@@ -6067,7 +5898,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "R95")
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -6082,7 +5913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44547297-ad20-4bf3-9342-0234e9500b43")
-		(property "Reference" "U10"
+		(property "Reference" "U7"
 			(at 196.85 74.93 0)
 			(effects
 				(font
@@ -6232,7 +6063,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "U10")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -6247,7 +6078,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "482c35f7-43d8-45df-976f-11dc16f032a5")
-		(property "Reference" "#PWR133"
+		(property "Reference" "#PWR0119"
 			(at 127 69.85 0)
 			(effects
 				(font
@@ -6297,7 +6128,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "#PWR133")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -6312,7 +6143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f7ef045-0600-4bdc-a40a-61fcbcf9eecc")
-		(property "Reference" "#PWR81"
+		(property "Reference" "#PWR0112"
 			(at 82.55 172.72 0)
 			(effects
 				(font
@@ -6362,7 +6193,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "#PWR81")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -6377,7 +6208,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fca2d9b-4757-4a90-b7a3-6a5782d73920")
-		(property "Reference" "R102"
+		(property "Reference" "R99"
 			(at 239.522 88.392 0)
 			(effects
 				(font
@@ -6531,7 +6362,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "R102")
+					(reference "R99")
 					(unit 1)
 				)
 			)
@@ -6546,7 +6377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "572a7fb6-73b0-46cc-a7e9-3788223682d8")
-		(property "Reference" "R100"
+		(property "Reference" "R95"
 			(at 163.83 60.96 0)
 			(effects
 				(font
@@ -6681,7 +6512,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "R100")
+					(reference "R95")
 					(unit 1)
 				)
 			)
@@ -6696,7 +6527,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cf7c02b-9e73-4a0d-b974-2ba2949a7e01")
-		(property "Reference" "R94"
+		(property "Reference" "R89"
 			(at 81.28 88.9 0)
 			(effects
 				(font
@@ -6850,7 +6681,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "R94")
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -6865,7 +6696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b4fe96a-e100-4f34-a832-5dee80aa4890")
-		(property "Reference" "#PWR122"
+		(property "Reference" "#PWR0120"
 			(at 138.43 180.34 0)
 			(effects
 				(font
@@ -6915,7 +6746,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "#PWR122")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -6930,7 +6761,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71be8f36-6d50-4870-9b87-423013cd53c7")
-		(property "Reference" "R99"
+		(property "Reference" "R94"
 			(at 163.83 57.15 0)
 			(effects
 				(font
@@ -7065,7 +6896,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "R99")
+					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -7080,7 +6911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73fbcdcc-6ec9-4188-b1bb-662cc79b2acd")
-		(property "Reference" "R97"
+		(property "Reference" "R92"
 			(at 91.44 109.22 0)
 			(effects
 				(font
@@ -7215,7 +7046,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "R97")
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -7230,7 +7061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77d55896-e0ce-4000-9029-dc71a7aee2d4")
-		(property "Reference" "C44"
+		(property "Reference" "C49"
 			(at 98.806 56.896 0)
 			(effects
 				(font
@@ -7424,7 +7255,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "C44")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -7439,7 +7270,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78f0a9b6-e6fd-4085-971e-d88499112275")
-		(property "Reference" "#PWR137"
+		(property "Reference" "#PWR0125"
 			(at 200.66 111.76 0)
 			(effects
 				(font
@@ -7489,7 +7320,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "#PWR137")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -7504,7 +7335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "894b5412-0f5d-4487-ad85-d72dfe1917c6")
-		(property "Reference" "#PWR127"
+		(property "Reference" "#PWR0111"
 			(at 81.28 95.25 0)
 			(effects
 				(font
@@ -7554,7 +7385,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "#PWR127")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -7569,7 +7400,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e59f1bf-d9e4-4ccb-a322-4e83381c822e")
-		(property "Reference" "R92"
+		(property "Reference" "R87"
 			(at 73.66 83.82 0)
 			(effects
 				(font
@@ -7723,7 +7554,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "R92")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -7738,7 +7569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97cc2373-2032-4373-8a37-747f8648d2a1")
-		(property "Reference" "R131"
+		(property "Reference" "R96"
 			(at 188.722 104.648 0)
 			(effects
 				(font
@@ -7852,7 +7683,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "R131")
+					(reference "R96")
 					(unit 1)
 				)
 			)
@@ -7867,7 +7698,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99e6e5e9-8259-4363-a3f5-edd01fe55f87")
-		(property "Reference" "#PWR134"
+		(property "Reference" "#PWR0122"
 			(at 161.29 69.85 0)
 			(effects
 				(font
@@ -7917,220 +7748,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "#PWR134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board:root_0_RT-100K0-F-1/16W-0603_OBC Development Board.SchLib")
-		(at 92.71 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aa6882fa-0faa-4071-9c34-3f59943f9ad7")
-		(property "Reference" "R91"
-			(at 96.52 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100K"
-			(at 92.71 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "0603"
-			(at 92.71 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 100KΩ 0.1% 1/16W 0603"
-			(at 92.71 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2URL" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1773200%7FM%7Fpdf%7FEnglish%7FENG_DS_1773200_M.pdf%7F3-1676481-2"
-			(at 92.202 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2DESCRIPTION" "Datasheet"
-			(at 92.202 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR" "Digikey"
-			(at 96.52 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR PART #" "A119912CT-ND"
-			(at 96.52 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE Connectivity"
-			(at 96.52 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART #" "CPF0603B100KE"
-			(at 96.52 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART DESCRIPTION" "RES SMD 100KΩ 0.1% 1/16W 0603"
-			(at 96.52 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "100K"
-			(at 96.52 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0fc4e4ee-cf67-4f98-8a3c-be957333382b")
-		)
-		(pin "1"
-			(uuid "0362c0b9-e82b-4d57-ac8a-5638d5795dd2")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "R91")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board-altium-import:5V0_MPI_BAR")
-		(at 105.41 163.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af86cee9-35ca-4396-a5c6-89d445c549cd")
-		(property "Reference" "#PWR0120"
-			(at 105.41 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V0_MPI"
-			(at 101.6 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "033d2f80-77ea-4a66-8860-f1ea97261151")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "#PWR0120")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -8145,7 +7763,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0772931-e834-42fc-a7d4-5a7d8145f3c7")
-		(property "Reference" "#PWR136"
+		(property "Reference" "#PWR0124"
 			(at 198.12 68.58 0)
 			(effects
 				(font
@@ -8195,15 +7813,15 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "#PWR136")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:12V_MPI_BAR")
-		(at 138.43 158.75 180)
+		(lib_id "power:+12V")
+		(at 140.97 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8211,7 +7829,7 @@
 		(dnp no)
 		(uuid "b20429f2-ebdb-463b-911a-a93def16fba3")
 		(property "Reference" "#PWR0121"
-			(at 138.43 158.75 0)
+			(at 140.97 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8220,7 +7838,7 @@
 			)
 		)
 		(property "Value" "12V_MPI"
-			(at 138.43 154.94 0)
+			(at 135.89 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8228,30 +7846,33 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 158.75 0)
+			(at 140.97 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 158.75 0)
+			(at 140.97 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 138.43 158.75 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 140.97 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "cdff6897-721a-4d37-8b30-52207674625a")
 		)
 		(instances
@@ -8265,15 +7886,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 238.76 74.93 180)
+		(at 238.76 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b872a51a-88b7-426b-b8bd-36986f2e5828")
-		(property "Reference" "#PWR138"
-			(at 238.76 71.12 0)
+		(property "Reference" "#PWR0126"
+			(at 238.76 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8282,7 +7903,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 238.76 78.486 0)
+			(at 238.76 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8322,7 +7943,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "#PWR138")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -8330,15 +7951,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 198.12 54.61 180)
+		(at 198.12 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d39b0d19-3aee-405a-aad8-eb2304b89c42")
-		(property "Reference" "#PWR135"
-			(at 198.12 50.8 0)
+		(property "Reference" "#PWR0123"
+			(at 198.12 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8347,7 +7968,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 198.12 58.166 0)
+			(at 198.12 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8387,7 +8008,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "#PWR135")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -8395,15 +8016,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 120.65 52.07 180)
+		(at 96.52 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d4b08ac6-5246-4307-8317-36f9a119cfdc")
-		(property "Reference" "#PWR132"
-			(at 120.65 48.26 0)
+		(property "Reference" "#PWR0114"
+			(at 96.52 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8412,7 +8033,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 120.65 55.626 0)
+			(at 96.52 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8420,7 +8041,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 52.07 0)
+			(at 96.52 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8429,7 +8050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 52.07 0)
+			(at 96.52 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8438,7 +8059,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 120.65 52.07 0)
+			(at 96.52 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8452,23 +8073,23 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "#PWR132")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:12V_MPI_BAR")
-		(at 105.41 156.21 270)
+		(lib_id "power:+12V")
+		(at 106.68 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "dbcfc8ff-84c9-4e9b-93e4-0ed39f1fe3e7")
-		(property "Reference" "#PWR0119"
-			(at 105.41 156.21 0)
+		(property "Reference" "#PWR0116"
+			(at 106.68 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8477,7 +8098,7 @@
 			)
 		)
 		(property "Value" "12V_MPI"
-			(at 101.6 156.21 90)
+			(at 104.648 153.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8486,36 +8107,39 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 156.21 0)
+			(at 106.68 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 156.21 0)
+			(at 106.68 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 105.41 156.21 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 106.68 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "b86deb26-9523-45db-9a7f-f1e06c30fa32")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "#PWR0119")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -8530,7 +8154,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e170b7a0-3c22-45bf-b537-81a6321abe5e")
-		(property "Reference" "R130"
+		(property "Reference" "R98"
 			(at 239.522 83.312 0)
 			(effects
 				(font
@@ -8644,7 +8268,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "R130")
+					(reference "R98")
 					(unit 1)
 				)
 			)
@@ -8659,7 +8283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3787654-19a8-41f1-a7ec-ad5e19112f03")
-		(property "Reference" "C48"
+		(property "Reference" "C50"
 			(at 122.936 56.896 0)
 			(effects
 				(font
@@ -8823,7 +8447,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "C48")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -8838,7 +8462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e67f6fcd-3917-43ba-9ab8-4633612354f7")
-		(property "Reference" "J5"
+		(property "Reference" "J15"
 			(at 114.046 153.416 0)
 			(effects
 				(font
@@ -8956,7 +8580,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "J5")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -8971,7 +8595,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6bb0fcd-f2f9-43e2-800f-0da9276ff71e")
-		(property "Reference" "R98"
+		(property "Reference" "R93"
 			(at 163.83 53.34 0)
 			(effects
 				(font
@@ -9106,7 +8730,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "R98")
+					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -9121,7 +8745,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f35d95f0-6785-4288-8c58-ed72239a4ebe")
-		(property "Reference" "R93"
+		(property "Reference" "R88"
 			(at 73.66 86.36 0)
 			(effects
 				(font
@@ -9275,7 +8899,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/23edb98a-3828-4a1a-92be-4cf85c59be5b"
-					(reference "R93")
+					(reference "R88")
 					(unit 1)
 				)
 			)

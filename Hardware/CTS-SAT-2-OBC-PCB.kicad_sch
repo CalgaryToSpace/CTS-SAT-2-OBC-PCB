@@ -27,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 120.65) (xy 213.36 120.65)
+			(xy 203.2 120.65) (xy 222.25 120.65)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +47,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 80.01) (xy 215.9 80.01)
+			(xy 203.2 80.01) (xy 224.79 80.01)
 		)
 		(stroke
 			(width 0)
@@ -57,7 +57,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 113.03) (xy 213.36 113.03)
+			(xy 203.2 113.03) (xy 222.25 113.03)
 		)
 		(stroke
 			(width 0)
@@ -87,6 +87,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 91.44) (xy 265.43 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3898a253-a33f-46c9-900c-697d3fc94ae5")
+	)
+	(wire
+		(pts
 			(xy 203.2 190.5) (xy 265.43 190.5)
 		)
 		(stroke
@@ -107,7 +117,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 118.11) (xy 213.36 118.11)
+			(xy 203.2 118.11) (xy 222.25 118.11)
 		)
 		(stroke
 			(width 0)
@@ -157,7 +167,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 110.49) (xy 213.36 110.49)
+			(xy 203.2 110.49) (xy 222.25 110.49)
 		)
 		(stroke
 			(width 0)
@@ -167,7 +177,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 95.25) (xy 215.9 95.25)
+			(xy 203.2 95.25) (xy 224.79 95.25)
 		)
 		(stroke
 			(width 0)
@@ -217,7 +227,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 87.63) (xy 215.9 87.63)
+			(xy 203.2 87.63) (xy 224.79 87.63)
 		)
 		(stroke
 			(width 0)
@@ -347,7 +357,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 77.47) (xy 215.9 77.47)
+			(xy 203.2 77.47) (xy 224.79 77.47)
 		)
 		(stroke
 			(width 0)
@@ -377,6 +387,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 115.57) (xy 265.43 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e45032d3-528e-4456-a80f-d946e0812865")
+	)
+	(wire
+		(pts
 			(xy 132.08 91.44) (xy 144.78 91.44)
 		)
 		(stroke
@@ -387,7 +407,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 85.09) (xy 215.9 85.09)
+			(xy 203.2 85.09) (xy 224.79 85.09)
 		)
 		(stroke
 			(width 0)
@@ -529,7 +549,7 @@
 		)
 	)
 	(sheet
-		(at 213.36 107.95)
+		(at 222.25 107.95)
 		(size 24.13 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -545,7 +565,7 @@
 		)
 		(uuid "23edb98a-3828-4a1a-92be-4cf85c59be5b")
 		(property "Sheetname" "MPI"
-			(at 213.36 107.2384 0)
+			(at 222.25 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -554,7 +574,7 @@
 			)
 		)
 		(property "Sheetfile" "mpi.kicad_sch"
-			(at 213.36 123.7746 0)
+			(at 222.25 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -564,7 +584,7 @@
 			)
 		)
 		(pin "MISO_MPI_RX_NEN" input
-			(at 213.36 110.49 180)
+			(at 222.25 110.49 180)
 			(uuid "aaaab517-f755-450d-8134-e503afd14b45")
 			(effects
 				(font
@@ -574,7 +594,7 @@
 			)
 		)
 		(pin "MISO_USART1_RX" input
-			(at 213.36 120.65 180)
+			(at 222.25 120.65 180)
 			(uuid "6f073a8b-8ad9-4b4c-9ec8-d4333effda8f")
 			(effects
 				(font
@@ -584,7 +604,7 @@
 			)
 		)
 		(pin "MOSI_MPI_TX_EN" input
-			(at 213.36 113.03 180)
+			(at 222.25 113.03 180)
 			(uuid "01fdbc5e-885c-4c97-8526-a6528b14154b")
 			(effects
 				(font
@@ -594,13 +614,23 @@
 			)
 		)
 		(pin "MOSI_USART1_TX" input
-			(at 213.36 118.11 180)
+			(at 222.25 118.11 180)
 			(uuid "693efce0-24eb-4207-886a-1b344573ea40")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "5V0_MPI" input
+			(at 246.38 115.57 0)
+			(uuid "a717d89a-f254-4bd3-b937-4dcc2f25fde5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -612,7 +642,7 @@
 		)
 	)
 	(sheet
-		(at 215.9 74.93)
+		(at 224.79 74.93)
 		(size 20.32 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -628,7 +658,7 @@
 		)
 		(uuid "368d950c-de6a-4343-a769-3e1bb8923fc4")
 		(property "Sheetname" "Antenna"
-			(at 215.9 74.2184 0)
+			(at 224.79 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -637,7 +667,7 @@
 			)
 		)
 		(property "Sheetfile" "antenna.kicad_sch"
-			(at 215.9 99.6446 0)
+			(at 224.79 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -647,7 +677,7 @@
 			)
 		)
 		(pin "I2C2_SCL" bidirectional
-			(at 215.9 77.47 180)
+			(at 224.79 77.47 180)
 			(uuid "399d2021-eac1-4b01-8727-501ae45f8d7d")
 			(effects
 				(font
@@ -657,7 +687,7 @@
 			)
 		)
 		(pin "I2C2_SDA" bidirectional
-			(at 215.9 80.01 180)
+			(at 224.79 80.01 180)
 			(uuid "c1e9c746-deb5-4bc3-bf4b-758774a33f45")
 			(effects
 				(font
@@ -667,7 +697,7 @@
 			)
 		)
 		(pin "I2C3_SCL" bidirectional
-			(at 215.9 85.09 180)
+			(at 224.79 85.09 180)
 			(uuid "1601fab2-a5c6-4f17-ab09-44be10b62a14")
 			(effects
 				(font
@@ -677,7 +707,7 @@
 			)
 		)
 		(pin "I2C3_SDA" bidirectional
-			(at 215.9 87.63 180)
+			(at 224.79 87.63 180)
 			(uuid "67b7c960-0be1-4687-8d08-097489021871")
 			(effects
 				(font
@@ -687,13 +717,23 @@
 			)
 		)
 		(pin "UHF_CTRL" input
-			(at 215.9 95.25 180)
+			(at 224.79 95.25 180)
 			(uuid "fe9bc8a3-494b-4559-bc68-9b0c255f6f76")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "3V3_ANT_DEPLOY" input
+			(at 245.11 91.44 0)
+			(uuid "9eb09f02-4b58-4b8d-8e7a-ff450da3ce7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -706,7 +746,7 @@
 	)
 	(sheet
 		(at 265.43 50.8)
-		(size 35.56 144.78)
+		(size 27.94 144.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -750,13 +790,13 @@
 			)
 		)
 		(pin "5V0_MPI" input
-			(at 300.99 81.28 0)
+			(at 265.43 115.57 180)
 			(uuid "32b59e08-84a9-4bed-ab87-ac9d13f38514")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "I2C1_SCL" input
@@ -770,13 +810,13 @@
 			)
 		)
 		(pin "3V3_ANT_DEPLOY" input
-			(at 300.99 72.39 0)
+			(at 265.43 91.44 180)
 			(uuid "800393a4-2774-4e18-828e-53f2bd2cf9d5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VBAT_MONITOR" input
@@ -1553,26 +1593,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "SPI_NCS_FRAM_0" input
-			(at 144.78 171.45 180)
-			(uuid "d63a4355-a8e2-4197-83d3-6f27fbbe68cc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI_NCS_FRAM_1" input
-			(at 144.78 175.26 180)
-			(uuid "4e8fd374-0307-45f2-a709-4496fdfea9b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances
