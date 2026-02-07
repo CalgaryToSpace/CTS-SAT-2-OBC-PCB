@@ -931,252 +931,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OBC Development Board-altium-import:3V3_BAR"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "3V3"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name '3V3'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "3V3_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board-altium-import:GND_POWER_GROUND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'GND'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_POWER_GROUND_0_0"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -3.302) (xy 1.778 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.064) (xy 1.016 -4.064)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -4.826) (xy 0.254 -4.826)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "OBC Development Board:root_0_J-0530471010_OBC Development Board.SchLib"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2422,6 +2176,131 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4185,7 +4064,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 186.69 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4193,8 +4072,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "544bba94-32bf-45c5-a1c8-bf3c6e327fb3")
-		(property "Reference" "#PWR?"
-			(at 186.69 104.14 0)
+		(property "Reference" "#PWR144"
+			(at 186.69 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,7 +4082,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 110.49 0)
+			(at 186.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4216,6 +4095,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -4224,23 +4104,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 186.69 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "9c58a882-94f3-47c1-a5ef-f2c4e9f6a495")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/368d950c-de6a-4343-a769-3e1bb8923fc4"
-					(reference "#PWR?")
+					(reference "#PWR144")
 					(unit 1)
 				)
 			)
@@ -4566,7 +4448,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 187.96 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4574,8 +4456,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5db0fc52-0db5-417b-86c0-9edfa90c3522")
-		(property "Reference" "#PWR?"
-			(at 187.96 140.97 0)
+		(property "Reference" "#PWR142"
+			(at 187.96 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4584,7 +4466,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 147.32 0)
+			(at 187.96 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,6 +4479,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -4605,23 +4488,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 187.96 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "12e34519-e242-4c0c-a37c-84e02bd4502c")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/368d950c-de6a-4343-a769-3e1bb8923fc4"
-					(reference "#PWR?")
+					(reference "#PWR142")
 					(unit 1)
 				)
 			)
@@ -4761,7 +4646,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 95.25 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4769,8 +4654,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d5e8819-6046-45a4-ba1e-9bbd1f866b28")
-		(property "Reference" "#PWR?"
-			(at 95.25 137.16 0)
+		(property "Reference" "#PWR147"
+			(at 95.25 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,7 +4664,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 143.51 0)
+			(at 95.25 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4792,6 +4677,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -4800,30 +4686,32 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 95.25 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "d938fbe2-6cf6-4010-930c-77c2b740cc4e")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/368d950c-de6a-4343-a769-3e1bb8923fc4"
-					(reference "#PWR?")
+					(reference "#PWR147")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 85.09 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4831,8 +4719,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e3dc507-d75a-4822-a82c-639ba2054ac9")
-		(property "Reference" "#PWR?"
-			(at 85.09 153.67 0)
+		(property "Reference" "#PWR151"
+			(at 85.09 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4841,7 +4729,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 160.02 0)
+			(at 85.09 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4854,6 +4742,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -4862,30 +4751,32 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 85.09 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "0e0966db-6592-4722-96b5-e018a8780abf")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/368d950c-de6a-4343-a769-3e1bb8923fc4"
-					(reference "#PWR?")
+					(reference "#PWR151")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 110.49 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4893,8 +4784,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c37238f-06a5-4b8a-9eb3-12a16ceb747e")
-		(property "Reference" "#PWR?"
-			(at 110.49 104.14 0)
+		(property "Reference" "#PWR149"
+			(at 110.49 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,7 +4794,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 110.49 0)
+			(at 110.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,6 +4807,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -4924,23 +4816,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 110.49 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "21420589-60fc-49d6-b618-5ccc6885a6f2")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/368d950c-de6a-4343-a769-3e1bb8923fc4"
-					(reference "#PWR?")
+					(reference "#PWR149")
 					(unit 1)
 				)
 			)
@@ -5116,7 +5010,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 154.94 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5124,8 +5018,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c910558-7ca1-4e5f-95c6-cf0fa81f5d4c")
-		(property "Reference" "#PWR?"
-			(at 154.94 144.78 0)
+		(property "Reference" "#PWR145"
+			(at 154.94 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5134,7 +5028,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 151.13 0)
+			(at 154.94 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5147,6 +5041,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -5155,23 +5050,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 154.94 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "c3d1a1a3-dcee-4180-8a4b-31205e89f4f0")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/368d950c-de6a-4343-a769-3e1bb8923fc4"
-					(reference "#PWR?")
+					(reference "#PWR145")
 					(unit 1)
 				)
 			)
@@ -5745,7 +5642,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:3V3_BAR")
+		(lib_id "power:+3V3")
 		(at 186.69 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5753,8 +5650,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6b9dc1e-3459-4e19-816b-f4cb24427223")
-		(property "Reference" "#PWR?"
-			(at 186.69 96.52 0)
+		(property "Reference" "#PWR143"
+			(at 186.69 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,7 +5660,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 186.69 92.71 0)
+			(at 186.69 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5776,6 +5673,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -5784,23 +5682,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 186.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "188d6fa2-af72-4656-b0fd-0bddc9cdf0e7")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/368d950c-de6a-4343-a769-3e1bb8923fc4"
-					(reference "#PWR?")
+					(reference "#PWR143")
 					(unit 1)
 				)
 			)
@@ -5962,7 +5862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b99f90bb-4437-4d9f-b2fa-349645a498e5")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR90"
 			(at 265.43 116.84 0)
 			(effects
 				(font
@@ -6012,14 +5912,14 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/368d950c-de6a-4343-a769-3e1bb8923fc4"
-					(reference "#PWR090")
+					(reference "#PWR90")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 83.82 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6027,8 +5927,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c342a21e-c0cf-4007-8eda-6efbff2e6aa7")
-		(property "Reference" "#PWR?"
-			(at 83.82 125.73 0)
+		(property "Reference" "#PWR148"
+			(at 83.82 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,7 +5937,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 132.08 0)
+			(at 83.82 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6050,6 +5950,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -6058,30 +5959,32 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 83.82 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "b66d743a-fcf6-4973-8460-e13a15bb7ff3")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/368d950c-de6a-4343-a769-3e1bb8923fc4"
-					(reference "#PWR?")
+					(reference "#PWR148")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 154.94 127 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6089,8 +5992,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d67599a4-db7d-4bca-8bd2-4cf0a66951cb")
-		(property "Reference" "#PWR?"
-			(at 154.94 127 0)
+		(property "Reference" "#PWR140"
+			(at 154.94 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6099,7 +6002,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 120.65 0)
+			(at 154.94 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,6 +6015,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -6120,23 +6024,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 154.94 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "2be0cf45-a09a-46d2-b431-14edfd673643")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/368d950c-de6a-4343-a769-3e1bb8923fc4"
-					(reference "#PWR?")
+					(reference "#PWR140")
 					(unit 1)
 				)
 			)
@@ -6312,7 +6218,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 146.05 127 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6320,8 +6226,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2972728-89f8-4e5b-833d-8e0c88e82023")
-		(property "Reference" "#PWR?"
-			(at 146.05 127 0)
+		(property "Reference" "#PWR141"
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6330,7 +6236,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 120.65 0)
+			(at 146.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6343,6 +6249,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -6351,30 +6258,32 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 146.05 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "bfdfdcf7-7986-477c-9dfa-76cc0875cf18")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/368d950c-de6a-4343-a769-3e1bb8923fc4"
-					(reference "#PWR?")
+					(reference "#PWR141")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 125.73 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6382,8 +6291,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3285248-c9f1-4351-9974-963897962d34")
-		(property "Reference" "#PWR?"
-			(at 125.73 104.14 0)
+		(property "Reference" "#PWR150"
+			(at 125.73 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6392,7 +6301,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 110.49 0)
+			(at 125.73 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6405,6 +6314,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -6413,23 +6323,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 125.73 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "ea0d464c-dbe1-4da0-adcc-eb6017f111eb")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/368d950c-de6a-4343-a769-3e1bb8923fc4"
-					(reference "#PWR?")
+					(reference "#PWR150")
 					(unit 1)
 				)
 			)
@@ -6645,7 +6557,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 146.05 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6653,8 +6565,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdbe5a85-76a1-42fb-92d6-9105962708f4")
-		(property "Reference" "#PWR?"
-			(at 146.05 147.32 0)
+		(property "Reference" "#PWR146"
+			(at 146.05 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6663,7 +6575,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 153.67 0)
+			(at 146.05 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6676,6 +6588,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -6684,23 +6597,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 146.05 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "67616d1b-c247-4e9e-8574-8b68a7adcbf9")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/368d950c-de6a-4343-a769-3e1bb8923fc4"
-					(reference "#PWR?")
+					(reference "#PWR146")
 					(unit 1)
 				)
 			)

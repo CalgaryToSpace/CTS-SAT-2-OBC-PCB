@@ -2057,2022 +2057,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OBC Development Board-altium-import:3V3_BAR"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "3V3"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name '3V3'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "3V3_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board-altium-import:5V_BAR"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "5V"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name '5V'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "5V_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board-altium-import:BOOM_CTRL_1_CIRCLE"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "BOOM_CTRL_1"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'BOOM_CTRL_1'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BOOM_CTRL_1_CIRCLE_0_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.905)
-					(radius 0.635)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "BOOM_CTRL_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board-altium-import:BOOM_CTRL_2_CIRCLE"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "BOOM_CTRL_2"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'BOOM_CTRL_2'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BOOM_CTRL_2_CIRCLE_0_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.905)
-					(radius 0.635)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "BOOM_CTRL_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board-altium-import:Debug_LED_CIRCLE"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "Debug_LED"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'Debug_LED'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Debug_LED_CIRCLE_0_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.905)
-					(radius 0.635)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "Debug_LED"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board-altium-import:GND_POWER_GROUND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'GND'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_POWER_GROUND_0_0"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -3.302) (xy 1.778 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.064) (xy 1.016 -4.064)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -4.826) (xy 0.254 -4.826)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board-altium-import:GPS_PPS_CIRCLE"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GPS_PPS"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'GPS_PPS'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GPS_PPS_CIRCLE_0_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.905)
-					(radius 0.635)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "GPS_PPS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board-altium-import:MISO_LPUART1_RX_CIRCLE"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "MISO_LPUART1_RX"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'MISO_LPUART1_RX'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MISO_LPUART1_RX_CIRCLE_0_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.905)
-					(radius 0.635)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "MISO_LPUART1_RX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board-altium-import:MISO_UART5_RX_CIRCLE"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "MISO_UART5_RX"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'MISO_UART5_RX'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MISO_UART5_RX_CIRCLE_0_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.905)
-					(radius 0.635)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "MISO_UART5_RX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board-altium-import:MISO_USART3_RX_CIRCLE"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "MISO_USART3_RX"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'MISO_USART3_RX'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MISO_USART3_RX_CIRCLE_0_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.905)
-					(radius 0.635)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "MISO_USART3_RX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board-altium-import:MOSI_LPUART1_TX_CIRCLE"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "MOSI_LPUART1_TX"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'MOSI_LPUART1_TX'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MOSI_LPUART1_TX_CIRCLE_0_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.905)
-					(radius 0.635)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "MOSI_LPUART1_TX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board-altium-import:MOSI_UART5_TX_CIRCLE"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "MOSI_UART5_TX"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'MOSI_UART5_TX'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MOSI_UART5_TX_CIRCLE_0_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.905)
-					(radius 0.635)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "MOSI_UART5_TX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board-altium-import:MOSI_USART3_TX_CIRCLE"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "MOSI_USART3_TX"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'MOSI_USART3_TX'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MOSI_USART3_TX_CIRCLE_0_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.905)
-					(radius 0.635)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "MOSI_USART3_TX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board-altium-import:NRST_CIRCLE"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "NRST"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'NRST'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NRST_CIRCLE_0_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.905)
-					(radius 0.635)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "NRST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board-altium-import:RBF_1_CIRCLE"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "RBF_1"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'RBF_1'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RBF_1_CIRCLE_0_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.905)
-					(radius 0.635)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "RBF_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board-altium-import:SWCLK_CIRCLE"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "SWCLK"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'SWCLK'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SWCLK_CIRCLE_0_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.905)
-					(radius 0.635)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "SWCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board-altium-import:SWDIO_CIRCLE"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "SWDIO"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'SWDIO'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SWDIO_CIRCLE_0_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.905)
-					(radius 0.635)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "SWDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board-altium-import:SWO_CIRCLE"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "SWO"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'SWO'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SWO_CIRCLE_0_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.905)
-					(radius 0.635)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "SWO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board-altium-import:V_BAT_BAR"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "V_BAT"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'V_BAT'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "V_BAT_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "V_BAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "OBC Development Board:root_0_J-0532610471_OBC Development Board.SchLib"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5101,142 +3085,6 @@
 				)
 				(pin passive line
 					(at 5.08 0 180)
-					(length 1.016)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OBC Development Board:root_0_RT-100K0-F-1/16W-0603_OBC Development Board.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES SMD 100KΩ 0.1% 1/16W 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*0603*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_0_RT-100K0-F-1/16W-0603_OBC Development Board.SchLib_1_0"
-				(polyline
-					(pts
-						(xy 7.62 -0.508) (xy 7.366 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -0.508) (xy 8.128 0.508) (xy 8.636 -0.508) (xy 9.144 0.508) (xy 9.652 -0.508) (xy 10.16 0.508)
-						(xy 10.414 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "100K"
-					(at 10.16 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 0)
-					(length 1.016)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 0 180)
 					(length 1.016)
 					(name ""
 						(effects
@@ -7096,7 +4944,7 @@
 	)
 	(text "EPS Charging"
 		(exclude_from_sim no)
-		(at 151.13 151.13 0)
+		(at 169.418 150.876 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7116,12 +4964,6 @@
 		(uuid "e5678664-9897-450b-9c81-24ee93a0db9e")
 	)
 	(junction
-		(at 148.59 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04889deb-13cc-4503-9a09-2889b14f0862")
-	)
-	(junction
 		(at 182.88 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7132,18 +4974,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0cb8eefe-f96e-4c44-9a8a-9d7710f43a8d")
-	)
-	(junction
-		(at 179.07 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e089a2d-55c4-4567-a751-ad99b99b3f00")
-	)
-	(junction
-		(at 148.59 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "152e661e-dc24-40d0-8144-1a9daefc3c5d")
 	)
 	(junction
 		(at 120.65 63.5)
@@ -7168,12 +4998,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d56748b-4ff6-4511-bc4b-72f6d160704f")
-	)
-	(junction
-		(at 142.24 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f80b8de-8b47-4e2d-aa36-806d9a606144")
 	)
 	(junction
 		(at 66.04 261.62)
@@ -7308,12 +5132,6 @@
 		(uuid "d0f2c883-0080-4493-a51b-e390da5fc298")
 	)
 	(junction
-		(at 148.59 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da22b4b6-4408-42eb-bd58-d4dd18dceae3")
-	)
-	(junction
 		(at 247.65 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7406,16 +5224,6 @@
 			(type default)
 		)
 		(uuid "02be6dae-062d-4378-9cab-5dead3812275")
-	)
-	(wire
-		(pts
-			(xy 191.77 99.06) (xy 186.69 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05d9b6b0-4b84-40bc-ba92-6a47a13f0a87")
 	)
 	(wire
 		(pts
@@ -7539,26 +5347,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 106.68) (xy 186.69 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a8b6c28-f6b1-4b58-9928-7f00336efa09")
-	)
-	(wire
-		(pts
-			(xy 190.5 203.2) (xy 175.26 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1af72e7e-6944-43b8-9257-cc11601e376d")
-	)
-	(wire
-		(pts
 			(xy 72.39 241.3) (xy 77.47 241.3)
 		)
 		(stroke
@@ -7586,6 +5374,16 @@
 			(type default)
 		)
 		(uuid "1b5eb99d-cfca-4139-bc2e-5d6c8405ebb5")
+	)
+	(wire
+		(pts
+			(xy 185.42 152.4) (xy 193.04 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d157b34-1629-4209-a674-9b1d3bcefcf4")
 	)
 	(wire
 		(pts
@@ -7649,16 +5447,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 96.52) (xy 186.69 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "297cd5ed-f4e0-4b46-8548-6bae102ff956")
-	)
-	(wire
-		(pts
 			(xy 110.49 33.02) (xy 107.95 33.02)
 		)
 		(stroke
@@ -7689,16 +5477,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 96.52) (xy 148.59 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2db98540-e2dd-4af9-9140-babd1e56efe1")
-	)
-	(wire
-		(pts
 			(xy 72.39 226.06) (xy 77.47 226.06)
 		)
 		(stroke
@@ -7709,7 +5487,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 46.99) (xy 323.85 46.99)
+			(xy 350.52 46.99) (xy 323.85 46.99)
 		)
 		(stroke
 			(width 0)
@@ -7729,6 +5507,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 49.53) (xy 337.82 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d467a0-40c1-45d6-ba35-f39cefe9f8c0")
+	)
+	(wire
+		(pts
 			(xy 203.2 157.48) (xy 198.12 157.48)
 		)
 		(stroke
@@ -7739,16 +5527,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 114.3) (xy 186.69 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "370b25ec-ef71-40c1-bebe-0f600983f852")
-	)
-	(wire
-		(pts
 			(xy 39.37 152.4) (xy 39.37 165.1)
 		)
 		(stroke
@@ -7756,6 +5534,16 @@
 			(type default)
 		)
 		(uuid "37118f16-434f-4933-a270-a145500edb11")
+	)
+	(wire
+		(pts
+			(xy 332.74 44.45) (xy 337.82 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3723399d-761b-45a5-811c-01458e25db6e")
 	)
 	(wire
 		(pts
@@ -7809,26 +5597,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 109.22) (xy 148.59 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45c0b06e-786d-468d-ba8a-9742074677b8")
-	)
-	(wire
-		(pts
-			(xy 181.61 99.06) (xy 148.59 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48d2504e-c4cb-4587-9360-e4e32fa14f32")
-	)
-	(wire
-		(pts
 			(xy 120.65 83.82) (xy 120.65 86.36)
 		)
 		(stroke
@@ -7836,6 +5604,16 @@
 			(type default)
 		)
 		(uuid "4b19ecf5-1d7f-4e56-9551-d221f9699c2a")
+	)
+	(wire
+		(pts
+			(xy 185.42 148.59) (xy 185.42 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b6a1314-7b95-49fd-8caf-4e409a0adab1")
 	)
 	(wire
 		(pts
@@ -7989,6 +5767,26 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 52.07) (xy 337.82 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b5ebc0-53f4-4a80-8e9d-3538a5259cf9")
+	)
+	(wire
+		(pts
+			(xy 193.04 167.64) (xy 187.96 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f7b820-ff92-434a-9e0a-1c1b31b6bd86")
+	)
+	(wire
+		(pts
 			(xy 294.64 133.35) (xy 283.21 133.35)
 		)
 		(stroke
@@ -8046,16 +5844,6 @@
 			(type default)
 		)
 		(uuid "70ca9e4f-8797-4b6b-8aec-35bdb4766a0a")
-	)
-	(wire
-		(pts
-			(xy 181.61 106.68) (xy 148.59 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71bee36c-823e-4a0a-a374-2e92c5a01417")
 	)
 	(wire
 		(pts
@@ -8119,16 +5907,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 109.22) (xy 148.59 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7af9d8d1-9734-4464-938c-221d7f2daa1c")
-	)
-	(wire
-		(pts
 			(xy 130.81 54.61) (xy 130.81 53.34)
 		)
 		(stroke
@@ -8136,6 +5914,16 @@
 			(type default)
 		)
 		(uuid "7bdcf346-1711-4cad-97f3-866ede6b7822")
+	)
+	(wire
+		(pts
+			(xy 173.99 205.74) (xy 190.5 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c4b8aca-ab3d-4aef-a914-fa0ef558c03d")
 	)
 	(wire
 		(pts
@@ -8166,16 +5954,6 @@
 			(type default)
 		)
 		(uuid "7e79b242-fb3a-466b-957e-a8a93b95c4fd")
-	)
-	(wire
-		(pts
-			(xy 153.67 63.5) (xy 158.75 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fd49c82-52bf-44b0-ac4e-adbb2b946104")
 	)
 	(wire
 		(pts
@@ -8216,16 +5994,6 @@
 			(type default)
 		)
 		(uuid "851a4a54-73b0-43cf-81fc-8c047477b7cc")
-	)
-	(wire
-		(pts
-			(xy 181.61 114.3) (xy 179.07 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "884eaca5-6d8f-4759-b0dc-4d25e9d6d916")
 	)
 	(wire
 		(pts
@@ -8299,16 +6067,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 109.22) (xy 186.69 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "925c61bf-ddf1-466c-8493-d5e65327fe96")
-	)
-	(wire
-		(pts
 			(xy 39.37 149.86) (xy 67.31 149.86)
 		)
 		(stroke
@@ -8316,16 +6074,6 @@
 			(type default)
 		)
 		(uuid "92dbbbb9-c49d-49e4-9af1-6a13ca49beb7")
-	)
-	(wire
-		(pts
-			(xy 142.24 63.5) (xy 142.24 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "933148fd-e46f-474f-9c17-8d8e0b9aa2c3")
 	)
 	(wire
 		(pts
@@ -8339,7 +6087,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 86.36) (xy 314.96 86.36)
+			(xy 350.52 86.36) (xy 314.96 86.36)
 		)
 		(stroke
 			(width 0)
@@ -8356,16 +6104,6 @@
 			(type default)
 		)
 		(uuid "99dc545d-e273-42a8-baa0-69d3cc637bf5")
-	)
-	(wire
-		(pts
-			(xy 331.47 52.07) (xy 336.55 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c95e765-02d9-4f10-bf24-f3d84b18dcaf")
 	)
 	(wire
 		(pts
@@ -8386,16 +6124,6 @@
 			(type default)
 		)
 		(uuid "a0f1ce86-8ab4-48a0-8ee8-5cb1403fdfdd")
-	)
-	(wire
-		(pts
-			(xy 168.91 152.4) (xy 193.04 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a12edab2-7f61-4367-95a2-e4528203e466")
 	)
 	(wire
 		(pts
@@ -8476,6 +6204,16 @@
 			(type default)
 		)
 		(uuid "a43d3faf-963a-4f96-8c24-8aa664672c14")
+	)
+	(wire
+		(pts
+			(xy 331.47 54.61) (xy 337.82 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b45e8c-0dc3-432c-add8-df68fa5c4c2b")
 	)
 	(wire
 		(pts
@@ -8569,16 +6307,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 63.5) (xy 142.24 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1085ada-3a7e-458d-8207-b38eb0fd7cc0")
-	)
-	(wire
-		(pts
 			(xy 92.71 73.66) (xy 120.65 73.66)
 		)
 		(stroke
@@ -8669,16 +6397,6 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 49.53) (xy 336.55 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0c3b482-265e-4cff-80f4-ca98d8a458d3")
-	)
-	(wire
-		(pts
 			(xy 39.37 78.74) (xy 39.37 113.03)
 		)
 		(stroke
@@ -8696,16 +6414,6 @@
 			(type default)
 		)
 		(uuid "c1df3b32-3fbd-42ea-aec0-ff098acdc833")
-	)
-	(wire
-		(pts
-			(xy 193.04 167.64) (xy 190.5 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1e10028-95ee-4998-bbf1-814e83e06b8b")
 	)
 	(wire
 		(pts
@@ -8929,17 +6637,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 205.74) (xy 175.26 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d94331f6-28af-4fa7-9421-61115703a909")
-	)
-	(wire
-		(pts
-			(xy 168.91 111.76) (xy 191.77 111.76)
+			(xy 179.07 111.76) (xy 191.77 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8989,16 +6687,6 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 54.61) (xy 336.55 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de3c36ee-2898-4880-9326-56ce5dfcc994")
-	)
-	(wire
-		(pts
 			(xy 92.71 86.36) (xy 120.65 86.36)
 		)
 		(stroke
@@ -9006,16 +6694,6 @@
 			(type default)
 		)
 		(uuid "e1672a7c-b5af-44fc-995f-c76f73caf4c7")
-	)
-	(wire
-		(pts
-			(xy 181.61 96.52) (xy 148.59 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e326e4f6-b32e-42f3-b133-d92e504228fb")
 	)
 	(wire
 		(pts
@@ -9119,16 +6797,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 44.45) (xy 337.82 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2147997-6e13-4029-b19f-5878454ea370")
-	)
-	(wire
-		(pts
 			(xy 182.88 218.44) (xy 182.88 215.9)
 		)
 		(stroke
@@ -9149,26 +6817,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 114.3) (xy 179.07 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f37b870a-9064-4050-bcc1-08ae639c810d")
-	)
-	(wire
-		(pts
-			(xy 148.59 106.68) (xy 148.59 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f67ff66f-7d89-4a73-a13c-9c9e14ddabd4")
-	)
-	(wire
-		(pts
 			(xy 237.49 54.61) (xy 237.49 49.53)
 		)
 		(stroke
@@ -9179,13 +6827,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 149.86) (xy 168.91 152.4)
+			(xy 173.99 203.2) (xy 190.5 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8dbcb22-ce0d-4d56-b827-238696278cae")
+		(uuid "f9350257-493d-4c2e-a302-779114d78820")
 	)
 	(wire
 		(pts
@@ -9226,26 +6874,6 @@
 			(type default)
 		)
 		(uuid "feb9568e-bd07-423c-9d79-3a33fd6ad51e")
-	)
-	(wire
-		(pts
-			(xy 148.59 99.06) (xy 148.59 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffad832c-b0b3-44aa-a739-6bfc3704af69")
-	)
-	(label "GPS_PPS"
-		(at 168.91 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1558d1cd-9994-495e-a8ab-08480e985f95")
 	)
 	(label "NRST"
 		(at 317.5 91.44 0)
@@ -9297,6 +6925,28 @@
 		)
 		(uuid "959dff48-a547-4164-85cd-dbc1958cc8cd")
 	)
+	(hierarchical_label "GPS_PPS"
+		(shape input)
+		(at 179.07 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c998003-ae8f-4655-b553-0c36873c7fbe")
+	)
+	(hierarchical_label "SWCLK"
+		(shape input)
+		(at 337.82 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "115a9e5c-818d-48ba-8c9c-c19f5e49f0da")
+	)
 	(hierarchical_label "MISO_UART4_RX"
 		(shape output)
 		(at 157.48 60.96 180)
@@ -9319,6 +6969,28 @@
 		)
 		(uuid "33f3d964-80be-4e61-a6e2-4849ce3888d9")
 	)
+	(hierarchical_label "MOSI_USART3_TX"
+		(shape input)
+		(at 179.07 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36cba4a2-c9fb-4672-8d72-9a3fc2d0d425")
+	)
+	(hierarchical_label "NRST"
+		(shape input)
+		(at 335.28 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45b91438-49dd-407b-b684-6bc60929f982")
+	)
 	(hierarchical_label "MOSI_UART4_TX"
 		(shape input)
 		(at 157.48 58.42 180)
@@ -9329,6 +7001,50 @@
 			(justify right)
 		)
 		(uuid "4e8cf9f2-8a20-4569-b7f0-611baa4a00d7")
+	)
+	(hierarchical_label "SWO"
+		(shape input)
+		(at 335.28 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f0f6586-e4e1-4ac3-b671-38134aca87fd")
+	)
+	(hierarchical_label "RBF_1"
+		(shape input)
+		(at 231.14 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "718e4d35-ffb8-4635-820a-0f649386d39b")
+	)
+	(hierarchical_label "MISO_UART5_RX"
+		(shape output)
+		(at 173.99 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7627e136-a7b4-492b-90d5-45f0e5c7cfa2")
+	)
+	(hierarchical_label "NRST"
+		(shape input)
+		(at 337.82 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77ca4442-add7-47f8-b352-8d1bc3721077")
 	)
 	(hierarchical_label "3V3_ANT_DEPLOY"
 		(shape input)
@@ -9385,6 +7101,50 @@
 		)
 		(uuid "81292aae-6105-4df3-a632-ca599500d29e")
 	)
+	(hierarchical_label "SWDIO"
+		(shape input)
+		(at 335.28 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a841901-8f8e-4f93-996e-05bf4a4aacd7")
+	)
+	(hierarchical_label "MISO_USART3_RX"
+		(shape output)
+		(at 179.07 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0d9ca47-26cd-49c5-baa8-926d2414d290")
+	)
+	(hierarchical_label "MOSI_LPUART1_TX"
+		(shape input)
+		(at 190.5 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7928733-c544-449b-8ff7-24775b0b8c03")
+	)
+	(hierarchical_label "SWDIO"
+		(shape input)
+		(at 337.82 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa5487da-30a3-4938-b0ad-d3d563bb67d0")
+	)
 	(hierarchical_label "ADCS_UART2_TX"
 		(shape output)
 		(at 64.77 68.58 180)
@@ -9407,6 +7167,83 @@
 		)
 		(uuid "ae79c922-8cb8-4077-ab69-ad6effcd4413")
 	)
+	(hierarchical_label "BOOM_CTRL_1"
+		(shape input)
+		(at 283.21 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2876c37-6b18-4e03-93eb-2c3fc51c828c")
+	)
+	(hierarchical_label "MISO_LPUART1_RX"
+		(shape output)
+		(at 190.5 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2afde03-9f60-4cb5-a973-0082a09e341b")
+	)
+	(hierarchical_label "DEBUG_LED"
+		(shape input)
+		(at 231.14 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b561ebce-833a-427a-a346-040ad4629855")
+	)
+	(hierarchical_label "MOSI_UART5_TX"
+		(shape input)
+		(at 173.99 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8830e0b-4f88-49ac-8d9b-72dc1a01f9e5")
+	)
+	(hierarchical_label "BOOM_CTRL_2"
+		(shape input)
+		(at 283.21 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bad9ef82-185a-46e9-bc1d-6b62c2924610")
+	)
+	(hierarchical_label "SWO"
+		(shape input)
+		(at 337.82 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c35e3576-4565-4b43-bd06-ef5d4a824d8c")
+	)
+	(hierarchical_label "SWCLK"
+		(shape input)
+		(at 335.28 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e34dee25-7924-425d-a5fa-4fb7c6f23b05")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 130.81 63.5 0)
@@ -9417,7 +7254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "055f9742-5b91-4a29-9574-0413a5414032")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR40"
 			(at 130.81 69.85 0)
 			(effects
 				(font
@@ -9467,23 +7304,23 @@
 		(instances
 			(project ""
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR040")
+					(reference "#PWR40")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:3V3_BAR")
-		(at 190.5 165.1 270)
+		(lib_id "power:+3V3")
+		(at 190.5 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "05f26120-38db-4a11-ae8e-eda514447d08")
-		(property "Reference" "#PWR0100"
-			(at 190.5 165.1 0)
+		(property "Reference" "#PWR100"
+			(at 194.31 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9492,61 +7329,15 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 186.69 165.1 90)
+			(at 185.928 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
 			(at 190.5 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "e5433ca8-edda-4a3d-ad26-d4a05990d2bd")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR0100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board-altium-import:MISO_LPUART1_RX_CIRCLE")
-		(at 190.5 157.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0844bff9-39c0-4b1c-a372-cfdd72603597")
-		(property "Reference" "#PWR098"
-			(at 190.5 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9554,46 +7345,31 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "MISO_LPUART1_RX"
-			(at 186.69 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 190.5 157.48 0)
+			(at 190.5 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 190.5 157.48 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 190.5 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "fdfa3e4e-57bb-4efa-955d-aae486748f94")
+		(pin "1"
+			(uuid "e5433ca8-edda-4a3d-ad26-d4a05990d2bd")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR098")
+					(reference "#PWR100")
 					(unit 1)
 				)
 			)
@@ -9609,7 +7385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09d27a77-8594-4a87-8cf4-8b4b8e560863")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR4"
 			(at 114.3 250.19 0)
 			(effects
 				(font
@@ -9659,7 +7435,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR04")
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
@@ -10004,7 +7780,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 323.85 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10012,8 +7788,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f594690-829f-4b5b-bea8-454b2b5c6ee2")
-		(property "Reference" "#PWR0105"
-			(at 323.85 62.23 0)
+		(property "Reference" "#PWR105"
+			(at 323.85 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10022,7 +7798,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 323.85 68.58 0)
+			(at 323.85 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10031,51 +7807,6 @@
 		)
 		(property "Footprint" ""
 			(at 323.85 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 323.85 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 323.85 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "0fc9ccc9-fd47-4be7-a289-fdd429f21eba")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board-altium-import:SWDIO_CIRCLE")
-		(at 335.28 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f87acae-fb45-41d9-958d-94db7e9b5bc2")
-		(property "Reference" "#PWR0107"
-			(at 335.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10083,62 +7814,47 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SWDIO"
-			(at 339.09 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 335.28 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 335.28 88.9 0)
+			(at 323.85 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 335.28 88.9 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 323.85 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "68561098-83bf-41c4-8f27-5e1c31a84442")
+		(pin "1"
+			(uuid "0fc9ccc9-fd47-4be7-a289-fdd429f21eba")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR0107")
+					(reference "#PWR105")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:3V3_BAR")
-		(at 323.85 41.91 180)
+		(lib_id "power:+3V3")
+		(at 323.85 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "11b04fef-c364-4e76-8e13-950bc019f50f")
-		(property "Reference" "#PWR0104"
-			(at 323.85 41.91 0)
+		(property "Reference" "#PWR104"
+			(at 323.85 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10147,7 +7863,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 323.85 38.1 0)
+			(at 323.85 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10160,6 +7876,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -10168,23 +7885,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 323.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "5fe3d8a1-a918-4dd1-8d59-6aa9d3be13f5")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR0104")
+					(reference "#PWR104")
 					(unit 1)
 				)
 			)
@@ -10360,69 +8079,6 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:BOOM_CTRL_1_CIRCLE")
-		(at 283.21 128.27 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1622c4a5-646a-4c0d-905b-c03bba43757d")
-		(property "Reference" "#PWR0116"
-			(at 283.21 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "BOOM_CTRL_1"
-			(at 279.4 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 283.21 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 283.21 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 283.21 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "8fefc451-e01b-43d8-a733-679bb7a9f0ea")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "OBC Development Board:root_0_mirrored_J-0532610671_OBC Development Board.SchLib")
 		(at 311.15 52.07 0)
 		(unit 1)
@@ -10544,69 +8200,6 @@
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board-altium-import:MOSI_LPUART1_TX_CIRCLE")
-		(at 190.5 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1925d202-6ea8-4667-99fe-f0f5c7de87df")
-		(property "Reference" "#PWR099"
-			(at 190.5 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "MOSI_LPUART1_TX"
-			(at 186.69 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "6feef41c-2a5f-4fde-965a-6e0c8578b39c")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -10776,132 +8369,6 @@
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
 					(reference "R88")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board-altium-import:NRST_CIRCLE")
-		(at 336.55 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b1a5af5-8f6c-4b83-93f6-8248477e55b8")
-		(property "Reference" "#PWR0111"
-			(at 336.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "NRST"
-			(at 340.36 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 336.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 336.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 336.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "b450f811-734c-4971-b936-36e2b2b77828")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board-altium-import:Debug_LED_CIRCLE")
-		(at 231.14 57.15 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "215bc56b-816f-4c38-9e8b-dbb0dd1f00c5")
-		(property "Reference" "#PWR077"
-			(at 231.14 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Debug_LED"
-			(at 227.33 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "9c08687f-9de8-4874-8bb4-5fe1380279cd")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -11199,7 +8666,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 257.81 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11207,8 +8674,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b99301f-21ab-4bdb-9ce9-d18376c02542")
-		(property "Reference" "#PWR079"
-			(at 257.81 146.05 0)
+		(property "Reference" "#PWR79"
+			(at 257.81 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11217,7 +8684,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 152.4 0)
+			(at 257.81 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11230,6 +8697,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -11238,23 +8706,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 257.81 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "ac918364-877d-4b2b-9c97-3bf5377ed6b2")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR079")
+					(reference "#PWR79")
 					(unit 1)
 				)
 			)
@@ -11581,73 +9051,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 149.86 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "307dd82f-caa6-4f3a-805e-9bf53a0e4ef4")
-		(property "Reference" "R68"
-			(at 144.78 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 154.432 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 150.114 62.484 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 149.86 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e3926632-d102-4e83-afcb-88bfaa5ff76f")
-		)
-		(pin "1"
-			(uuid "1aef4e4a-e3d0-40bd-92a4-55fb137fee77")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "R68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 90.17 226.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11714,69 +9117,6 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:NRST_CIRCLE")
-		(at 335.28 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "33c7356e-d075-40f3-9db9-d07ae28e6912")
-		(property "Reference" "#PWR0108"
-			(at 335.28 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "NRST"
-			(at 339.09 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 335.28 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 335.28 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 335.28 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "01152460-c58a-42d1-b487-2312fab79763")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 39.37 199.39 0)
 		(unit 1)
@@ -11786,7 +9126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33fb93e8-1ee7-46c4-b1a3-2df2ccec17c3")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR31"
 			(at 39.37 205.74 0)
 			(effects
 				(font
@@ -11836,7 +9176,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR031")
+					(reference "#PWR31")
 					(unit 1)
 				)
 			)
@@ -11903,219 +9243,6 @@
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board:root_0_RT-100K0-F-1/16W-0603_OBC Development Board.SchLib")
-		(at 175.26 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "372b07af-4dc8-478c-95e2-e5afb74c21f4")
-		(property "Reference" "R75"
-			(at 179.07 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100K"
-			(at 175.26 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "0603"
-			(at 175.26 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 100KΩ 0.1% 1/16W 0603"
-			(at 175.26 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2URL" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1773200%7FM%7Fpdf%7FEnglish%7FENG_DS_1773200_M.pdf%7F3-1676481-2"
-			(at 174.752 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2DESCRIPTION" "Datasheet"
-			(at 174.752 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR" "Digikey"
-			(at 179.07 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR PART #" "A119912CT-ND"
-			(at 179.07 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE Connectivity"
-			(at 179.07 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART #" "CPF0603B100KE"
-			(at 179.07 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART DESCRIPTION" "RES SMD 100KΩ 0.1% 1/16W 0603"
-			(at 179.07 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "100K"
-			(at 179.07 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8650b99c-bdfa-420a-a235-87bdd0708f43")
-		)
-		(pin "2"
-			(uuid "19ea17cf-bda5-4f2e-9308-af52b4a2a863")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "R75")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board-altium-import:BOOM_CTRL_2_CIRCLE")
-		(at 283.21 133.35 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3743b055-01ea-4544-be5c-b56c5c877ae3")
-		(property "Reference" "#PWR0117"
-			(at 283.21 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "BOOM_CTRL_2"
-			(at 279.4 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 283.21 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 283.21 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 283.21 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "e530ba5d-1544-4a3b-acb4-432c69b766e2")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -12330,69 +9457,6 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:SWCLK_CIRCLE")
-		(at 337.82 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a46f652-d06b-4ac7-94df-128dc66b41bb")
-		(property "Reference" "#PWR0113"
-			(at 337.82 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SWCLK"
-			(at 341.63 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 337.82 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 337.82 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "253d9640-6c4b-4fae-93b3-7919de8f454b")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "OBC Development Board:root_0_mirrored_RT-0R00-F-1/10W-0603_OBC Development Board.SchLib")
 		(at 331.47 49.53 0)
 		(unit 1)
@@ -12571,7 +9635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c0d5513-ee35-46aa-af64-3063c3c86154")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR38"
 			(at 120.65 118.11 0)
 			(effects
 				(font
@@ -12621,7 +9685,7 @@
 		(instances
 			(project ""
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR038")
+					(reference "#PWR38")
 					(unit 1)
 				)
 			)
@@ -12949,7 +10013,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 247.65 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12957,8 +10021,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5de3e0da-888d-466c-a4c6-71105a0ab2ae")
-		(property "Reference" "#PWR0103"
-			(at 247.65 74.93 0)
+		(property "Reference" "#PWR103"
+			(at 247.65 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12967,7 +10031,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.65 81.28 0)
+			(at 247.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12980,6 +10044,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -12988,189 +10053,41 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 247.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "571aaf5b-0911-49f1-a328-091a497d8982")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR0103")
+					(reference "#PWR103")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board:root_0_RT-100K0-F-1/16W-0603_OBC Development Board.SchLib")
-		(at 175.26 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5fb53056-76f0-40ef-88e6-4dd0ef3f917b")
-		(property "Reference" "R74"
-			(at 179.07 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100K"
-			(at 175.26 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "0603"
-			(at 175.26 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 100KΩ 0.1% 1/16W 0603"
-			(at 175.26 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2URL" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1773200%7FM%7Fpdf%7FEnglish%7FENG_DS_1773200_M.pdf%7F3-1676481-2"
-			(at 174.752 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2DESCRIPTION" "Datasheet"
-			(at 174.752 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR" "Digikey"
-			(at 179.07 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR PART #" "A119912CT-ND"
-			(at 179.07 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE Connectivity"
-			(at 179.07 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART #" "CPF0603B100KE"
-			(at 179.07 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART DESCRIPTION" "RES SMD 100KΩ 0.1% 1/16W 0603"
-			(at 179.07 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "100K"
-			(at 179.07 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5d0ab9a8-b0ee-4d34-acab-b6916f00f806")
-		)
-		(pin "1"
-			(uuid "ccd090c1-5f1e-4680-b4d8-b90d22955dd4")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "R74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board-altium-import:3V3_BAR")
-		(at 237.49 43.18 180)
+		(lib_id "power:+3V3")
+		(at 237.49 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "65e0ce57-9ca8-481f-839b-817a9946babc")
-		(property "Reference" "#PWR082"
-			(at 237.49 43.18 0)
+		(property "Reference" "#PWR82"
+			(at 237.49 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13179,7 +10096,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 237.49 39.37 0)
+			(at 237.49 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13192,6 +10109,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -13200,39 +10118,41 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 237.49 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "151ea7da-2f49-4ee9-8b32-b73efad8411b")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR082")
+					(reference "#PWR82")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:3V3_BAR")
-		(at 317.5 81.28 180)
+		(lib_id "power:+3V3")
+		(at 317.5 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "66a40441-ac55-42ef-84f2-385ede03bbe0")
-		(property "Reference" "#PWR080"
-			(at 317.5 81.28 0)
+		(property "Reference" "#PWR80"
+			(at 317.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13241,7 +10161,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 317.5 77.47 0)
+			(at 317.5 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13250,51 +10170,6 @@
 		)
 		(property "Footprint" ""
 			(at 317.5 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 317.5 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 317.5 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "3987d84d-5534-464a-b389-6d3b69a0f434")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board-altium-import:MOSI_USART3_TX_CIRCLE")
-		(at 179.07 101.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68fe141a-9eb2-41fa-95a2-594472049290")
-		(property "Reference" "#PWR094"
-			(at 179.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13302,46 +10177,31 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "MOSI_USART3_TX"
-			(at 175.26 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 179.07 101.6 0)
+			(at 317.5 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 179.07 101.6 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 317.5 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "0e73b953-8174-4a34-a2e6-3830e7ebeb4c")
+		(pin "1"
+			(uuid "3987d84d-5534-464a-b389-6d3b69a0f434")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR094")
+					(reference "#PWR80")
 					(unit 1)
 				)
 			)
@@ -13637,70 +10497,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:MISO_USART3_RX_CIRCLE")
-		(at 179.07 104.14 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6fcab16d-f32c-4c1d-9811-65f9287610d0")
-		(property "Reference" "#PWR095"
-			(at 179.07 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "MISO_USART3_RX"
-			(at 175.26 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "3c7993b7-4fdd-4f92-9e46-c3c0f6904667")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 290.83 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13708,8 +10505,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "738f379d-b384-4984-b583-d58f8318ed75")
-		(property "Reference" "#PWR0118"
-			(at 290.83 146.05 0)
+		(property "Reference" "#PWR118"
+			(at 290.83 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13718,7 +10515,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 290.83 152.4 0)
+			(at 290.83 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13731,6 +10528,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -13739,23 +10537,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 290.83 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "a75fcfdf-1e91-468b-b200-20f7962c4bcd")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR0118")
+					(reference "#PWR118")
 					(unit 1)
 				)
 			)
@@ -14181,68 +10981,6 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
-		(at 148.59 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7bbcb7bd-10fc-4bab-a826-15f87fa211e9")
-		(property "Reference" "#PWR084"
-			(at 148.59 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "94c91c08-75e4-420e-9a72-5f207b0d7eb0")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 50.8 261.62 90)
 		(unit 1)
@@ -14310,16 +11048,16 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
-		(at 355.6 86.36 0)
+		(lib_id "power:GND")
+		(at 350.52 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7fee8f97-0b1b-49f6-899d-21ff6bd20369")
-		(property "Reference" "#PWR0115"
-			(at 355.6 86.36 0)
+		(property "Reference" "#PWR115"
+			(at 350.52 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14328,7 +11066,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 355.6 92.71 0)
+			(at 350.52 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14336,52 +11074,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 355.6 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 355.6 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "15f6c8c2-724e-45da-8a52-81dff531c2b7")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board-altium-import:MISO_UART5_RX_CIRCLE")
-		(at 175.26 203.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a3287ee-0ff6-4a3b-89c0-d8f0e92620c9")
-		(property "Reference" "#PWR091"
-			(at 175.26 203.2 0)
+			(at 350.52 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14389,46 +11082,31 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "MISO_UART5_RX"
-			(at 171.45 203.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 175.26 203.2 0)
+			(at 350.52 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 175.26 203.2 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 350.52 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "4e79b2fa-9b50-4cc3-b5e2-9c96d325657d")
+		(pin "1"
+			(uuid "15f6c8c2-724e-45da-8a52-81dff531c2b7")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR091")
+					(reference "#PWR115")
 					(unit 1)
 				)
 			)
@@ -14495,132 +11173,6 @@
 			(project ""
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board-altium-import:RBF_1_CIRCLE")
-		(at 231.14 54.61 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8fe941a6-7f93-44cf-9177-0ff14db904a6")
-		(property "Reference" "#PWR076"
-			(at 231.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "RBF_1"
-			(at 227.33 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "da583354-dbd0-4869-aac6-881900f994ea")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board-altium-import:SWCLK_CIRCLE")
-		(at 335.28 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "90da5a47-5713-48e7-9b82-5fdae9c623c1")
-		(property "Reference" "#PWR0106"
-			(at 335.28 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SWCLK"
-			(at 339.09 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 335.28 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 335.28 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 335.28 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "962333e1-9317-47e1-9d0d-28582a367485")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -14965,219 +11517,6 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:SWO_CIRCLE")
-		(at 336.55 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "952dc812-659c-4fea-8b3e-298a5bd2faeb")
-		(property "Reference" "#PWR0112"
-			(at 336.55 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SWO"
-			(at 340.36 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 336.55 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 336.55 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 336.55 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "6d8277a6-d21b-43fc-8d79-d39f20a1c264")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board:root_0_RT-100K0-F-1/16W-0603_OBC Development Board.SchLib")
-		(at 175.26 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a020b77b-003f-4b34-8bc0-e6144f9d4a43")
-		(property "Reference" "R72"
-			(at 179.07 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100K"
-			(at 175.26 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "0603"
-			(at 175.26 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 100KΩ 0.1% 1/16W 0603"
-			(at 175.26 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2URL" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1773200%7FM%7Fpdf%7FEnglish%7FENG_DS_1773200_M.pdf%7F3-1676481-2"
-			(at 174.752 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2DESCRIPTION" "Datasheet"
-			(at 174.752 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR" "Digikey"
-			(at 179.07 99.822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR PART #" "A119912CT-ND"
-			(at 179.07 99.822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE Connectivity"
-			(at 179.07 99.822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART #" "CPF0603B100KE"
-			(at 179.07 99.822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART DESCRIPTION" "RES SMD 100KΩ 0.1% 1/16W 0603"
-			(at 179.07 99.822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "100K"
-			(at 179.07 99.822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b46528ad-bbea-4b61-ad08-246498870297")
-		)
-		(pin "2"
-			(uuid "3bdf1fc1-5e4d-4e4c-af10-992c92435100")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "R72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 72.39 241.3 90)
 		(unit 1)
@@ -15243,7 +11582,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 179.07 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15251,8 +11590,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a33e9fdc-eed1-480f-b50a-0c3fb5cdf1f4")
-		(property "Reference" "#PWR096"
-			(at 179.07 121.92 0)
+		(property "Reference" "#PWR96"
+			(at 179.07 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15261,7 +11600,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 128.27 0)
+			(at 179.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15270,51 +11609,6 @@
 		)
 		(property "Footprint" ""
 			(at 179.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "e8d01658-fe92-4f06-aee3-484bc90ff18c")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board-altium-import:MOSI_UART5_TX_CIRCLE")
-		(at 175.26 205.74 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3d40081-e5ef-4112-a998-0db6be0d86df")
-		(property "Reference" "#PWR093"
-			(at 175.26 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15322,62 +11616,47 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "MOSI_UART5_TX"
-			(at 171.45 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 175.26 205.74 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 175.26 205.74 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "9685da66-5f0b-431b-b717-aa951b7d6cb2")
+		(pin "1"
+			(uuid "e8d01658-fe92-4f06-aee3-484bc90ff18c")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR093")
+					(reference "#PWR96")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
-		(at 355.6 46.99 0)
+		(lib_id "power:GND")
+		(at 350.52 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a3f34058-a022-48c0-a854-0ac9d77872fa")
-		(property "Reference" "#PWR0114"
-			(at 355.6 46.99 0)
+		(property "Reference" "#PWR114"
+			(at 350.52 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15386,7 +11665,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 355.6 53.34 0)
+			(at 350.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15394,52 +11673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 355.6 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 355.6 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "dca5bd4f-e55f-410b-8b13-c931a665faaa")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board-altium-import:GPS_PPS_CIRCLE")
-		(at 168.91 111.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a737b765-d417-4550-b6ec-0ac602594905")
-		(property "Reference" "#PWR086"
-			(at 168.91 111.76 0)
+			(at 350.52 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15447,46 +11681,31 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GPS_PPS"
-			(at 165.1 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 168.91 111.76 0)
+			(at 350.52 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 168.91 111.76 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 350.52 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "15f8fff6-2f94-4053-bfc3-8eec42a91414")
+		(pin "1"
+			(uuid "dca5bd4f-e55f-410b-8b13-c931a665faaa")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR086")
+					(reference "#PWR114")
 					(unit 1)
 				)
 			)
@@ -15624,219 +11843,6 @@
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board:root_0_RT-100K0-F-1/16W-0603_OBC Development Board.SchLib")
-		(at 175.26 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae64a820-9577-4d0b-8226-c8b1cb6ca4cb")
-		(property "Reference" "R74"
-			(at 179.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100K"
-			(at 175.26 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "0603"
-			(at 175.26 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 100KΩ 0.1% 1/16W 0603"
-			(at 175.26 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2URL" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1773200%7FM%7Fpdf%7FEnglish%7FENG_DS_1773200_M.pdf%7F3-1676481-2"
-			(at 174.752 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2DESCRIPTION" "Datasheet"
-			(at 174.752 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR" "Digikey"
-			(at 179.07 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR PART #" "A119912CT-ND"
-			(at 179.07 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE Connectivity"
-			(at 179.07 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART #" "CPF0603B100KE"
-			(at 179.07 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART DESCRIPTION" "RES SMD 100KΩ 0.1% 1/16W 0603"
-			(at 179.07 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "100K"
-			(at 179.07 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "72767999-3b4b-4998-8f0b-bdc52e1539a8")
-		)
-		(pin "1"
-			(uuid "89cde9a2-07b5-4610-baff-73c585735365")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "R74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board-altium-import:SWO_CIRCLE")
-		(at 335.28 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b183845f-68e4-401a-bd15-958e4ffb37c3")
-		(property "Reference" "#PWR0109"
-			(at 335.28 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SWO"
-			(at 339.09 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 335.28 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 335.28 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 335.28 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "60e8035a-7db9-4f42-a70e-e80afe30118a")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -16211,7 +12217,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 148.59 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16219,8 +12225,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b772adc8-9bfb-4f6b-8b36-33488352cec0")
-		(property "Reference" "#PWR085"
-			(at 148.59 177.8 0)
+		(property "Reference" "#PWR85"
+			(at 148.59 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16229,7 +12235,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 184.15 0)
+			(at 148.59 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16238,51 +12244,6 @@
 		)
 		(property "Footprint" ""
 			(at 148.59 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "9a92e485-9f54-42d8-b2b0-0869c67eb8d0")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board-altium-import:SWDIO_CIRCLE")
-		(at 336.55 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b787abeb-b393-478c-86f5-c4ac9b349ee3")
-		(property "Reference" "#PWR0110"
-			(at 336.55 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16290,53 +12251,38 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SWDIO"
-			(at 340.36 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 336.55 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 336.55 49.53 0)
+			(at 148.59 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 336.55 49.53 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "0b157f33-9b96-4c7c-974c-89a8fdba9f99")
+		(pin "1"
+			(uuid "9a92e485-9f54-42d8-b2b0-0869c67eb8d0")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR0110")
+					(reference "#PWR85")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 200.66 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16344,8 +12290,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7952f2f-31a6-437e-a73c-96da7a7982a3")
-		(property "Reference" "#PWR0102"
-			(at 200.66 177.8 0)
+		(property "Reference" "#PWR102"
+			(at 200.66 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16354,7 +12300,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 184.15 0)
+			(at 200.66 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16367,6 +12313,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -16375,23 +12322,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 200.66 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "e84dcad4-1850-4226-88bc-10f422d55b56")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR0102")
+					(reference "#PWR102")
 					(unit 1)
 				)
 			)
@@ -16567,156 +12516,6 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board:root_0_RT-100K0-F-1/16W-0603_OBC Development Board.SchLib")
-		(at 175.26 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "be8bba42-ae38-4c9b-80c4-b8d00101c5a8")
-		(property "Reference" "R73"
-			(at 179.07 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100K"
-			(at 175.26 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "0603"
-			(at 175.26 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 100KΩ 0.1% 1/16W 0603"
-			(at 175.26 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2URL" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1773200%7FM%7Fpdf%7FEnglish%7FENG_DS_1773200_M.pdf%7F3-1676481-2"
-			(at 174.752 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2DESCRIPTION" "Datasheet"
-			(at 174.752 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR" "Digikey"
-			(at 179.07 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR PART #" "A119912CT-ND"
-			(at 179.07 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE Connectivity"
-			(at 179.07 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART #" "CPF0603B100KE"
-			(at 179.07 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART DESCRIPTION" "RES SMD 100KΩ 0.1% 1/16W 0603"
-			(at 179.07 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "100K"
-			(at 179.07 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b7a6972-c9ea-4e81-9749-c80f694eec37")
-		)
-		(pin "2"
-			(uuid "caa752fe-036e-47c9-9269-60eeb300013d")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "R73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "OBC Development Board:root_1_RT-4K7-F-1/16W-0603_OBC Development Board.SchLib")
 		(at 237.49 49.53 0)
 		(unit 1)
@@ -16886,7 +12685,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 173.99 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16894,8 +12693,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c356164d-2821-4f18-8263-0366d9fbc086")
-		(property "Reference" "#PWR088"
-			(at 173.99 177.8 0)
+		(property "Reference" "#PWR88"
+			(at 173.99 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16904,7 +12703,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 184.15 0)
+			(at 173.99 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16917,6 +12716,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -16925,23 +12725,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 173.99 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "2e9a36d2-9968-4b67-8324-3d2b3156b80f")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR088")
+					(reference "#PWR88")
 					(unit 1)
 				)
 			)
@@ -17126,7 +12928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c63710f6-3344-4403-b703-fb0f4ec3c380")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR44"
 			(at 107.95 50.8 0)
 			(effects
 				(font
@@ -17176,7 +12978,7 @@
 		(instances
 			(project ""
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR044")
+					(reference "#PWR44")
 					(unit 1)
 				)
 			)
@@ -17619,7 +13421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc590277-a933-4284-a17b-f5b8ae755745")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR30"
 			(at 39.37 119.38 0)
 			(effects
 				(font
@@ -17669,7 +13471,7 @@
 		(instances
 			(project ""
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR030")
+					(reference "#PWR30")
 					(unit 1)
 				)
 			)
@@ -18012,7 +13814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db9997a0-1913-4bfa-84e7-41e2a9293ab9")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR78"
 			(at 142.24 81.28 0)
 			(effects
 				(font
@@ -18062,7 +13864,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR078")
+					(reference "#PWR78")
 					(unit 1)
 				)
 			)
@@ -18136,16 +13938,16 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:5V_BAR")
-		(at 190.5 167.64 270)
+		(lib_id "power:+5V")
+		(at 187.96 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "de77cb4a-32b6-4dd2-9010-e421d7e2059a")
-		(property "Reference" "#PWR0101"
-			(at 190.5 167.64 0)
+		(property "Reference" "#PWR101"
+			(at 191.77 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18153,46 +13955,48 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
-			(at 186.69 167.64 90)
+		(property "Value" "+5V"
+			(at 182.88 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 167.64 0)
+			(at 187.96 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 167.64 0)
+			(at 187.96 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 190.5 167.64 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 187.96 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "7e0fdf69-aca2-4317-b3c8-40f8f39d03a7")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR0101")
+					(reference "#PWR101")
 					(unit 1)
 				)
 			)
@@ -18332,7 +14136,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 182.88 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18340,8 +14144,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec1f83c7-1f65-4648-a601-fbd02cc34553")
-		(property "Reference" "#PWR097"
-			(at 182.88 220.98 0)
+		(property "Reference" "#PWR97"
+			(at 182.88 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18350,7 +14154,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 227.33 0)
+			(at 182.88 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18363,6 +14167,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -18371,23 +14176,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 182.88 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "c1e0dea3-3432-41a4-a214-b35f509a76a8")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR097")
+					(reference "#PWR97")
 					(unit 1)
 				)
 			)
@@ -18461,16 +14268,16 @@
 		)
 	)
 	(symbol
-		(lib_id "OBC Development Board-altium-import:V_BAT_BAR")
-		(at 168.91 149.86 180)
+		(lib_id "power:+BATT")
+		(at 185.42 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "edd322d6-b4b2-4395-be63-2325a19b5243")
-		(property "Reference" "#PWR087"
-			(at 168.91 149.86 0)
+		(property "Reference" "#PWR87"
+			(at 185.42 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18479,7 +14286,7 @@
 			)
 		)
 		(property "Value" "V_BAT"
-			(at 168.91 146.05 0)
+			(at 185.42 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18487,36 +14294,39 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 149.86 0)
+			(at 185.42 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 149.86 0)
+			(at 185.42 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 168.91 149.86 0)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 185.42 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "0de9c2ea-9194-49f5-b67e-61833ad152c6")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR087")
+					(reference "#PWR87")
 					(unit 1)
 				)
 			)
@@ -18600,7 +14410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3fa7ae4-14e6-4529-afe8-b156b28a7979")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR48"
 			(at 87.63 267.97 0)
 			(effects
 				(font
@@ -18650,7 +14460,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR048")
+					(reference "#PWR48")
 					(unit 1)
 				)
 			)
@@ -18667,7 +14477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9d291f4-870e-43f2-8d7a-c2a4a9fb5582")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR39"
 			(at 120.65 205.74 0)
 			(effects
 				(font
@@ -18717,7 +14527,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR039")
+					(reference "#PWR39")
 					(unit 1)
 				)
 			)
@@ -18733,7 +14543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb635007-0e92-4b5a-aa25-cf7c7b1845ca")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR42"
 			(at 46.99 250.19 0)
 			(effects
 				(font
@@ -18783,7 +14593,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
-					(reference "#PWR042")
+					(reference "#PWR42")
 					(unit 1)
 				)
 			)

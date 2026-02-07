@@ -5170,6 +5170,12 @@
 		(uuid "9d933c2f-9c41-4550-a02a-48ce29e498a8")
 	)
 	(junction
+		(at 265.43 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2399bcc-b695-45ab-812e-601395aac02b")
+	)
+	(junction
 		(at 232.41 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6773,6 +6779,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 181.61) (xy 265.43 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804f9ecc-fac7-4f2d-9910-c5994ff2023b")
+	)
+	(wire
+		(pts
 			(xy 245.11 40.64) (xy 245.11 39.37)
 		)
 		(stroke
@@ -7863,7 +7879,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 184.15) (xy 271.78 184.15)
+			(xy 257.81 184.15) (xy 265.43 184.15)
 		)
 		(stroke
 			(width 0)
@@ -8053,6 +8069,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 181.61) (xy 265.43 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f558409a-4533-4362-a56d-27bb560730af")
+	)
+	(wire
+		(pts
 			(xy 146.05 222.25) (xy 146.05 223.52)
 		)
 		(stroke
@@ -8110,6 +8136,16 @@
 			(type default)
 		)
 		(uuid "fa00e435-8b15-4be8-93b7-407db76b8924")
+	)
+	(wire
+		(pts
+			(xy 265.43 184.15) (xy 271.78 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf206b5-146a-496f-b311-ea615b0800e3")
 	)
 	(label "Temperature Sensor"
 		(at 105.41 229.87 0)
@@ -8346,6 +8382,17 @@
 			(justify right)
 		)
 		(uuid "40a202d2-9a58-40ca-9557-34dc7c129ad8")
+	)
+	(hierarchical_label "DEBUG_LED"
+		(shape output)
+		(at 262.89 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41cb6b54-9fe2-47e9-81d6-f6d4ac130140")
 	)
 	(hierarchical_label "BOOM_CTRL_1"
 		(shape output)
@@ -9001,7 +9048,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f583e27-601d-4ef2-938c-87841fa3e701")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR51"
 			(at 320.04 58.42 0)
 			(effects
 				(font
@@ -9011,7 +9058,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 320.167 56.4642 0)
+			(at 320.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9036,12 +9083,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 320.04 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9050,7 +9098,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR051")
+					(reference "#PWR51")
 					(unit 1)
 				)
 			)
@@ -9134,7 +9182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b1b94f4-a9f9-4234-bc3b-9bebb3b5d261")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR24"
 			(at 256.54 81.28 0)
 			(effects
 				(font
@@ -9185,7 +9233,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR024")
+					(reference "#PWR24")
 					(unit 1)
 				)
 			)
@@ -10504,7 +10552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56b25bd2-406a-450a-beee-358f382813af")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR73"
 			(at 143.51 208.28 0)
 			(effects
 				(font
@@ -10554,7 +10602,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR073")
+					(reference "#PWR73")
 					(unit 1)
 				)
 			)
@@ -10841,7 +10889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6891ac4f-1513-4444-b32c-a3397042e30d")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR17"
 			(at 139.7 250.19 0)
 			(effects
 				(font
@@ -10891,7 +10939,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR017")
+					(reference "#PWR17")
 					(unit 1)
 				)
 			)
@@ -11313,7 +11361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bbe7a37-133f-45b1-ae60-9dbcbc487a57")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR55"
 			(at 273.05 85.09 0)
 			(effects
 				(font
@@ -11363,7 +11411,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR055")
+					(reference "#PWR55")
 					(unit 1)
 				)
 			)
@@ -11380,7 +11428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e07ad6f-56ce-4dfe-952b-7ddecedde68d")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR52"
 			(at 326.39 106.68 0)
 			(effects
 				(font
@@ -11430,7 +11478,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR052")
+					(reference "#PWR52")
 					(unit 1)
 				)
 			)
@@ -11513,7 +11561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81976435-68bb-4c44-8050-50d981f524d8")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR54"
 			(at 299.72 106.68 0)
 			(effects
 				(font
@@ -11563,7 +11611,7 @@
 		(instances
 			(project ""
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR054")
+					(reference "#PWR54")
 					(unit 1)
 				)
 			)
@@ -12272,7 +12320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0b8b538-3646-490d-8328-446d102d4ec5")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR74"
 			(at 106.68 208.28 0)
 			(effects
 				(font
@@ -12322,7 +12370,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR074")
+					(reference "#PWR74")
 					(unit 1)
 				)
 			)
@@ -12679,7 +12727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a909993e-4f18-420b-8b15-d00e5a252ece")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR50"
 			(at 245.11 69.85 0)
 			(effects
 				(font
@@ -12689,7 +12737,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 245.237 67.8942 0)
+			(at 245.11 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12714,12 +12762,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 245.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12728,7 +12777,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR050")
+					(reference "#PWR50")
 					(unit 1)
 				)
 			)
@@ -13150,7 +13199,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd1f4323-1106-4140-93f0-ea00a011a82c")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR75"
 			(at 157.48 189.23 0)
 			(effects
 				(font
@@ -13160,7 +13209,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.607 187.2742 0)
+			(at 157.48 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13185,12 +13234,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 157.48 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13199,7 +13249,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR075")
+					(reference "#PWR75")
 					(unit 1)
 				)
 			)
@@ -14667,7 +14717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc0ef485-05e1-4acd-96a1-97f3f8c9a8d5")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR21"
 			(at 214.63 259.08 0)
 			(effects
 				(font
@@ -14717,7 +14767,7 @@
 		(instances
 			(project ""
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR021")
+					(reference "#PWR21")
 					(unit 1)
 				)
 			)
@@ -15217,7 +15267,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea118f91-2ab0-4669-a5e2-702cf58933f5")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR22"
 			(at 204.47 57.15 0)
 			(effects
 				(font
@@ -15227,7 +15277,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.597 55.1942 0)
+			(at 204.47 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15252,12 +15302,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 204.47 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15266,7 +15317,7 @@
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR022")
+					(reference "#PWR22")
 					(unit 1)
 				)
 			)
@@ -15553,7 +15604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa19ad0d-bfb4-4955-9a5b-89a080b3ac84")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR29"
 			(at 299.72 205.74 0)
 			(effects
 				(font
@@ -15603,7 +15654,7 @@
 		(instances
 			(project ""
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
-					(reference "#PWR029")
+					(reference "#PWR29")
 					(unit 1)
 				)
 			)
