@@ -5361,6 +5361,10 @@
 		(uuid "ff018f36-9f16-4261-80ac-fd61d189ecef")
 	)
 	(no_connect
+		(at 356.87 49.53)
+		(uuid "c9f88ddd-878c-4fa0-891d-3d324b750394")
+	)
+	(no_connect
 		(at 49.53 71.12)
 		(uuid "e3d8d45d-81f6-493e-8b7c-d6126cfe51c9")
 	)
@@ -7525,17 +7529,6 @@
 			(justify right)
 		)
 		(uuid "4e8cf9f2-8a20-4569-b7f0-611baa4a00d7")
-	)
-	(hierarchical_label "RP2040_~{BOOTSEL}"
-		(shape output)
-		(at 356.87 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "68330798-4dc4-421b-bb10-4f95fe367569")
 	)
 	(hierarchical_label "STM32_SWO"
 		(shape input)
@@ -13135,10 +13128,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "11e8c950-8dd8-4195-b36d-689fd5b260b3")
+			(uuid "11e8c950-8dd8-4195-b36d-689fd5b260b4")
 		)
 		(pin "2"
-			(uuid "041c82ba-39ac-4205-8c0f-4fafb71434b9")
+			(uuid "041c82ba-39ac-4205-8c0f-4fafb71434ba")
 		)
 		(instances
 			(project ""
@@ -16465,10 +16458,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "11e8c950-8dd8-4195-b36d-689fd5b260b3")
+			(uuid "11e8c950-8dd8-4195-b36d-689fd5b260b5")
 		)
 		(pin "2"
-			(uuid "041c82ba-39ac-4205-8c0f-4fafb71434b9")
+			(uuid "041c82ba-39ac-4205-8c0f-4fafb71434bb")
 		)
 		(instances
 			(project ""
