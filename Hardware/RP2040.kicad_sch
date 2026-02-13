@@ -331,6 +331,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_02x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x01"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2584,107 +2726,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "Debug USB"
 		(exclude_from_sim no)
@@ -2864,12 +2905,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f09ab95-32f6-49c8-84c9-64d2e86100d0")
-	)
-	(junction
-		(at 186.69 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4624dca3-f3b8-41ba-9d0e-0a45e67394f5")
 	)
 	(junction
 		(at 256.54 113.03)
@@ -3409,16 +3444,6 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 146.05) (xy 307.34 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a09a269-f69b-4836-b0e7-2e32bc9b5725")
-	)
-	(wire
-		(pts
 			(xy 161.29 113.03) (xy 161.29 114.3)
 		)
 		(stroke
@@ -3839,7 +3864,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 62.23) (xy 186.69 64.77)
+			(xy 186.69 62.23) (xy 186.69 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3866,16 +3891,6 @@
 			(type default)
 		)
 		(uuid "7af39fac-e968-43f1-a761-8ba378e8ddd6")
-	)
-	(wire
-		(pts
-			(xy 186.69 64.77) (xy 186.69 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bfc31c3-b3ac-402d-94a1-f44e1ada8824")
 	)
 	(wire
 		(pts
@@ -4236,16 +4251,6 @@
 			(type default)
 		)
 		(uuid "b8a6bd19-57e0-4c38-a375-1830b8b38cac")
-	)
-	(wire
-		(pts
-			(xy 302.26 142.24) (xy 302.26 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb5369b4-0851-4392-bac0-b2011b731732")
 	)
 	(wire
 		(pts
@@ -6299,15 +6304,17 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 302.26 142.24 0)
+		(at 294.64 146.05 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "30bf88a4-bf86-4e18-a9ed-9c96db88fedd")
+		(fields_autoplaced yes)
+		(uuid "308c2264-1b9f-4ce8-9488-bfcdba728659")
 		(property "Reference" "#PWR016"
-			(at 302.26 146.05 0)
+			(at 298.45 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6316,15 +6323,16 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 302.641 137.8458 0)
+			(at 290.83 146.0501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 302.26 142.24 0)
+			(at 294.64 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6333,7 +6341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 142.24 0)
+			(at 294.64 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,16 +6349,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 302.26 142.24 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 294.64 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "9d23e706-f268-449a-a96e-0f830c125da4")
+			(uuid "06f11a28-2a31-4a08-96d3-6a07e7d8ebdd")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
@@ -6647,73 +6656,6 @@
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/bec95c26-e44f-4f6a-97be-aee51e3bba5a"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 186.69 64.77 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e033c13-bad6-4c33-85e4-ee337b048a94")
-		(property "Reference" "#FLG01"
-			(at 188.595 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 190.5 64.7699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 186.69 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abe63647-9008-4d8b-87c3-9c9cb0119ffd")
-		)
-		(instances
-			(project ""
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/bec95c26-e44f-4f6a-97be-aee51e3bba5a"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -7717,6 +7659,73 @@
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/bec95c26-e44f-4f6a-97be-aee51e3bba5a"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 299.72 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd8388ff-e0b6-4b4d-9990-9b4f809d2061")
+		(property "Reference" "J24"
+			(at 300.99 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2-Pin Header"
+			(at 300.99 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 299.72 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98bb553c-e9cb-4b70-98f8-4293b3812bb8")
+		)
+		(pin "2"
+			(uuid "c6c6dd26-c64e-4bae-82ff-745386225027")
+		)
+		(instances
+			(project "CTS-SAT-2-OBC-PCB"
+				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/bec95c26-e44f-4f6a-97be-aee51e3bba5a"
+					(reference "J24")
 					(unit 1)
 				)
 			)

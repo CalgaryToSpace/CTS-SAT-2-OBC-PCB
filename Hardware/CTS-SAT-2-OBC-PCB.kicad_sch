@@ -67,6 +67,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 140.97) (xy 265.43 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17afe997-2142-4259-9ecd-8e91a33305bb")
+	)
+	(wire
+		(pts
 			(xy 115.57 55.88) (xy 265.43 55.88)
 		)
 		(stroke
@@ -174,6 +184,16 @@
 			(type default)
 		)
 		(uuid "58ed4a3c-7f70-4b38-83ea-12495370544d")
+	)
+	(wire
+		(pts
+			(xy 203.2 135.89) (xy 265.43 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2ca937-bf24-49b9-a50f-d1559a9fb994")
 	)
 	(wire
 		(pts
@@ -297,6 +317,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 133.35) (xy 265.43 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad640b2d-09ff-45b3-8654-54b837e4d0f8")
+	)
+	(wire
+		(pts
 			(xy 203.2 187.96) (xy 265.43 187.96)
 		)
 		(stroke
@@ -327,6 +357,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 143.51) (xy 265.43 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24ff669-94f8-4332-b1aa-fe65ba832b81")
+	)
+	(wire
+		(pts
 			(xy 203.2 180.34) (xy 265.43 180.34)
 		)
 		(stroke
@@ -354,26 +394,6 @@
 			(type default)
 		)
 		(uuid "c7ee84ed-0417-48f0-bfd0-719d1751f56f")
-	)
-	(wire
-		(pts
-			(xy 203.2 143.51) (xy 265.43 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c820f62e-92be-486e-a14a-acde18a504de")
-	)
-	(wire
-		(pts
-			(xy 203.2 140.97) (xy 265.43 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cab3a3f6-413e-4877-b057-e4f7a439449d")
 	)
 	(wire
 		(pts
@@ -879,26 +899,6 @@
 				(justify left)
 			)
 		)
-		(pin "ADCS_UART2_RX" input
-			(at 265.43 125.73 180)
-			(uuid "008c7f83-cea8-41c5-8b47-dd895c315dd0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ADCS_UART2_TX" output
-			(at 265.43 128.27 180)
-			(uuid "023e3d0b-dabe-47c0-8819-e8071deaff75")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "CAM_EN" input
 			(at 265.43 168.91 180)
 			(uuid "e6fe0586-d169-47ad-8277-acedcb345cfa")
@@ -910,7 +910,7 @@
 			)
 		)
 		(pin "MISO_UART4_RX" output
-			(at 265.43 140.97 180)
+			(at 265.43 143.51 180)
 			(uuid "8f9290b4-e4c1-48ec-ac70-aa37a8ea9baa")
 			(effects
 				(font
@@ -920,7 +920,7 @@
 			)
 		)
 		(pin "MOSI_UART4_TX" input
-			(at 265.43 143.51 180)
+			(at 265.43 140.97 180)
 			(uuid "e782a79f-95ca-427a-af8d-041da4a7b361")
 			(effects
 				(font
@@ -1122,6 +1122,26 @@
 		(pin "RP2040_~{BOOTSEL}" output
 			(at 265.43 60.96 180)
 			(uuid "6e5d6b52-25fc-473e-ab60-a6f0d9ed2c09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI_USART2_TX" input
+			(at 265.43 125.73 180)
+			(uuid "67305804-c8fb-4f49-8e6b-b4fb3fbf225a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO_USART2_RX" output
+			(at 265.43 128.27 180)
+			(uuid "76221c52-3c86-4f07-b0ed-3718cd354f37")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1445,26 +1465,6 @@
 				(justify left)
 			)
 		)
-		(pin "I2C1_SDA" bidirectional
-			(at 203.2 85.09 0)
-			(uuid "faaaf70c-79e9-4690-aa7f-254b53893627")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2C1_SCL" bidirectional
-			(at 203.2 87.63 0)
-			(uuid "d5ac4e19-e64e-489d-8682-ab6aeb059e48")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MISO_UART4_RX" input
 			(at 203.2 143.51 0)
 			(uuid "8b01d1a4-a983-4959-9b1d-714a09647a3b")
@@ -1718,6 +1718,26 @@
 		(pin "STM32_NRST" input
 			(at 203.2 69.85 0)
 			(uuid "04beb175-33e5-4fd1-ac1d-eb275105313f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2_SCL" bidirectional
+			(at 203.2 87.63 0)
+			(uuid "c8a7d82a-9366-485f-99a5-7d98aba369bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2_SDA" bidirectional
+			(at 203.2 85.09 0)
+			(uuid "00dc53a0-e825-4e73-b067-ed691340890c")
 			(effects
 				(font
 					(size 1.27 1.27)
