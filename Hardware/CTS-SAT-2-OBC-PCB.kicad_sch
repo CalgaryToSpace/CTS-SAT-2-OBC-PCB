@@ -117,7 +117,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 190.5) (xy 265.43 190.5)
+			(xy 203.2 187.96) (xy 265.43 187.96)
 		)
 		(stroke
 			(width 0)
@@ -207,6 +207,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 190.5) (xy 265.43 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa88cc8-647a-4002-96d7-27cd66aa0392")
+	)
+	(wire
+		(pts
 			(xy 115.57 60.96) (xy 265.43 60.96)
 		)
 		(stroke
@@ -234,6 +244,16 @@
 			(type default)
 		)
 		(uuid "7f0c5306-eb23-46c7-9818-761945138600")
+	)
+	(wire
+		(pts
+			(xy 203.2 193.04) (xy 265.43 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f9e301b-b794-4da0-aea9-f48641b284cf")
 	)
 	(wire
 		(pts
@@ -327,7 +347,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 187.96) (xy 265.43 187.96)
+			(xy 203.2 185.42) (xy 265.43 185.42)
 		)
 		(stroke
 			(width 0)
@@ -337,7 +357,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 176.53) (xy 265.43 176.53)
+			(xy 203.2 175.26) (xy 265.43 175.26)
 		)
 		(stroke
 			(width 0)
@@ -367,7 +387,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 180.34) (xy 265.43 180.34)
+			(xy 203.2 179.07) (xy 265.43 179.07)
 		)
 		(stroke
 			(width 0)
@@ -960,7 +980,7 @@
 			)
 		)
 		(pin "RBF_1" input
-			(at 265.43 176.53 180)
+			(at 265.43 175.26 180)
 			(uuid "e4bc2d22-5de4-48aa-910a-6583870c69ba")
 			(effects
 				(font
@@ -990,7 +1010,7 @@
 			)
 		)
 		(pin "GPS_PPS" input
-			(at 265.43 180.34 180)
+			(at 265.43 179.07 180)
 			(uuid "78b42a98-85e1-4276-8abc-cd8b9e18b782")
 			(effects
 				(font
@@ -1020,7 +1040,7 @@
 			)
 		)
 		(pin "BOOM_CTRL_1" input
-			(at 265.43 187.96 180)
+			(at 265.43 185.42 180)
 			(uuid "273bad46-181d-49c8-b51a-53bde4560b9b")
 			(effects
 				(font
@@ -1030,7 +1050,7 @@
 			)
 		)
 		(pin "BOOM_CTRL_2" input
-			(at 265.43 190.5 180)
+			(at 265.43 187.96 180)
 			(uuid "10b11d3b-f618-477e-ba09-126bd4f0c93d")
 			(effects
 				(font
@@ -1142,6 +1162,26 @@
 		(pin "MISO_USART2_RX" output
 			(at 265.43 128.27 180)
 			(uuid "76221c52-3c86-4f07-b0ed-3718cd354f37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BOOM_CTRL_3" input
+			(at 265.43 190.5 180)
+			(uuid "9d49bdda-1205-42e3-aa14-a5ac25cf674e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BOOM_CTRL_4" input
+			(at 265.43 193.04 180)
+			(uuid "4fe15fdf-3e78-49f0-9e44-0bfc501776e8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1596,7 +1636,7 @@
 			)
 		)
 		(pin "GPS_PPS" output
-			(at 203.2 180.34 0)
+			(at 203.2 179.07 0)
 			(uuid "53ea57b7-c722-4898-805d-4140e1928a31")
 			(effects
 				(font
@@ -1606,7 +1646,7 @@
 			)
 		)
 		(pin "RBF_1" output
-			(at 203.2 176.53 0)
+			(at 203.2 175.26 0)
 			(uuid "8a630145-7663-4142-b282-78721eb88c4b")
 			(effects
 				(font
@@ -1646,7 +1686,7 @@
 			)
 		)
 		(pin "BOOM_CTRL_1" output
-			(at 203.2 187.96 0)
+			(at 203.2 185.42 0)
 			(uuid "db73746b-ed77-4d6e-8c8e-f873adfc7409")
 			(effects
 				(font
@@ -1656,7 +1696,7 @@
 			)
 		)
 		(pin "BOOM_CTRL_2" output
-			(at 203.2 190.5 0)
+			(at 203.2 187.96 0)
 			(uuid "912a56ea-1d77-43b2-b6e1-e78ee9cb2ab1")
 			(effects
 				(font
@@ -1738,6 +1778,26 @@
 		(pin "I2C2_SDA" bidirectional
 			(at 203.2 85.09 0)
 			(uuid "00dc53a0-e825-4e73-b067-ed691340890c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BOOM_CTRL_3" output
+			(at 203.2 190.5 0)
+			(uuid "02ff695a-9896-4b5b-b167-d7ebc71a8012")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BOOM_CTRL_4" output
+			(at 203.2 193.04 0)
+			(uuid "d4d9917c-ecea-4572-946c-a25d27e29763")
 			(effects
 				(font
 					(size 1.27 1.27)

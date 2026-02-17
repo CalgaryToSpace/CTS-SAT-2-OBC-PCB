@@ -6080,6 +6080,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 91.44) (xy 172.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16220dfb-b8b1-4dbd-b3fa-2bbc7e7f06f4")
+	)
+	(wire
+		(pts
 			(xy 212.09 59.69) (xy 209.55 59.69)
 		)
 		(stroke
@@ -6830,6 +6840,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 91.44) (xy 186.69 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f1e6490-8f8d-4cae-8487-43f85ebcdeaa")
+	)
+	(wire
+		(pts
 			(xy 154.94 182.88) (xy 157.48 182.88)
 		)
 		(stroke
@@ -7087,6 +7107,16 @@
 			(type default)
 		)
 		(uuid "816bc422-2233-4df9-b26c-06e484eff448")
+	)
+	(wire
+		(pts
+			(xy 180.34 86.36) (xy 186.69 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82c9a3cb-59af-4bbe-b64d-20fdcf4ade07")
 	)
 	(wire
 		(pts
@@ -7377,6 +7407,16 @@
 			(type default)
 		)
 		(uuid "a412c618-cb45-481f-b7e2-bbc38d6d15d8")
+	)
+	(wire
+		(pts
+			(xy 167.64 86.36) (xy 172.72 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4544b7b-7d19-4200-98a4-977d03218f34")
 	)
 	(wire
 		(pts
@@ -8639,6 +8679,17 @@
 		)
 		(uuid "310ad59f-c8ab-4d77-b395-756b633b36d4")
 	)
+	(hierarchical_label "BOOM_CTRL_3"
+		(shape output)
+		(at 167.64 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35b5bf4b-f026-4c25-97a2-28ef89b671be")
+	)
 	(hierarchical_label "RBF_1"
 		(shape output)
 		(at 184.15 152.4 180)
@@ -8847,6 +8898,17 @@
 			(justify right)
 		)
 		(uuid "98aa2e60-b393-4541-90e1-0f98ec7cdcf6")
+	)
+	(hierarchical_label "BOOM_CTRL_4"
+		(shape output)
+		(at 167.64 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b0d58d6-db32-433b-a90d-e0a270713a1d")
 	)
 	(hierarchical_label "SPI2_MISO"
 		(shape bidirectional)
@@ -12954,6 +13016,74 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 176.53 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b59b9242-455e-403f-a279-a4d33fac3ad5")
+		(property "Reference" "R100"
+			(at 170.942 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 182.372 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.276 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0dfe1879-aef7-4193-ac73-db63668640c8")
+		)
+		(pin "1"
+			(uuid "e7f6e9ef-514d-442d-a4cf-cb9ec539d8a9")
+		)
+		(instances
+			(project "CTS-SAT-2-OBC-PCB"
+				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
+					(reference "R100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 275.59 184.15 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14392,6 +14522,74 @@
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 176.53 91.44 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5d6b1a1-6738-4e72-b415-b780fd05a6b6")
+		(property "Reference" "R101"
+			(at 170.942 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 182.372 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.276 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 176.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "149e9a82-2661-4f71-a0af-376e385673f6")
+		)
+		(pin "1"
+			(uuid "f6e1f4b4-1f8c-4e85-958a-7b9445cf06e2")
+		)
+		(instances
+			(project "CTS-SAT-2-OBC-PCB"
+				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/c7b2a9f5-c39c-4892-aa33-31b3626fafef"
+					(reference "R101")
 					(unit 1)
 				)
 			)

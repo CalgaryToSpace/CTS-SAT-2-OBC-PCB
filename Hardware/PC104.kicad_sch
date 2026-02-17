@@ -5004,7 +5004,7 @@
 	)
 	(text "RBF"
 		(exclude_from_sim no)
-		(at 250.19 163.83 0)
+		(at 330.2 162.56 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5139,6 +5139,12 @@
 		(uuid "1a75101a-cb86-4630-9445-2759b5fc23c1")
 	)
 	(junction
+		(at 275.59 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fa1c7fc-3778-45c0-91bf-08f92d33f3d8")
+	)
+	(junction
 		(at 120.65 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5217,7 +5223,7 @@
 		(uuid "63a27b80-a0f6-49bb-bd19-7d7d9912ca6f")
 	)
 	(junction
-		(at 261.62 184.15)
+		(at 341.63 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f3ff3e4-70ef-4d05-87c0-b6f3396c96d3")
@@ -5235,7 +5241,7 @@
 		(uuid "7dff78e6-032a-4a2a-94fa-4c268ccef959")
 	)
 	(junction
-		(at 271.78 199.39)
+		(at 351.79 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80d943fa-7940-471f-9f39-29d0f03f4194")
@@ -5277,7 +5283,7 @@
 		(uuid "bcc78d3f-1b15-4ff2-8b80-d34fad993f31")
 	)
 	(junction
-		(at 271.78 191.77)
+		(at 351.79 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c26f9343-d46d-4834-a5b0-69f8e332b337")
@@ -5307,7 +5313,7 @@
 		(uuid "d6252faa-1ddc-4750-abea-c06b4533248a")
 	)
 	(junction
-		(at 271.78 196.85)
+		(at 351.79 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db42bb73-71f8-4c13-a727-2272b3696f24")
@@ -5323,6 +5329,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb9954a0-116c-41bb-afb2-1c683fa632d9")
+	)
+	(junction
+		(at 275.59 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f146f206-3cc1-4a7b-ad83-a00b87f74930")
 	)
 	(junction
 		(at 77.47 226.06)
@@ -5454,7 +5466,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 191.77) (xy 271.78 191.77)
+			(xy 354.33 190.5) (xy 351.79 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5464,7 +5476,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 173.99) (xy 261.62 172.72)
+			(xy 341.63 172.72) (xy 341.63 171.45)
 		)
 		(stroke
 			(width 0)
@@ -5484,7 +5496,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 184.15) (xy 274.32 184.15)
+			(xy 341.63 182.88) (xy 354.33 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5644,7 +5656,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 184.15) (xy 279.4 184.15)
+			(xy 364.49 182.88) (xy 359.41 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5964,7 +5976,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 204.47) (xy 271.78 199.39)
+			(xy 351.79 203.2) (xy 351.79 198.12)
 		)
 		(stroke
 			(width 0)
@@ -5994,7 +6006,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 186.69) (xy 274.32 186.69)
+			(xy 335.28 185.42) (xy 354.33 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6074,6 +6086,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 166.37) (xy 275.59 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "655e0fa8-f6fc-44dd-af80-e9a86e76fff1")
+	)
+	(wire
+		(pts
 			(xy 193.04 167.64) (xy 187.96 167.64)
 		)
 		(stroke
@@ -6131,6 +6153,16 @@
 			(type default)
 		)
 		(uuid "6a775036-746f-4f74-9424-999d1b37a3ac")
+	)
+	(wire
+		(pts
+			(xy 242.57 161.29) (xy 242.57 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bc0fe09-93da-495c-8dc0-0a1c3d017f3a")
 	)
 	(wire
 		(pts
@@ -6304,7 +6336,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 199.39) (xy 271.78 199.39)
+			(xy 364.49 198.12) (xy 351.79 198.12)
 		)
 		(stroke
 			(width 0)
@@ -6321,6 +6353,16 @@
 			(type default)
 		)
 		(uuid "851a4a54-73b0-43cf-81fc-8c047477b7cc")
+	)
+	(wire
+		(pts
+			(xy 279.4 161.29) (xy 242.57 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875937d5-719c-43de-8bbf-af0338ddbbb6")
 	)
 	(wire
 		(pts
@@ -6341,6 +6383,16 @@
 			(type default)
 		)
 		(uuid "8bc2639a-e469-4050-91f6-aeefb2156161")
+	)
+	(wire
+		(pts
+			(xy 267.97 158.75) (xy 279.4 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c34357d-3f5c-4d54-a994-d9d8994cde31")
 	)
 	(wire
 		(pts
@@ -6444,6 +6496,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 163.83) (xy 267.97 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7fa4de-97a2-4552-8c6a-f028a1e1b16b")
+	)
+	(wire
+		(pts
 			(xy 182.88 215.9) (xy 182.88 210.82)
 		)
 		(stroke
@@ -6504,7 +6566,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 186.69) (xy 284.48 186.69)
+			(xy 359.41 185.42) (xy 364.49 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6524,7 +6586,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 191.77) (xy 271.78 196.85)
+			(xy 351.79 190.5) (xy 351.79 195.58)
 		)
 		(stroke
 			(width 0)
@@ -6614,7 +6676,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 184.15) (xy 261.62 184.15)
+			(xy 335.28 182.88) (xy 341.63 182.88)
 		)
 		(stroke
 			(width 0)
@@ -6631,6 +6693,16 @@
 			(type default)
 		)
 		(uuid "ad4c5ab6-db59-4ead-b845-bd82d43de671")
+	)
+	(wire
+		(pts
+			(xy 279.4 171.45) (xy 275.59 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18a5956-c7f9-40e8-b689-5d8b66e07f91")
 	)
 	(wire
 		(pts
@@ -6684,7 +6756,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 189.23) (xy 271.78 189.23)
+			(xy 354.33 187.96) (xy 351.79 187.96)
 		)
 		(stroke
 			(width 0)
@@ -6704,6 +6776,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 173.99) (xy 275.59 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baeddfde-af89-47d5-acb8-e45b6cef14ae")
+	)
+	(wire
+		(pts
 			(xy 63.5 175.26) (xy 49.53 175.26)
 		)
 		(stroke
@@ -6714,7 +6796,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 199.39) (xy 271.78 196.85)
+			(xy 351.79 198.12) (xy 351.79 195.58)
 		)
 		(stroke
 			(width 0)
@@ -6824,7 +6906,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 189.23) (xy 271.78 191.77)
+			(xy 351.79 187.96) (xy 351.79 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6834,7 +6916,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 191.77) (xy 279.4 191.77)
+			(xy 364.49 190.5) (xy 359.41 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6931,6 +7013,16 @@
 			(type default)
 		)
 		(uuid "d4bd12f2-7fe3-4fea-89ba-f789cb3e00fb")
+	)
+	(wire
+		(pts
+			(xy 275.59 166.37) (xy 275.59 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e44760-aacb-4f1c-83d6-ddfe59205265")
 	)
 	(wire
 		(pts
@@ -7114,6 +7206,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 171.45) (xy 275.59 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de637cc0-963c-4bc1-b133-1ca825f698a4")
+	)
+	(wire
+		(pts
 			(xy 92.71 86.36) (xy 120.65 86.36)
 		)
 		(stroke
@@ -7164,7 +7266,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 189.23) (xy 279.4 189.23)
+			(xy 364.49 187.96) (xy 359.41 187.96)
 		)
 		(stroke
 			(width 0)
@@ -7204,7 +7306,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 196.85) (xy 284.48 196.85)
+			(xy 351.79 195.58) (xy 364.49 195.58)
 		)
 		(stroke
 			(width 0)
@@ -7274,7 +7376,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 184.15) (xy 261.62 179.07)
+			(xy 341.63 182.88) (xy 341.63 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7291,6 +7393,16 @@
 			(type default)
 		)
 		(uuid "f9350257-493d-4c2e-a302-779114d78820")
+	)
+	(wire
+		(pts
+			(xy 279.4 173.99) (xy 275.59 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9d5dd57-6c94-4009-ad11-f435276ee25b")
 	)
 	(wire
 		(pts
@@ -7442,6 +7554,17 @@
 		)
 		(uuid "f80e8bfd-a2dc-4883-abaf-211b08f26756")
 	)
+	(hierarchical_label "BOOM_CTRL_4"
+		(shape input)
+		(at 267.97 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02b7382f-210f-4d2b-a384-5230ae4c67c5")
+	)
 	(hierarchical_label "GPS_PPS"
 		(shape input)
 		(at 179.07 111.76 180)
@@ -7519,6 +7642,17 @@
 		)
 		(uuid "490a2616-9f87-406c-9628-5f8853a48091")
 	)
+	(hierarchical_label "BOOM_CTRL_3"
+		(shape input)
+		(at 267.97 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d20729c-e1d7-450c-9294-0414d6073e5f")
+	)
 	(hierarchical_label "MOSI_UART4_TX"
 		(shape input)
 		(at 157.48 58.42 180)
@@ -7554,7 +7688,7 @@
 	)
 	(hierarchical_label "RBF_1"
 		(shape input)
-		(at 255.27 184.15 180)
+		(at 335.28 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7719,7 +7853,7 @@
 	)
 	(hierarchical_label "DEBUG_LED"
 		(shape input)
-		(at 255.27 186.69 180)
+		(at 335.28 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8037,7 +8171,7 @@
 	)
 	(symbol
 		(lib_id "OBC Development Board:root_0_RT-0R00-F-1/10W-0603_OBC Development Board.SchLib")
-		(at 274.32 189.23 0)
+		(at 354.33 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8045,7 +8179,7 @@
 		(dnp no)
 		(uuid "0cbc857b-300f-412e-b714-09b6322aea2d")
 		(property "Reference" "R63"
-			(at 278.13 189.23 0)
+			(at 358.14 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8054,7 +8188,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 275.59 192.786 0)
+			(at 355.6 191.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8064,7 +8198,7 @@
 			)
 		)
 		(property "Footprint" "0603"
-			(at 274.32 189.23 0)
+			(at 354.33 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8073,7 +8207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 189.23 0)
+			(at 354.33 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8082,7 +8216,7 @@
 			)
 		)
 		(property "Description" "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 274.32 189.23 0)
+			(at 354.33 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8091,7 +8225,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 273.812 195.326 0)
+			(at 353.822 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8101,7 +8235,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X"
-			(at 273.812 195.326 0)
+			(at 353.822 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8111,7 +8245,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "Manufacturer Website"
-			(at 273.812 195.326 0)
+			(at 353.822 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8121,7 +8255,7 @@
 			)
 		)
 		(property "DISTRIBUTOR" "Digikey"
-			(at 273.812 195.326 0)
+			(at 353.822 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8131,7 +8265,7 @@
 			)
 		)
 		(property "DISTRIBUTOR PART #" "RMCF0603ZT0R00CT-ND"
-			(at 273.812 195.326 0)
+			(at 353.822 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8141,7 +8275,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Stackpole Electronics Inc"
-			(at 273.812 195.326 0)
+			(at 353.822 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8151,7 +8285,7 @@
 			)
 		)
 		(property "MANUFACTURER PART #" "RMCF0603ZT0R00"
-			(at 273.812 195.326 0)
+			(at 353.822 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8161,7 +8295,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 273.812 195.326 0)
+			(at 353.822 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8171,7 +8305,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X"
-			(at 273.812 197.866 0)
+			(at 353.822 196.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8181,7 +8315,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0R"
-			(at 273.05 189.23 0)
+			(at 353.06 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8206,7 +8340,7 @@
 	)
 	(symbol
 		(lib_id "OBC Development Board:root_0_RT-0R00-F-1/10W-0603_OBC Development Board.SchLib")
-		(at 274.32 186.69 0)
+		(at 354.33 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8214,7 +8348,7 @@
 		(dnp no)
 		(uuid "0d37f08e-dfc9-4c86-9fdb-20b6a53d49ba")
 		(property "Reference" "R62"
-			(at 278.13 186.69 0)
+			(at 358.14 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8223,7 +8357,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 275.59 190.246 0)
+			(at 355.6 188.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8233,7 +8367,7 @@
 			)
 		)
 		(property "Footprint" "0603"
-			(at 274.32 186.69 0)
+			(at 354.33 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8242,7 +8376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 186.69 0)
+			(at 354.33 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8251,7 +8385,7 @@
 			)
 		)
 		(property "Description" "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 274.32 186.69 0)
+			(at 354.33 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8260,7 +8394,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 273.812 192.786 0)
+			(at 353.822 191.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8270,7 +8404,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X"
-			(at 273.812 192.786 0)
+			(at 353.822 191.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8280,7 +8414,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "Manufacturer Website"
-			(at 273.812 192.786 0)
+			(at 353.822 191.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +8424,7 @@
 			)
 		)
 		(property "DISTRIBUTOR" "Digikey"
-			(at 273.812 192.786 0)
+			(at 353.822 191.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8300,7 +8434,7 @@
 			)
 		)
 		(property "DISTRIBUTOR PART #" "RMCF0603ZT0R00CT-ND"
-			(at 273.812 192.786 0)
+			(at 353.822 191.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8310,7 +8444,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Stackpole Electronics Inc"
-			(at 273.812 192.786 0)
+			(at 353.822 191.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8320,7 +8454,7 @@
 			)
 		)
 		(property "MANUFACTURER PART #" "RMCF0603ZT0R00"
-			(at 273.812 192.786 0)
+			(at 353.822 191.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8330,7 +8464,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 273.812 192.786 0)
+			(at 353.822 191.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8340,7 +8474,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X"
-			(at 273.812 195.326 0)
+			(at 353.822 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8350,7 +8484,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0R"
-			(at 273.05 186.69 0)
+			(at 353.06 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8628,6 +8762,71 @@
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "135dca68-79a7-4caf-b187-3116a4087a72")
+		(property "Reference" "#PWR0132"
+			(at 242.57 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca36ff92-7d15-4887-b54f-ce9c5ef07276")
+		)
+		(instances
+			(project "CTS-SAT-2-OBC-PCB"
+				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -8924,6 +9123,71 @@
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 275.59 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16ff51e8-96c2-4488-a967-755c49163168")
+		(property "Reference" "#PWR0133"
+			(at 275.59 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 275.59 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 275.59 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a227c13-c42e-43a1-97ad-910aab08a83f")
+		)
+		(instances
+			(project "CTS-SAT-2-OBC-PCB"
+				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -9231,7 +9495,7 @@
 	)
 	(symbol
 		(lib_id "OBC Development Board:root_0_J-0532610471_OBC Development Board.SchLib")
-		(at 297.18 196.85 0)
+		(at 377.19 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9239,7 +9503,7 @@
 		(dnp no)
 		(uuid "24a00ceb-222b-4c2e-a49b-bb9942eeb0e1")
 		(property "Reference" "J14"
-			(at 289.306 181.356 0)
+			(at 369.316 180.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9248,7 +9512,7 @@
 			)
 		)
 		(property "Value" "J-0532610471"
-			(at 289.306 205.994 0)
+			(at 369.316 204.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9257,7 +9521,7 @@
 			)
 		)
 		(property "Footprint" "J-53261-0471"
-			(at 297.18 196.85 0)
+			(at 377.19 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9266,7 +9530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 196.85 0)
+			(at 377.19 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9275,7 +9539,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER SMD R/A 4POS 1.25MM"
-			(at 297.18 196.85 0)
+			(at 377.19 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9284,7 +9548,7 @@
 			)
 		)
 		(property "MANFACTURER PART #" "0532610471"
-			(at 297.18 196.85 0)
+			(at 377.19 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9294,7 +9558,7 @@
 			)
 		)
 		(property "MANFACTURER" "Molex"
-			(at 297.18 196.85 0)
+			(at 377.19 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9304,7 +9568,7 @@
 			)
 		)
 		(property "DISTRIBUTOR PART #" "WM7622CT-ND"
-			(at 297.18 196.85 0)
+			(at 377.19 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9314,7 +9578,7 @@
 			)
 		)
 		(property "DISTRIBUTOR" "Digi-Key"
-			(at 283.972 214.884 0)
+			(at 363.982 213.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11339,7 +11603,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 204.47 0)
+		(at 351.79 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11347,7 +11611,7 @@
 		(dnp no)
 		(uuid "5de3e0da-888d-466c-a4c6-71105a0ab2ae")
 		(property "Reference" "#PWR073"
-			(at 271.78 210.82 0)
+			(at 351.79 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11356,7 +11620,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 208.28 0)
+			(at 351.79 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11364,7 +11628,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 204.47 0)
+			(at 351.79 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11373,7 +11637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 204.47 0)
+			(at 351.79 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11382,7 +11646,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 204.47 0)
+			(at 351.79 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11573,7 +11837,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 261.62 172.72 0)
+		(at 341.63 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11581,7 +11845,7 @@
 		(dnp no)
 		(uuid "65e0ce57-9ca8-481f-839b-817a9946babc")
 		(property "Reference" "#PWR071"
-			(at 261.62 176.53 0)
+			(at 341.63 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11590,7 +11854,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 261.62 169.164 0)
+			(at 341.63 167.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11598,7 +11862,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 172.72 0)
+			(at 341.63 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11607,7 +11871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 172.72 0)
+			(at 341.63 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11616,7 +11880,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 261.62 172.72 0)
+			(at 341.63 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12372,7 +12636,7 @@
 	)
 	(symbol
 		(lib_id "OBC Development Board:root_2_mirrored_RT-22R0-F-1/16W-0603_OBC Development Board.SchLib")
-		(at 274.32 184.15 0)
+		(at 354.33 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12380,7 +12644,7 @@
 		(dnp no)
 		(uuid "78c70726-6ce3-4e0f-b2c6-7311d121010f")
 		(property "Reference" "R61"
-			(at 279.4 184.15 0)
+			(at 359.41 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12389,7 +12653,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 273.812 183.388 0)
+			(at 353.822 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12399,7 +12663,7 @@
 			)
 		)
 		(property "Footprint" "0603"
-			(at 274.32 184.15 0)
+			(at 354.33 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12408,7 +12672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 184.15 0)
+			(at 354.33 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12417,7 +12681,7 @@
 			)
 		)
 		(property "Description" "22 Ohms ±0.5% 0.063W, 1/16W Chip Resistor 0603 (1608 Metric) - Thin Film"
-			(at 274.32 184.15 0)
+			(at 354.33 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12426,7 +12690,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 273.812 183.388 0)
+			(at 353.822 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12436,7 +12700,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 273.812 183.388 0)
+			(at 353.822 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12446,7 +12710,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "Manufacturer Website"
-			(at 273.812 183.388 0)
+			(at 353.822 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12456,7 +12720,7 @@
 			)
 		)
 		(property "DISTRIBUTOR" "Digikey"
-			(at 273.812 183.388 0)
+			(at 353.822 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12466,7 +12730,7 @@
 			)
 		)
 		(property "DISTRIBUTOR PART #" "RR08Q22DCT-ND"
-			(at 273.812 183.388 0)
+			(at 353.822 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12476,7 +12740,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Susumu"
-			(at 273.812 183.388 0)
+			(at 353.822 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12486,7 +12750,7 @@
 			)
 		)
 		(property "MANUFACTURER PART #" "RR0816Q-220-D"
-			(at 273.812 183.388 0)
+			(at 353.822 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12496,7 +12760,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" "22 Ohms ±0.5% 0.063W, 1/16W Chip Resistor 0603 (1608 Metric) - Thin Film"
-			(at 273.812 183.388 0)
+			(at 353.822 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12506,7 +12770,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "https://www.vishay.com/"
-			(at 273.812 183.388 0)
+			(at 353.822 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12516,7 +12780,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "22R"
-			(at 270.51 184.15 0)
+			(at 350.52 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14264,7 +14528,7 @@
 	)
 	(symbol
 		(lib_id "OBC Development Board:root_1_RT-4K7-F-1/16W-0603_OBC Development Board.SchLib")
-		(at 261.62 179.07 0)
+		(at 341.63 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14272,7 +14536,7 @@
 		(dnp no)
 		(uuid "bf3df1ef-98e4-42eb-903a-538fc1e519f6")
 		(property "Reference" "R60"
-			(at 262.382 177.292 0)
+			(at 342.392 176.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14281,7 +14545,7 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 260.858 173.482 0)
+			(at 340.868 172.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14291,7 +14555,7 @@
 			)
 		)
 		(property "Footprint" "0603"
-			(at 261.62 179.07 0)
+			(at 341.63 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14300,7 +14564,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 179.07 0)
+			(at 341.63 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14309,7 +14573,7 @@
 			)
 		)
 		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603"
-			(at 261.62 179.07 0)
+			(at 341.63 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14318,7 +14582,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 260.858 173.482 0)
+			(at 340.868 172.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14328,7 +14592,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 260.858 173.482 0)
+			(at 340.868 172.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14338,7 +14602,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "Manufacturer Website"
-			(at 260.858 173.482 0)
+			(at 340.868 172.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14348,7 +14612,7 @@
 			)
 		)
 		(property "DISTRIBUTOR" "Digikey"
-			(at 260.858 173.482 0)
+			(at 340.868 172.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14358,7 +14622,7 @@
 			)
 		)
 		(property "DISTRIBUTOR PART #" "CR0603-FX-4701ELFCT-ND"
-			(at 260.858 173.482 0)
+			(at 340.868 172.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14368,7 +14632,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Bourns Inc."
-			(at 260.858 173.482 0)
+			(at 340.868 172.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14378,7 +14642,7 @@
 			)
 		)
 		(property "MANUFACTURER PART #" "CR0603-FX-4701ELF"
-			(at 260.858 173.482 0)
+			(at 340.868 172.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14388,7 +14652,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" "RES SMD 4.7K OHM 1% 1/10W 0603"
-			(at 260.858 173.482 0)
+			(at 340.868 172.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14398,7 +14662,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "https://www.vishay.com/"
-			(at 260.858 173.482 0)
+			(at 340.868 172.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14408,7 +14672,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "4K7"
-			(at 262.382 179.832 0)
+			(at 342.392 178.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14921,7 +15185,7 @@
 	)
 	(symbol
 		(lib_id "OBC Development Board:root_0_RT-0R00-F-1/10W-0603_OBC Development Board.SchLib")
-		(at 274.32 191.77 0)
+		(at 354.33 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14929,7 +15193,7 @@
 		(dnp no)
 		(uuid "cb3113f9-4ffc-43bc-9a4d-668d6ea2ea69")
 		(property "Reference" "R64"
-			(at 278.13 191.77 0)
+			(at 358.14 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14938,7 +15202,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 275.59 195.326 0)
+			(at 355.6 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14948,7 +15212,7 @@
 			)
 		)
 		(property "Footprint" "0603"
-			(at 274.32 191.77 0)
+			(at 354.33 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14957,7 +15221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 191.77 0)
+			(at 354.33 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14966,7 +15230,7 @@
 			)
 		)
 		(property "Description" "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 274.32 191.77 0)
+			(at 354.33 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14975,7 +15239,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 273.812 197.866 0)
+			(at 353.822 196.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14985,7 +15249,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X"
-			(at 273.812 197.866 0)
+			(at 353.822 196.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14995,7 +15259,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "Manufacturer Website"
-			(at 273.812 197.866 0)
+			(at 353.822 196.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15005,7 +15269,7 @@
 			)
 		)
 		(property "DISTRIBUTOR" "Digikey"
-			(at 273.812 197.866 0)
+			(at 353.822 196.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15015,7 +15279,7 @@
 			)
 		)
 		(property "DISTRIBUTOR PART #" "RMCF0603ZT0R00CT-ND"
-			(at 273.812 197.866 0)
+			(at 353.822 196.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15025,7 +15289,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Stackpole Electronics Inc"
-			(at 273.812 197.866 0)
+			(at 353.822 196.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15035,7 +15299,7 @@
 			)
 		)
 		(property "MANUFACTURER PART #" "RMCF0603ZT0R00"
-			(at 273.812 197.866 0)
+			(at 353.822 196.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15045,7 +15309,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 273.812 197.866 0)
+			(at 353.822 196.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15055,7 +15319,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X"
-			(at 273.812 200.406 0)
+			(at 353.822 199.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15065,7 +15329,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0R"
-			(at 273.05 191.77 0)
+			(at 353.06 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16600,6 +16864,127 @@
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OBC Development Board:root_0_J-0532610471_OBC Development Board.SchLib")
+		(at 292.1 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbad84f7-c833-41e2-8a28-6cc7c1e4d034")
+		(property "Reference" "J25"
+			(at 284.226 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-0532610471"
+			(at 284.226 180.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "J-53261-0471"
+			(at 292.1 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER SMD R/A 4POS 1.25MM"
+			(at 292.1 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANFACTURER PART #" "0532610471"
+			(at 292.1 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANFACTURER" "Molex"
+			(at 292.1 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DISTRIBUTOR PART #" "WM7622CT-ND"
+			(at 292.1 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DISTRIBUTOR" "Digi-Key"
+			(at 278.892 189.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "af783742-eb82-4c04-88c8-c262277ee81e")
+		)
+		(pin "1"
+			(uuid "623eea50-4778-42a2-a644-6f442c5bbe71")
+		)
+		(pin "S2"
+			(uuid "a2eece50-6a81-4e78-adc2-f9363d6e33b5")
+		)
+		(pin "3"
+			(uuid "109b132f-7e8b-4198-965c-702a912b4b4f")
+		)
+		(pin "2"
+			(uuid "a77ea50b-69b1-4a58-ba9c-440d2a35a971")
+		)
+		(pin "4"
+			(uuid "f4146bbe-9c6b-43cb-a86e-aaaeed085106")
+		)
+		(instances
+			(project "CTS-SAT-2-OBC-PCB"
+				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/affb10ea-0cf3-46d1-942c-2ca1828b17dc"
+					(reference "J25")
 					(unit 1)
 				)
 			)
