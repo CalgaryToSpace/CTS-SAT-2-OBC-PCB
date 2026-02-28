@@ -7345,7 +7345,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_JAE_DX07S024WJ3R400"
 			(at 344.17 93.98 0)
 			(effects
 				(font
