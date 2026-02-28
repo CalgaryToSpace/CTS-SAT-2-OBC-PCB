@@ -2933,7 +2933,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "J-252105"
+		(property "Footprint" "CTS-SAT-1:J-252105"
 			(at 74.93 124.46 0)
 			(effects
 				(font
@@ -3078,7 +3078,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "J-252105"
+		(property "Footprint" "CTS-SAT-1:J-252105"
 			(at 196.85 139.7 0)
 			(effects
 				(font
@@ -3224,7 +3224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 157.48 146.05 0)
 			(effects
 				(font
@@ -3393,7 +3393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 146.05 134.62 0)
 			(effects
 				(font
@@ -3561,7 +3561,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "U-HMC544AETR"
+		(property "Footprint" "CTS-SAT-1:U-HMC544AETR"
 			(at 123.19 137.16 0)
 			(effects
 				(font
@@ -3761,7 +3761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 154.94 132.08 0)
 			(effects
 				(font
@@ -3995,7 +3995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 177.8 137.16 0)
 			(effects
 				(font
@@ -4228,7 +4228,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "J-0530471010"
+		(property "Footprint" "CTS-SAT-1:J-0530471010"
 			(at 295.91 95.25 0)
 			(effects
 				(font
@@ -4557,7 +4557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 91.44 149.86 0)
 			(effects
 				(font
@@ -4791,7 +4791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 90.17 121.92 0)
 			(effects
 				(font
@@ -4959,7 +4959,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "U-SN74LVC1G14DCKR"
+		(property "Footprint" "CTS-SAT-1:U-SN74LVC1G14DCKR"
 			(at 95.25 99.06 0)
 			(effects
 				(font
@@ -5146,7 +5146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 109.22 93.98 0)
 			(effects
 				(font
@@ -5361,7 +5361,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "J-252105"
+		(property "Footprint" "CTS-SAT-1:J-252105"
 			(at 76.2 152.4 0)
 			(effects
 				(font
@@ -5703,7 +5703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 146.05 147.32 0)
 			(effects
 				(font
@@ -6002,7 +6002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 186.69 104.14 0)
 			(effects
 				(font

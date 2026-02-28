@@ -4392,7 +4392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 238.76 80.01 0)
 			(effects
 				(font
@@ -4561,7 +4561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 87.63 106.68 0)
 			(effects
 				(font
@@ -4710,7 +4710,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C__Users_James_Documents_Calgary to Space_OBC_PCB_hardware_OBC Development Board_OBC Development Board.PcbLib:U-MAX3378EEUD+T"
+		(property "Footprint" "CTS-SAT-1:U-MAX3378EEUD+T"
 			(at 110.49 78.74 0)
 			(effects
 				(font
@@ -4865,7 +4865,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "J-53261-0471"
+		(property "Footprint" "CTS-SAT-1:J-53261-0471"
 			(at 153.67 171.45 0)
 			(effects
 				(font
@@ -5052,7 +5052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 130.81 52.07 0)
 			(effects
 				(font
@@ -5521,7 +5521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 198.12 54.61 0)
 			(effects
 				(font
@@ -5730,7 +5730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 81.28 91.44 0)
 			(effects
 				(font
@@ -5898,7 +5898,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "U-MAX3086EESD+T"
+		(property "Footprint" "CTS-SAT-1:U-MAX3086EESD+T"
 			(at 160.02 77.47 0)
 			(effects
 				(font
@@ -6194,7 +6194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 238.76 90.17 0)
 			(effects
 				(font
@@ -6363,7 +6363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.02 60.96 0)
 			(effects
 				(font
@@ -6513,7 +6513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 76.2 88.9 0)
 			(effects
 				(font
@@ -6747,7 +6747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.02 57.15 0)
 			(effects
 				(font
@@ -6897,7 +6897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 87.63 109.22 0)
 			(effects
 				(font
@@ -7047,7 +7047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.52 52.07 0)
 			(effects
 				(font
@@ -7386,7 +7386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 76.2 83.82 0)
 			(effects
 				(font
@@ -7555,7 +7555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 193.04 105.41 0)
 			(effects
 				(font
@@ -8140,7 +8140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 238.76 85.09 0)
 			(effects
 				(font
@@ -8269,7 +8269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 120.65 59.69 0)
 			(effects
 				(font
@@ -8447,7 +8447,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "J-0530471010"
+		(property "Footprint" "CTS-SAT-1:J-0530471010"
 			(at 114.3 166.37 0)
 			(effects
 				(font
@@ -8581,7 +8581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.02 53.34 0)
 			(effects
 				(font
@@ -8731,7 +8731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 76.2 86.36 0)
 			(effects
 				(font

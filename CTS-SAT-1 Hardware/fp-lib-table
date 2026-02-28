@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SAT-1")(type "KiCad")(uri "D:/Users/Nadee/GitHub/CTS-SAT-2-OBC-PCB/CTS-SAT-1 Hardware")(options "")(descr ""))
+)

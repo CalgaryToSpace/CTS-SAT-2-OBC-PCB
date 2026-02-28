@@ -13,6 +13,7 @@
 * Header pins for jumpers have been placed on the 3V3, 5V, and 12V lines where they enter the OBC to allow for easier current measurement.
 * On the PC104 header, H1 pins 33 and 35 have been assigned to the ADCS UART connections. They are presently unconnected.
 * STM32 25MHz clock ECS-TXO-2520-33-250-AN-TR originally had no stock available at DigiKey, but now has 515. No changes have been made to this.
+* STM32 Reset Switch KH-6X6X4.3H-STM is very difficult to find. Replacing with C&K PTS526SK15SMTR2-LFS, which is available at DigiKey.
 
 # Info from Design Reviews
 * MPI expects to downlink a lot of data, which might require additional or larger flash memory modules. 
