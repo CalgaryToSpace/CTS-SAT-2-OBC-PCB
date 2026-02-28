@@ -3209,17 +3209,6 @@
 		)
 		(uuid "04fa1519-1a1a-4bca-b3fd-c257e51f5c01")
 	)
-	(text "CC pins are for USB2.0\nRP2040 uses USB1.1"
-		(exclude_from_sim no)
-		(at 307.34 103.886 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c38f113-de36-48e0-a4bc-141563848686")
-	)
 	(text "QSPI_SS has \ninternal pull-up"
 		(exclude_from_sim no)
 		(at 145.288 83.058 0)
@@ -3436,6 +3425,12 @@
 		(uuid "52832753-0f3e-4e3e-ad78-8e8cad93a8c2")
 	)
 	(junction
+		(at 318.77 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c195746-e706-4864-b39d-dff06ad71044")
+	)
+	(junction
 		(at 300.99 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3582,14 +3577,6 @@
 	(no_connect
 		(at 332.74 109.22)
 		(uuid "2956af99-fda5-4cf6-8d8a-ce14e153894c")
-	)
-	(no_connect
-		(at 332.74 104.14)
-		(uuid "85df0a0f-e0b5-46df-b0a3-288026ae0525")
-	)
-	(no_connect
-		(at 332.74 101.6)
-		(uuid "e62da962-e68c-40b6-808b-63195edf0b86")
 	)
 	(wire
 		(pts
@@ -4063,6 +4050,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 111.76) (xy 313.69 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1c8e32-b760-4d24-af98-8653689c6385")
+	)
+	(wire
+		(pts
 			(xy 129.54 153.67) (xy 143.51 153.67)
 		)
 		(stroke
@@ -4443,6 +4440,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 115.57) (xy 318.77 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75183ef7-2b14-4891-ba0c-7fdd4901fc31")
+	)
+	(wire
+		(pts
 			(xy 289.56 73.66) (xy 300.99 73.66)
 		)
 		(stroke
@@ -4510,6 +4517,16 @@
 			(type default)
 		)
 		(uuid "7d0ef277-c53a-4d69-984e-fbadca34ab29")
+	)
+	(wire
+		(pts
+			(xy 323.85 104.14) (xy 332.74 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f111422-32e5-4b9b-ab64-2103f0a1a14c")
 	)
 	(wire
 		(pts
@@ -4670,6 +4687,16 @@
 			(type default)
 		)
 		(uuid "9246b964-53f4-4645-ad12-ebc2a58cce9e")
+	)
+	(wire
+		(pts
+			(xy 318.77 114.3) (xy 323.85 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8ea7d0-8118-45cc-84c9-05d875697af1")
 	)
 	(wire
 		(pts
@@ -4963,6 +4990,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 101.6) (xy 332.74 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd9da05b-2aeb-4db6-8029-b12764e636db")
+	)
+	(wire
+		(pts
 			(xy 133.35 120.65) (xy 175.26 120.65)
 		)
 		(stroke
@@ -5113,6 +5150,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 114.3) (xy 318.77 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f21891-222d-4875-8d60-3fbd6af5c091")
+	)
+	(wire
+		(pts
 			(xy 256.54 113.03) (xy 293.37 113.03)
 		)
 		(stroke
@@ -5140,6 +5187,16 @@
 			(type default)
 		)
 		(uuid "e7aa0222-75cc-4971-a3fd-83f7104545ba")
+	)
+	(wire
+		(pts
+			(xy 313.69 104.14) (xy 313.69 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a2d2d9-6620-4964-a16a-21f06f3155f1")
 	)
 	(wire
 		(pts
@@ -5210,6 +5267,16 @@
 			(type default)
 		)
 		(uuid "ee313d7a-f055-41be-aae6-2398ba3a9af7")
+	)
+	(wire
+		(pts
+			(xy 323.85 114.3) (xy 323.85 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8dab66-8920-4356-ab52-3f380b531ddf")
 	)
 	(wire
 		(pts
@@ -6627,6 +6694,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 323.85 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "079b9b87-f5df-4f4a-9dbc-22d2e2242f74")
+		(property "Reference" "R103"
+			(at 326.39 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5k1"
+			(at 326.39 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 322.834 108.204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 323.85 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 323.85 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bbd8358b-bb32-445a-a549-912c84ad4863")
+		)
+		(pin "1"
+			(uuid "86fb2c73-66bb-43a4-b136-08ff11772330")
+		)
+		(instances
+			(project "CTS-SAT-2-OBC-PCB"
+				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/bec95c26-e44f-4f6a-97be-aee51e3bba5a"
+					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 114.3 153.67 270)
 		(unit 1)
@@ -7753,6 +7891,77 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 313.69 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "845d08b5-568d-484d-84dc-e3f3d6606559")
+		(property "Reference" "R102"
+			(at 316.23 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5k1"
+			(at 316.23 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 312.674 108.204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 313.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df1a87ba-1a05-40dc-8051-575df9446599")
+		)
+		(pin "1"
+			(uuid "d37150dd-a61f-4d02-845a-c45ce9aeedc0")
+		)
+		(instances
+			(project "CTS-SAT-2-OBC-PCB"
+				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/bec95c26-e44f-4f6a-97be-aee51e3bba5a"
+					(reference "R102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 135.89 102.87 270)
 		(mirror x)
 		(unit 1)
@@ -8554,6 +8763,72 @@
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/bec95c26-e44f-4f6a-97be-aee51e3bba5a"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 318.77 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5aab0af-7209-46ee-9bcc-19c50184874c")
+		(property "Reference" "#PWR016"
+			(at 318.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 318.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 318.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e580732c-8a2b-4ff6-8e8e-e9080884b854")
+		)
+		(instances
+			(project "CTS-SAT-2-OBC-PCB"
+				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/bec95c26-e44f-4f6a-97be-aee51e3bba5a"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
