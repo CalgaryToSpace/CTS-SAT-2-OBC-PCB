@@ -10692,7 +10692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CTS-SAT-1:D-SML-D12U1WT86"
+		(property "Footprint" "CTS-SAT-2:D-SML-D12U1WT86"
 			(at 105.41 241.3 0)
 			(effects
 				(font
@@ -11991,7 +11991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CTS-SAT-1:D-SML-D12U1WT86"
+		(property "Footprint" "CTS-SAT-2:D-SML-D12U1WT86"
 			(at 105.41 226.06 0)
 			(effects
 				(font
@@ -12136,7 +12136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CTS-SAT-1:D-SML-D12U1WT86"
+		(property "Footprint" "CTS-SAT-2:D-SML-D12U1WT86"
 			(at 105.41 233.68 0)
 			(effects
 				(font

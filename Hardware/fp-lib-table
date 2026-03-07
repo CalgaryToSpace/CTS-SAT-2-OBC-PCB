@@ -8,4 +8,5 @@
   (lib (name "TG-3541CE_32.7680KXB3")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TG-3541CE_32.7680KXB3/KiCad")(options "")(descr ""))
   (lib (name "CTS-SAT-1")(type "Altium Designer")(uri "${KIPRJMOD}/Libraries/CTS-SAT-1_Footprint-Library.PcbLib")(options "")(descr ""))
   (lib (name "W25Q128JVS")(type "KiCad")(uri "${KIPRJMOD}/Libraries/W25Q128JVS")(options "")(descr ""))
+  (lib (name "CTS-SAT-2")(type "KiCad")(uri "${KIPRJMOD}/Libraries/CTS-SAT-2.pretty")(options "")(descr ""))
 )
