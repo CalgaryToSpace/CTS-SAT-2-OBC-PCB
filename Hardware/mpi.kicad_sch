@@ -6487,7 +6487,8 @@
 	)
 	(symbol
 		(lib_id "OBC Development Board:root_2_mirrored_RT-22R0-F-1/16W-0603_OBC Development Board.SchLib")
-		(at 76.2 88.9 0)
+		(at 81.28 88.9 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6495,7 +6496,7 @@
 		(dnp no)
 		(uuid "5cf7c02b-9e73-4a0d-b974-2ba2949a7e01")
 		(property "Reference" "R89"
-			(at 81.28 88.9 0)
+			(at 76.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6504,7 +6505,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 75.692 88.138 0)
+			(at 81.788 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6514,7 +6515,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 76.2 88.9 0)
+			(at 81.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6523,7 +6524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 88.9 0)
+			(at 81.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6532,7 +6533,7 @@
 			)
 		)
 		(property "Description" "22 Ohms ±0.5% 0.063W, 1/16W Chip Resistor 0603 (1608 Metric) - Thin Film"
-			(at 76.2 88.9 0)
+			(at 81.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6541,7 +6542,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 75.692 88.138 0)
+			(at 81.788 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,7 +6552,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 75.692 88.138 0)
+			(at 81.788 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6561,7 +6562,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "Manufacturer Website"
-			(at 75.692 88.138 0)
+			(at 81.788 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6571,7 +6572,7 @@
 			)
 		)
 		(property "DISTRIBUTOR" "Digikey"
-			(at 75.692 88.138 0)
+			(at 81.788 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6581,7 +6582,7 @@
 			)
 		)
 		(property "DISTRIBUTOR PART #" "RR08Q22DCT-ND"
-			(at 75.692 88.138 0)
+			(at 81.788 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6591,7 +6592,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Susumu"
-			(at 75.692 88.138 0)
+			(at 81.788 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6601,7 +6602,7 @@
 			)
 		)
 		(property "MANUFACTURER PART #" "RR0816Q-220-D"
-			(at 75.692 88.138 0)
+			(at 81.788 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6611,7 +6612,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" "22 Ohms ±0.5% 0.063W, 1/16W Chip Resistor 0603 (1608 Metric) - Thin Film"
-			(at 75.692 88.138 0)
+			(at 81.788 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6621,7 +6622,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "https://www.vishay.com/"
-			(at 75.692 88.138 0)
+			(at 81.788 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6631,7 +6632,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "22R"
-			(at 72.39 88.9 0)
+			(at 85.09 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
