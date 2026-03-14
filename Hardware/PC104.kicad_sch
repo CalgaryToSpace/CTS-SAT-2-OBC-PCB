@@ -5373,6 +5373,10 @@
 		(uuid "ff018f36-9f16-4261-80ac-fd61d189ecef")
 	)
 	(no_connect
+		(at 342.9 88.9)
+		(uuid "c96022e4-2105-4330-aef9-1337f01d0c8f")
+	)
+	(no_connect
 		(at 356.87 49.53)
 		(uuid "c9f88ddd-878c-4fa0-891d-3d324b750394")
 	)
@@ -6236,16 +6240,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 88.9) (xy 349.25 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "780c82f2-0502-4fca-8119-b0e7dbe5bbad")
-	)
-	(wire
-		(pts
 			(xy 92.71 63.5) (xy 120.65 63.5)
 		)
 		(stroke
@@ -6886,6 +6880,16 @@
 	)
 	(wire
 		(pts
+			(xy 334.01 88.9) (xy 342.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f76cee-ed62-4bb0-adf4-f4a82e7a075d")
+	)
+	(wire
+		(pts
 			(xy 92.71 162.56) (xy 120.65 162.56)
 		)
 		(stroke
@@ -7454,16 +7458,6 @@
 		)
 		(uuid "feb9568e-bd07-423c-9d79-3a33fd6ad51e")
 	)
-	(label "NRST"
-		(at 336.55 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b9b3492-12d8-40c4-af5d-0ee50dfaaadb")
-	)
 	(label "5V_IN"
 		(at 49.53 175.26 0)
 		(effects
@@ -7474,15 +7468,15 @@
 		)
 		(uuid "2c684d4b-87d1-46c4-a6e3-56c39f7e4471")
 	)
-	(label "NRST"
-		(at 271.78 86.36 0)
+	(label "SWO"
+		(at 336.55 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "31a19f90-c1a9-48a9-a097-2e22fe74d821")
+		(uuid "3032a6b7-7c5c-4270-b94f-1a8b4d8dbdd5")
 	)
 	(label "3V3_CAM"
 		(at 116.84 53.34 0)
@@ -7493,16 +7487,6 @@
 			(justify left bottom)
 		)
 		(uuid "38a9b96a-53dc-4d15-9694-ba298f3abe65")
-	)
-	(label "SWDIO"
-		(at 271.78 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "490a9373-9e41-4c4c-9b80-6c88001da0ea")
 	)
 	(label "ADCS_UART_TX"
 		(at 52.07 68.58 0)
@@ -7535,34 +7519,14 @@
 		(uuid "7ab3ff57-3f02-495c-917f-c4f63254c631")
 	)
 	(label "SWO"
-		(at 336.55 88.9 0)
+		(at 344.17 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "838d9d72-8a1e-4995-a821-11a4a669e226")
-	)
-	(label "SWCLK"
-		(at 271.78 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "864a1a3d-8feb-4fb4-8a02-2e1e7ab2c6fa")
-	)
-	(label "SWO"
-		(at 271.78 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "959dff48-a547-4164-85cd-dbc1958cc8cd")
+		(uuid "7fb51f90-bc61-4d90-9035-94c192fffbca")
 	)
 	(label "BATT_IN"
 		(at 92.71 144.78 0)
@@ -7573,16 +7537,6 @@
 			(justify left bottom)
 		)
 		(uuid "999b956e-a1ec-4902-99fa-0de1c3bdeb8f")
-	)
-	(label "SWCLK"
-		(at 336.55 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a35bab8d-719f-422a-a269-1a99d963edc8")
 	)
 	(label "BATT_IN"
 		(at 55.88 144.78 0)
@@ -7613,16 +7567,6 @@
 			(justify left bottom)
 		)
 		(uuid "c245b3f3-1738-4d47-8ac4-f4790d5eb922")
-	)
-	(label "SWDIO"
-		(at 336.55 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f80e8bfd-a2dc-4883-abaf-211b08f26756")
 	)
 	(hierarchical_label "BOOM_CTRL_4"
 		(shape input)
@@ -7700,17 +7644,6 @@
 			(justify left)
 		)
 		(uuid "45b91438-49dd-407b-b684-6bc60929f982")
-	)
-	(hierarchical_label "RP2040_~{BOOTSEL}"
-		(shape output)
-		(at 349.25 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "490a2616-9f87-406c-9628-5f8853a48091")
 	)
 	(hierarchical_label "BOOM_CTRL_3"
 		(shape input)
