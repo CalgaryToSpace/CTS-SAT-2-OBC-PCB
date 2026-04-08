@@ -3081,6 +3081,17 @@
 		)
 		(uuid "16ca08a8-20ce-45d7-9bf3-76384ec622be")
 	)
+	(text "Pins 48 and 49 of RP2040 share\na single decoupling capacitor"
+		(exclude_from_sim no)
+		(at 188.722 81.026 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23062883-6521-4838-a9bb-6b8d655d0a32")
+	)
 	(text "Make sure R4 and R5 are close to RP2040"
 		(exclude_from_sim no)
 		(at 265.43 93.218 0)
