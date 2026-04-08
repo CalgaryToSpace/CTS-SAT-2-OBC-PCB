@@ -59280,6 +59280,17 @@
 			)
 		)
 	)
+	(gr_text "RP2040"
+		(at 63.75 142.25 0)
+		(layer "F.SilkS")
+		(uuid "91009cf5-2bba-45ab-9060-0e6a50f3528a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "5V"
 		(at 102 98.5 0)
 		(layer "F.SilkS")
@@ -59307,6 +59318,17 @@
 		(at 111.25 128.6 0)
 		(layer "F.SilkS")
 		(uuid "a701841f-5b7a-46f8-8031-14c59835b8c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "STM32"
+		(at 141.25 77 0)
+		(layer "F.SilkS")
+		(uuid "b7f72a36-d713-46d6-8052-1f514aa752ae")
 		(effects
 			(font
 				(size 1 1)
