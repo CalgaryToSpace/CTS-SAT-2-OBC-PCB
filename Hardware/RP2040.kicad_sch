@@ -3446,8 +3446,92 @@
 		(uuid "fd106b78-cb43-4a37-83a3-c22bae6198a1")
 	)
 	(no_connect
+		(at 238.76 128.27)
+		(uuid "025d69c4-5ce6-49d2-ba27-cf9b731148fd")
+	)
+	(no_connect
+		(at 238.76 146.05)
+		(uuid "13c9a36d-1ac4-441b-a428-ab098f7c1b7c")
+	)
+	(no_connect
+		(at 238.76 133.35)
+		(uuid "15a25c85-499c-4ac1-92de-c3dedf117fbd")
+	)
+	(no_connect
 		(at 332.74 109.22)
 		(uuid "2956af99-fda5-4cf6-8d8a-ce14e153894c")
+	)
+	(no_connect
+		(at 238.76 156.21)
+		(uuid "2be9194f-754f-44c1-bc2f-5cb83683e2bd")
+	)
+	(no_connect
+		(at 238.76 153.67)
+		(uuid "30713d5f-c608-422b-ad48-6cdb3516a555")
+	)
+	(no_connect
+		(at 238.76 163.83)
+		(uuid "31f0a0ee-67bc-4562-8cbf-42ad82ad6d25")
+	)
+	(no_connect
+		(at 238.76 173.99)
+		(uuid "58ca5ab5-1507-4bc9-a146-a014a6871d51")
+	)
+	(no_connect
+		(at 238.76 168.91)
+		(uuid "5ffa5403-5628-4145-8fc0-1a24113a11e9")
+	)
+	(no_connect
+		(at 238.76 171.45)
+		(uuid "65a82f23-0bbf-42b2-8aa9-646630680c25")
+	)
+	(no_connect
+		(at 238.76 166.37)
+		(uuid "93cfb0db-6572-40c9-9dbd-030dc399bbc1")
+	)
+	(no_connect
+		(at 238.76 125.73)
+		(uuid "a59902fc-61bf-4f60-9bec-4a81bda2ebc2")
+	)
+	(no_connect
+		(at 238.76 186.69)
+		(uuid "afb93fc0-a0ab-452b-912b-e1bd9855095d")
+	)
+	(no_connect
+		(at 238.76 151.13)
+		(uuid "b6aa704d-4b95-488a-82b4-02951144b869")
+	)
+	(no_connect
+		(at 238.76 184.15)
+		(uuid "c328c51b-9674-4923-8235-052c0e01dd04")
+	)
+	(no_connect
+		(at 238.76 189.23)
+		(uuid "cd764020-2755-4e71-9ab8-a549dfe690c4")
+	)
+	(no_connect
+		(at 238.76 158.75)
+		(uuid "d9868753-cf9e-47b4-aa9d-922fc21afca4")
+	)
+	(no_connect
+		(at 238.76 130.81)
+		(uuid "dd6384df-f23e-487e-bab3-cdf77dbd26b4")
+	)
+	(no_connect
+		(at 238.76 176.53)
+		(uuid "e2c40860-ed82-4f95-a49d-d44cfb5e0345")
+	)
+	(no_connect
+		(at 238.76 161.29)
+		(uuid "ea5ea2f1-a851-4249-bfc1-80730c32605d")
+	)
+	(no_connect
+		(at 238.76 148.59)
+		(uuid "ed394eaa-62dd-4871-a0f8-47e46ec006c7")
+	)
+	(no_connect
+		(at 238.76 181.61)
+		(uuid "f4c4c485-8825-4da9-ae4c-d8094c702ccf")
 	)
 	(wire
 		(pts
