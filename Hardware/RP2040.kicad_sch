@@ -8365,7 +8365,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8608a2a5-f58f-4952-9880-be439e1340a2")
 		(property "Reference" "R1"
 			(at 130.81 100.33 90)
@@ -8375,8 +8375,8 @@
 				)
 			)
 		)
-		(property "Value" "10k (NP)"
-			(at 126.746 105.41 90)
+		(property "Value" "10k"
+			(at 129.032 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
