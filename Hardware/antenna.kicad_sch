@@ -1368,142 +1368,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OBC Development Board:root_0_RT-100K0-F-1/16W-0603_OBC Development Board.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES SMD 100KΩ 0.1% 1/16W 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*0603*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_0_RT-100K0-F-1/16W-0603_OBC Development Board.SchLib_1_0"
-				(polyline
-					(pts
-						(xy 7.62 -0.508) (xy 7.366 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -0.508) (xy 8.128 0.508) (xy 8.636 -0.508) (xy 9.144 0.508) (xy 9.652 -0.508) (xy 10.16 0.508)
-						(xy 10.414 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "100K"
-					(at 10.16 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 0)
-					(length 1.016)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 0 180)
-					(length 1.016)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "OBC Development Board:root_1_CC-100nF-25V-X7R-0603_OBC Development Board.SchLib"
 			(pin_numbers
 				(hide yes)
@@ -2427,6 +2291,10 @@
 		(color 0 0 0 0)
 		(uuid "91fe0d24-340d-4d56-a44b-9af3b48b1c9a")
 	)
+	(no_connect
+		(at 125.73 93.98)
+		(uuid "62363cf8-12b5-4f37-a0dc-7757ec3bfbfd")
+	)
 	(wire
 		(pts
 			(xy 265.43 90.17) (xy 265.43 95.25)
@@ -2519,16 +2387,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 93.98) (xy 120.65 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bd38e9c-658f-4a32-a98a-977f5863f023")
-	)
-	(wire
-		(pts
 			(xy 143.51 134.62) (xy 146.05 134.62)
 		)
 		(stroke
@@ -2536,16 +2394,6 @@
 			(type default)
 		)
 		(uuid "661bd725-656a-44b3-a96b-1cf73f169768")
-	)
-	(wire
-		(pts
-			(xy 115.57 93.98) (xy 110.49 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68d040c1-027c-450f-a4cb-10b01cdac4d4")
 	)
 	(wire
 		(pts
@@ -2716,16 +2564,6 @@
 			(type default)
 		)
 		(uuid "da4dfd9a-f0d2-43c2-b474-d8ca16b215b2")
-	)
-	(wire
-		(pts
-			(xy 110.49 93.98) (xy 110.49 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da505f0f-cdef-4f5e-af11-8afd24044358")
 	)
 	(wire
 		(pts
@@ -4465,71 +4303,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 110.49 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c37238f-06a5-4b8a-9eb3-12a16ceb747e")
-		(property "Reference" "#PWR0104"
-			(at 110.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.49 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b0bda5a-6a9e-43fc-8e20-91fbf618374b")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/368e4a7b-bdab-4813-9da8-67dfcdf79ec2"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RS2D:root_0_CC-108-K-50V-X7R-0603_RS2D.SchLib")
 		(at 91.44 149.86 0)
 		(unit 1)
@@ -5113,156 +4886,6 @@
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/368e4a7b-bdab-4813-9da8-67dfcdf79ec2"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBC Development Board:root_0_RT-100K0-F-1/16W-0603_OBC Development Board.SchLib")
-		(at 109.22 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a706618e-5fd9-4399-ba94-d2aabbda73f0")
-		(property "Reference" "R84"
-			(at 113.03 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100K"
-			(at 109.22 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 109.22 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 100KΩ 0.1% 1/16W 0603"
-			(at 109.22 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2URL" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1773200%7FM%7Fpdf%7FEnglish%7FENG_DS_1773200_M.pdf%7F3-1676481-2"
-			(at 108.712 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2DESCRIPTION" "Datasheet"
-			(at 108.712 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR" "Digikey"
-			(at 113.03 97.282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR PART #" "A119912CT-ND"
-			(at 113.03 97.282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE Connectivity"
-			(at 113.03 97.282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART #" "CPF0603B100KE"
-			(at 113.03 97.282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART DESCRIPTION" "RES SMD 100KΩ 0.1% 1/16W 0603"
-			(at 113.03 97.282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "100K"
-			(at 113.03 97.282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8040cadc-c7f2-4027-b142-3a9eac0cb985")
-		)
-		(pin "2"
-			(uuid "a727b0e8-5ce6-40a8-9cf1-ccd9a0678515")
-		)
-		(instances
-			(project "CTS-SAT-2-OBC-PCB"
-				(path "/58243925-df8d-4fc1-899e-fce866d1d25a/368e4a7b-bdab-4813-9da8-67dfcdf79ec2"
-					(reference "R84")
 					(unit 1)
 				)
 			)
