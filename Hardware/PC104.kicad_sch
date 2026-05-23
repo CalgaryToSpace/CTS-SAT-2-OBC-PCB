@@ -16668,7 +16668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V_BAT"
+		(property "Value" "+BATT"
 			(at 185.42 145.034 0)
 			(effects
 				(font
