@@ -5023,9 +5023,9 @@
 		)
 		(uuid "528286e8-cb2d-42eb-9f73-61abfe8490d0")
 	)
-	(text "Burn Wire"
+	(text "Burn Wires (Solar Panel Deploy)"
 		(exclude_from_sim no)
-		(at 262.89 115.824 0)
+		(at 271.78 115.57 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -8375,8 +8375,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
-			(at 185.928 165.1 90)
+		(property "Value" "+3V3"
+			(at 184.658 164.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8844,7 +8844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "+3V3"
 			(at 336.55 72.644 0)
 			(effects
 				(font
@@ -9039,7 +9039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "+3V3"
 			(at 276.86 33.274 0)
 			(effects
 				(font
@@ -12172,7 +12172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "+3V3"
 			(at 341.63 167.894 0)
 			(effects
 				(font
@@ -12237,7 +12237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "+3V3"
 			(at 271.78 72.644 0)
 			(effects
 				(font
@@ -16015,7 +16015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "+3V3"
 			(at 342.9 33.274 0)
 			(effects
 				(font
