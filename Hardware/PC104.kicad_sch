@@ -5668,7 +5668,7 @@
 	)
 	(text "In-House ADCS"
 		(exclude_from_sim no)
-		(at 262.89 198.628 0)
+		(at 270.51 193.548 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -6359,7 +6359,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 218.44) (xy 261.62 218.44)
+			(xy 266.7 213.36) (xy 269.24 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6399,7 +6399,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 229.87) (xy 259.08 228.6)
+			(xy 266.7 224.79) (xy 266.7 223.52)
 		)
 		(stroke
 			(width 0)
@@ -6789,7 +6789,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 228.6) (xy 261.62 228.6)
+			(xy 266.7 223.52) (xy 269.24 223.52)
 		)
 		(stroke
 			(width 0)
@@ -6989,7 +6989,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 226.06) (xy 261.62 226.06)
+			(xy 266.7 220.98) (xy 269.24 220.98)
 		)
 		(stroke
 			(width 0)
@@ -7109,7 +7109,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 215.9) (xy 261.62 215.9)
+			(xy 266.7 210.82) (xy 269.24 210.82)
 		)
 		(stroke
 			(width 0)
@@ -7229,7 +7229,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 205.74) (xy 261.62 205.74)
+			(xy 266.7 200.66) (xy 269.24 200.66)
 		)
 		(stroke
 			(width 0)
@@ -7739,7 +7739,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 213.36) (xy 261.62 213.36)
+			(xy 266.7 208.28) (xy 269.24 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7849,7 +7849,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 210.82) (xy 261.62 210.82)
+			(xy 266.7 205.74) (xy 269.24 205.74)
 		)
 		(stroke
 			(width 0)
@@ -7949,7 +7949,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 208.28) (xy 261.62 208.28)
+			(xy 266.7 203.2) (xy 269.24 203.2)
 		)
 		(stroke
 			(width 0)
@@ -8289,7 +8289,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 220.98) (xy 261.62 220.98)
+			(xy 266.7 215.9) (xy 269.24 215.9)
 		)
 		(stroke
 			(width 0)
@@ -8469,7 +8469,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 223.52) (xy 261.62 223.52)
+			(xy 266.7 218.44) (xy 269.24 218.44)
 		)
 		(stroke
 			(width 0)
@@ -8600,7 +8600,7 @@
 	)
 	(hierarchical_label "ADCS_FSS_2"
 		(shape output)
-		(at 259.08 210.82 180)
+		(at 266.7 205.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8633,7 +8633,7 @@
 	)
 	(hierarchical_label "ADCS_CSS_1"
 		(shape output)
-		(at 259.08 213.36 180)
+		(at 266.7 208.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8644,7 +8644,7 @@
 	)
 	(hierarchical_label "ADCS_MTM_IN"
 		(shape output)
-		(at 259.08 205.74 180)
+		(at 266.7 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8963,7 +8963,7 @@
 	)
 	(hierarchical_label "ADCS_CSS_5"
 		(shape output)
-		(at 259.08 223.52 180)
+		(at 266.7 218.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8985,7 +8985,7 @@
 	)
 	(hierarchical_label "ADCS_CSS_3"
 		(shape output)
-		(at 259.08 218.44 180)
+		(at 266.7 213.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9029,7 +9029,7 @@
 	)
 	(hierarchical_label "ADCS_CSS_2"
 		(shape output)
-		(at 259.08 215.9 180)
+		(at 266.7 210.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9040,7 +9040,7 @@
 	)
 	(hierarchical_label "ADCS_CSS_6"
 		(shape output)
-		(at 259.08 226.06 180)
+		(at 266.7 220.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9051,7 +9051,7 @@
 	)
 	(hierarchical_label "ADCS_FSS_1"
 		(shape output)
-		(at 259.08 208.28 180)
+		(at 266.7 203.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9062,7 +9062,7 @@
 	)
 	(hierarchical_label "ADCS_CSS_4"
 		(shape output)
-		(at 259.08 220.98 180)
+		(at 266.7 215.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12338,7 +12338,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 229.87 0)
+		(at 266.7 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12346,7 +12346,7 @@
 		(dnp no)
 		(uuid "4cb3efe9-4492-4d5b-9d3a-9ffb57971f47")
 		(property "Reference" "#PWR029"
-			(at 259.08 236.22 0)
+			(at 266.7 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12355,7 +12355,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 233.68 0)
+			(at 266.7 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12363,7 +12363,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 229.87 0)
+			(at 266.7 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12372,7 +12372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 229.87 0)
+			(at 266.7 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12381,7 +12381,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 229.87 0)
+			(at 266.7 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14725,7 +14725,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "a7a6881b-9e1a-4b06-a923-b66e724bc52c")
 		(property "Reference" "J17"
@@ -17718,7 +17718,7 @@
 	)
 	(symbol
 		(lib_id "CTS-SAT-1 PCB:J-0530471010")
-		(at 266.7 215.9 0)
+		(at 274.32 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17727,7 +17727,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7f8e9e6-f967-4534-9846-96cf2e253453")
 		(property "Reference" "J1"
-			(at 275.59 215.2649 0)
+			(at 283.21 210.1849 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -17736,7 +17736,7 @@
 			)
 		)
 		(property "Value" "J-0530471010"
-			(at 275.59 219.0749 0)
+			(at 283.21 213.9949 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -17745,7 +17745,7 @@
 			)
 		)
 		(property "Footprint" "J-0530471010"
-			(at 266.7 215.9 0)
+			(at 274.32 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17754,7 +17754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 215.9 0)
+			(at 274.32 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17763,7 +17763,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER VERT 10POS 1.25MM"
-			(at 266.7 215.9 0)
+			(at 274.32 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17772,7 +17772,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 266.7 215.9 0)
+			(at 274.32 210.82 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -17782,7 +17782,7 @@
 			)
 		)
 		(property "Manufacturer Part #" "0530471010"
-			(at 266.7 215.9 0)
+			(at 274.32 210.82 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -17792,7 +17792,7 @@
 			)
 		)
 		(property "Distributor" "Digikey"
-			(at 266.7 215.9 0)
+			(at 274.32 210.82 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -17802,7 +17802,7 @@
 			)
 		)
 		(property "Distributor Part #" "WM1739-ND"
-			(at 266.7 215.9 0)
+			(at 274.32 210.82 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
