@@ -462,7 +462,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 156.21) (xy 59.69 156.21)
+			(xy 154.94 156.21) (xy 73.66 156.21)
 		)
 		(stroke
 			(width 0)
@@ -739,6 +739,16 @@
 			(type default)
 		)
 		(uuid "ad640b2d-09ff-45b3-8654-54b837e4d0f8")
+	)
+	(wire
+		(pts
+			(xy 66.04 156.21) (xy 59.69 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae0bc255-c64f-4830-9277-2920385ea733")
 	)
 	(wire
 		(pts
@@ -1052,6 +1062,73 @@
 			(project "CTS-SAT-2-OBC-PCB"
 				(path "/58243925-df8d-4fc1-899e-fce866d1d25a"
 					(reference "R95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 69.85 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bce80d8-7d34-4f73-b188-a57c835bb912")
+		(property "Reference" "R121"
+			(at 64.516 155.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 75.692 155.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 70.104 155.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 69.85 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb54c1c1-ec3a-43ae-a857-01069dafbf3c")
+		)
+		(pin "1"
+			(uuid "11b31447-0814-4144-94e3-4d3cd88ec117")
+		)
+		(instances
+			(project "CTS-SAT-2-OBC-PCB"
+				(path "/58243925-df8d-4fc1-899e-fce866d1d25a"
+					(reference "R121")
 					(unit 1)
 				)
 			)
