@@ -4909,7 +4909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "+3V3"
 			(at 186.69 92.964 0)
 			(effects
 				(font
