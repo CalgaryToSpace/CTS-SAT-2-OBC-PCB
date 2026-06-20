@@ -8796,7 +8796,7 @@
 		)
 		(uuid "7ca2655b-c566-48aa-90ce-56e21568e317")
 	)
-	(hierarchical_label "I2C1_SDA"
+	(hierarchical_label "I2C2_SDA"
 		(shape input)
 		(at 64.77 60.96 180)
 		(effects
@@ -8807,7 +8807,7 @@
 		)
 		(uuid "7ca2655b-c566-48aa-90ce-56e21568e318")
 	)
-	(hierarchical_label "I2C1_SCL"
+	(hierarchical_label "I2C2_SCL"
 		(shape input)
 		(at 64.77 58.42 180)
 		(effects
