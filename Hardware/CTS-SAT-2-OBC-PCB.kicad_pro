@@ -52,32 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|109070000|60930000|43a241f7-f1a6-443b-91ef-609dcbe7b65a|781fb97a-29a3-4c08-9411-5cbc02e50ea5",
-          ""
-        ],
-        [
-          "shorting_items|135925000|123662500|3090d739-f6ca-4768-878e-7c709f022f2d|fa8315ab-e1b0-4c8e-b344-e9aed65f3f3c",
-          ""
-        ],
-        [
-          "shorting_items|140418650|82354200|1a88aa83-0cb3-4653-8d77-d42b1e667d05|43e09075-2ac7-4651-a915-e12035177d67",
-          ""
-        ],
-        [
-          "shorting_items|140418650|82354200|1a88aa83-0cb3-4653-8d77-d42b1e667d05|eed0567f-d324-451a-8c04-6a7d533363e0",
-          ""
-        ],
-        [
-          "shorting_items|142287700|123662500|08f79057-4031-43c4-9ec8-cb122c2c6a95|9edff6b8-7b26-4fa1-bdfe-04732c43e059",
-          ""
-        ],
-        [
-          "shorting_items|146781350|82354200|e2c1d7ae-517b-45d0-8e07-25e5c8876468|f064b38e-a0a2-4127-afff-fcc884766f3e",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
