@@ -4431,25 +4431,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
+			(property "Reference" "SW1"
+				(at 0.254 4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Value" "SW_Push_Dual"
 				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "PTS526:SMT_FS"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4549,9 +4549,12 @@
 						)
 					)
 				)
+			)
+			(symbol "SW_Push_1_1"
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
+					(hide yes)
 					(name "2"
 						(effects
 							(font
@@ -4560,6 +4563,43 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15204,10 +15244,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d2ab76b1-7c45-4811-b677-cddfb98e97e9")
 		(property "Reference" "SW1"
-			(at 307.34 63.5 0)
+			(at 307.594 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15220,6 +15259,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "PTS526:SMT_FS"
@@ -15252,8 +15292,14 @@
 		(pin "1"
 			(uuid "c3bd8ef6-7b4c-4825-991d-1422a7ba5aa4")
 		)
-		(pin "2"
+		(pin "3"
 			(uuid "860a0e27-a043-41d3-b0b0-fd996f72f70e")
+		)
+		(pin "4"
+			(uuid "f672ac41-141b-422c-8638-2d64faa1b3db")
+		)
+		(pin "2"
+			(uuid "dfc7778f-ed1d-4002-8fa8-328cd3d2f334")
 		)
 		(instances
 			(project ""

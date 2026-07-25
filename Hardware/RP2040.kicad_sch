@@ -2560,25 +2560,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
+			(property "Reference" "SW2"
 				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Push_Dual"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "PTS526:SMT_FS"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2681,6 +2681,27 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_Push_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
 					(name "2"
 						(effects
 							(font
@@ -2689,6 +2710,25 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9459,10 +9499,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e91f41d9-ad52-4777-b7de-3619f1a2769c")
 		(property "Reference" "SW2"
-			(at 116.84 78.74 0)
+			(at 116.84 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9475,6 +9514,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "PTS526:SMT_FS"
@@ -9507,8 +9547,14 @@
 		(pin "1"
 			(uuid "cb6b874a-e3bb-483b-9053-0da91cea640a")
 		)
-		(pin "2"
+		(pin "3"
 			(uuid "1d492212-64c8-4c74-adc4-e2b9d21356e1")
+		)
+		(pin "4"
+			(uuid "c539acb8-1f85-4f30-8abc-8ae36e1b5ff1")
+		)
+		(pin "2"
+			(uuid "0e592001-cd90-4c77-abcf-426eb2ebffb2")
 		)
 		(instances
 			(project "CTS-SAT-2-OBC-PCB"
